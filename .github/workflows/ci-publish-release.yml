@@ -1,0 +1,69 @@
+name: CI - Publish Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  publish-release:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        api-level: [ 30 ]
+
+    env:
+      GITHUB_PACKAGE_DOWNLOAD_USER: ${{ github.actor }}
+      GITHUB_PACKAGE_DOWNLOAD_KEY: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_PACKAGE_UPLOAD_USER: ${{ github.actor }}
+      GITHUB_PACKAGE_UPLOAD_KEY: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'adopt'
+          java-version: '11'
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Setup Android SDK
+        uses: bitfunk/setup-android@v1.0.0
+
+      - name: Version
+        run: ./gradlew --no-daemon --stacktrace versionInfo
+
+      - name: Build project
+        run: ./gradlew --no-daemon --stacktrace build
+
+      - name: Run Android Device Tests
+        uses: bitfunk/android-emulator-runner@v1.0.0
+        with:
+          api-level: ${{ matrix.api-level }}
+          target: google_apis
+          arch: x86_64
+          profile: Nexus 5
+          avd-name: blueprint-${{ matrix.api-level }}
+          force-avd-creation: false
+          emulator-options: -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
+          disable-animations: true
+          script: ./gradlew --no-daemon --stacktrace connectedCheck
+
+      - name: Publish documentation
+        env:
+          GRGIT_USER: ${{ github.actor }}
+          GRGIT_PASS: ${{ secrets.GITHUB_TOKEN }}
+        run: ./gradlew --no-daemon --stacktrace mkdocsPublish -Prelease
+
+      - name: Publish Release Version
+        run: echo "TODO"
