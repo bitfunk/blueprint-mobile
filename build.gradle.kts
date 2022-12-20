@@ -1,9 +1,12 @@
 // https://youtrack.jetbrains.com/issue/KTIJ-19369
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
-    id("com.android.application") version libs.versions.android.gradlePlugin apply false
-    id("com.android.library") version libs.versions.android.gradlePlugin apply false
-    id("org.jetbrains.kotlin.android") version libs.versions.kotlin apply false
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.android.library) apply false
+    alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.serialization) apply false
+    alias(libs.plugins.binary.compatibility.validator) apply false
+    alias(libs.plugins.sqldelight) apply false
 }
 }
 
