@@ -8,8 +8,25 @@ plugins {
     alias(libs.plugins.binary.compatibility.validator) apply false
     alias(libs.plugins.sqldelight) apply false
 
+    alias(libs.plugins.bitfunk.quality)
+
     id("eu.bitfunk.gradle.plugin.quality.updates")
 }
+
+reportConfig {
+   sonarProjectKey.set("bitfunk_blueprint-mobile")
+   sonarOrganization.set("bitfunk")
+   coverageReportSourceDirs.set(
+       listOf(
+           "$projectDir/build/reports/jacoco/testCodeCoverageReport"
+       )
+   )
+}
+
+project(":docs") {
+   sonarqube {
+       isSkipProject = true
+   }
 }
 
 tasks.maybeCreate("clean", Delete::class.java).delete("build")
