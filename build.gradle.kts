@@ -1,10 +1,32 @@
 // https://youtrack.jetbrains.com/issue/KTIJ-19369
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
-    id("com.android.application") version libs.versions.android.gradlePlugin apply false
-    id("com.android.library") version libs.versions.android.gradlePlugin apply false
-    id("org.jetbrains.kotlin.android") version libs.versions.kotlin apply false
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.android.library) apply false
+    alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.serialization) apply false
+    alias(libs.plugins.binary.compatibility.validator) apply false
+    alias(libs.plugins.sqldelight) apply false
+
+    alias(libs.plugins.bitfunk.quality)
+
+    id("eu.bitfunk.gradle.plugin.quality.updates")
 }
+
+reportConfig {
+   sonarProjectKey.set("bitfunk_blueprint-mobile")
+   sonarOrganization.set("bitfunk")
+   coverageReportSourceDirs.set(
+       listOf(
+           "$projectDir/build/reports/jacoco/testCodeCoverageReport"
+       )
+   )
+}
+
+project(":docs") {
+   sonarqube {
+       isSkipProject = true
+   }
 }
 
 tasks.maybeCreate("clean", Delete::class.java).delete("build")
