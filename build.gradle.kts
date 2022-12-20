@@ -7,6 +7,8 @@ plugins {
     alias(libs.plugins.kotlin.serialization) apply false
     alias(libs.plugins.binary.compatibility.validator) apply false
     alias(libs.plugins.sqldelight) apply false
+
+    id("eu.bitfunk.gradle.plugin.quality.updates")
 }
 }
 
