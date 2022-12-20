@@ -29,7 +29,7 @@ androidx-navigation-compose = "2.5.3"
 androidx-lifecycle-viewmodel-compose = "2.5.1"
 
 # Libraries
-koin = "3.2.2"
+koin = "3.2.3"
 ktor = "2.2.1"
 sqldelight = "1.5.4"
 
