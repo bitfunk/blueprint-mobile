@@ -25,4 +25,3 @@ include("docs")
 include(
     "app-android"
 )
-

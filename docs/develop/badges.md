@@ -22,7 +22,6 @@ Latest release:
 curl "https://img.shields.io/badge/Release-0.1.0-blueviolet.svg?style=flat"  -s -o ../assets/images/badge-release-latest.svg
 ```
 
-
 License:
 
 ```bash
