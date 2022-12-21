@@ -1,3 +1,6 @@
+import eu.bitfunk.gradle.plugin.tool.versioning.version
+import eu.bitfunk.gradle.plugin.tool.versioning.versionCode
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -13,8 +16,8 @@ android {
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
 
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = versionCode()
+        versionName = version()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

@@ -12,6 +12,10 @@ This project adheres to [semantic versioning](http://semver.org/spec/v2.0.0.html
 
 See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.0.1...main)
 
+### Added
+
+- Bitfunk Versioning 0.1.2
+
 ## [0.1.0](https://github.com/wmontwe/blueprint-mobile/releases/tag/v0.1.0)
 
 Initial release

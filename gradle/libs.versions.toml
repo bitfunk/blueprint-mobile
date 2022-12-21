@@ -50,6 +50,7 @@ android-test-kakaoCompose = "0.1.1"
 plugin-version-update = "0.44.0"
 plugin-binary-compatibility-validator = "0.12.1"
 plugin-bitfunk-quality = "0.1.1"
+plugin-bitfunk-versioning = "0.1.2"
 
 [libraries]
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
@@ -116,6 +117,7 @@ kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", versi
 version-update = { id = "com.github.ben-manes.versions", version.ref = "plugin-version-update" }
 binary-compatibility-validator = { id = "org.jetbrains.kotlinx.binary-compatibility-validator", version.ref = "plugin-binary-compatibility-validator" }
 bitfunk-quality = { id = "eu.bitfunk.gradle.plugin.quality", version.ref = "plugin-bitfunk-quality" }
+bitfunk-versioning = { id = "eu.bitfunk.gradle.plugin.tool.versioning", version.ref = "plugin-bitfunk-versioning" }
 sqldelight = { id = "com.squareup.sqldelight", version.ref = "sqldelight" }
 mkdocs = { id = "ru.vyarus.mkdocs", version.ref = "mkdocs" }
 
