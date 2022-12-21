@@ -16,7 +16,7 @@ targetSdk = "33"
 compileSdk = "33"
 
 android-gradlePlugin = "7.3.1"
-android-desugaring = "1.1.8"
+android-desugaring = "1.2.2"
 
 androidx-core = "1.9.0"
 
