@@ -16,6 +16,10 @@ See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.0.1...mai
 
 - Bitfunk Versioning 0.1.2
 
+### Bumped
+
+- Koin 3.2.3 -> 3.3.0
+
 ## [0.1.0](https://github.com/wmontwe/blueprint-mobile/releases/tag/v0.1.0)
 
 Initial release
