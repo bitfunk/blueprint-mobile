@@ -30,12 +30,13 @@ androidx-lifecycle-viewmodel-compose = "2.5.1"
 
 # Libraries
 koin = "3.3.0"
+koin-android = "3.3.1"
 ktor = "2.2.1"
 sqldelight = "1.5.4"
 
 # Android Test
 test-jUnit = "4.13.2"
-test-mockk = "1.12.5"
+test-mockk = "1.13.3"
 test-robolectric = "4.9.1"
 test-turbine = "0.12.1"
 
@@ -75,7 +76,7 @@ androidx-compose-navigation = { module = "androidx.navigation:navigation-compose
 androidx-compose-lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle-viewmodel-compose" }
 
 koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
-koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin-android" }
 koin-test = { module = "io.insert-koin:koin-test", version.ref = "koin" }
 koin-test-junit4 = { module = "io.insert-koin:koin-test-junit4", version.ref = "koin" }
 koin-test-junit5 = { module = "io.insert-koin:koin-test-junit5", version.ref = "koin" }

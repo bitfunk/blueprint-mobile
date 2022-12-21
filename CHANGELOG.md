@@ -18,7 +18,8 @@ See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.0.1...mai
 
 ### Bumped
 
-- Koin 3.2.3 -> 3.3.0
+- Koin 3.2.3 -> 3.3.0 and Koin Android 3.2.3 -> 3.3.1
+- Mockk 1.12.5 -> 1.13.3
 
 ## [0.1.0](https://github.com/wmontwe/blueprint-mobile/releases/tag/v0.1.0)
 
