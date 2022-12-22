@@ -50,7 +50,7 @@ android-test-kakaoCompose = "0.1.1"
 ## Gradle plugins
 plugin-version-update = "0.44.0"
 plugin-binary-compatibility-validator = "0.12.1"
-plugin-bitfunk-quality = "0.1.1"
+plugin-bitfunk-quality = "0.1.2"
 plugin-bitfunk-versioning = "0.1.2"
 
 [libraries]

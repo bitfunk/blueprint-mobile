@@ -5,5 +5,6 @@
     <ID>ComplexCondition:Dangerfile.df.kts$!isFeatureBranch &amp;&amp; !isReleaseBranch &amp;&amp; !isDependabotBranch &amp;&amp; !isRenovateBranch</ID>
     <ID>SwallowedException:TestAssetsLoader.kt$exception: Throwable</ID>
     <ID>UnnecessaryAbstractClass:BaseComposeTest.kt$BaseComposeTest$BaseComposeTest</ID>
+    <ID>UseRequire:TestContentResolverSaver.kt$throw IllegalArgumentException("ContentResolver failed to insert: $contentUri")</ID>
   </CurrentIssues>
 </SmellBaseline>

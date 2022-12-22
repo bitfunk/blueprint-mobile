@@ -10,7 +10,7 @@ This project adheres to [semantic versioning](http://semver.org/spec/v2.0.0.html
 
 ## [Unreleased](https://github.com/wmontwe/blueprint-mobile/releases/latest)
 
-See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.0.1...main)
+See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.1.0...main)
 
 ### Added
 
@@ -21,6 +21,7 @@ See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.0.1...mai
 - Koin 3.2.3 -> 3.3.0 and Koin Android 3.2.3 -> 3.3.1
 - Mockk 1.12.5 -> 1.13.3
 - Android Desugar 1.1.8 -> 1.2.2
+- Bitfunk Quality 0.1.1 -> 0.1.2
 
 ## [0.1.0](https://github.com/wmontwe/blueprint-mobile/releases/tag/v0.1.0)
 
