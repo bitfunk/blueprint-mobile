@@ -21,11 +21,11 @@ PROJECT_DESCRIPTION
 
 This is a blank template to get started. First replace following placeholders:
 
-* PROJECT_TITLE
-* PROJECT_DESCRIPTION
-* PROJECT_GITHUB_LINK
-* PROJECT_WEBPAGE_URL
-* PROJECT_SONARCLOUD_NAME
+- PROJECT_TITLE
+- PROJECT_DESCRIPTION
+- PROJECT_GITHUB_LINK
+- PROJECT_WEBPAGE_URL
+- PROJECT_SONARCLOUD_NAME
 
 Assets could be placed under `docs/src/assets/` folder and images should be placed in `docs/src/assets/images/`.
 

@@ -9,6 +9,7 @@ plugins {
     alias(libs.plugins.sqldelight) apply false
 
     alias(libs.plugins.bitfunk.quality)
+    alias(libs.plugins.bitfunk.versioning)
 
     id("eu.bitfunk.gradle.plugin.quality.updates")
 }

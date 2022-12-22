@@ -45,7 +45,6 @@ See [changeset](PROJECT_GITHUB_LINK/compare/v0.0.1...main)
 
 - for explanation how to migrate when BREAKING changes got introduced
 
-
 ## [0.1.0](PROJECT_GITHUB_LINK//releases/tag/v0.1.0)
 
 Example release

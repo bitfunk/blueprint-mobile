@@ -13,7 +13,7 @@ on:
 jobs:
   pull-request-validation:
 
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     strategy:
       matrix:
@@ -38,7 +38,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
-          distribution: 'adopt'
+          distribution: 'temurin'
           java-version: '11'
 
       - name: Setup Android SDK
