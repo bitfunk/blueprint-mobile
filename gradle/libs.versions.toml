@@ -31,7 +31,7 @@ androidx-lifecycle-viewmodel-compose = "2.5.1"
 # Libraries
 koin = "3.3.0"
 koin-android = "3.3.1"
-ktor = "2.2.1"
+ktor = "2.2.3"
 sqldelight = "1.5.4"
 
 # Android Test
