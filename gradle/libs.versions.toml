@@ -15,8 +15,8 @@ minSdk = "21"
 targetSdk = "33"
 compileSdk = "33"
 
-android-gradlePlugin = "7.3.1"
 android-desugaring = "1.2.2"
+android-gradlePlugin = "7.4.1"
 
 androidx-core = "1.9.0"
 
@@ -49,9 +49,9 @@ android-test-kakaoCompose = "0.1.1"
 
 ## Gradle plugins
 plugin-version-update = "0.44.0"
-plugin-binary-compatibility-validator = "0.12.1"
-plugin-bitfunk-quality = "0.1.2"
-plugin-bitfunk-versioning = "0.1.2"
+plugin-binary-compatibility-validator = "0.13.0"
+plugin-bitfunk-quality = "0.2.0"
+plugin-bitfunk-versioning = "0.2.0"
 
 [libraries]
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }

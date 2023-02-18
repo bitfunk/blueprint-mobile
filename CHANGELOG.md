@@ -18,11 +18,15 @@ See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.1.0...mai
 
 ### Bumped
 
-- Koin 3.2.3 -> 3.3.0 and Koin Android 3.2.3 -> 3.3.1
+- Koin 3.2.3 -> 3.3.0
+- Koin Android 3.2.3 -> 3.3.1
 - Mockk 1.12.5 -> 1.13.3
 - Android Desugar 1.1.8 -> 1.2.2
-- Bitfunk Quality 0.1.1 -> 0.1.2
+- Bitfunk Quality 0.1.1 -> 0.2.0
 - Gradle 7.5.1 -> 8.0.1
+- Bitfunk Versioning 0.1.2 -> 0.2.0
+- Binary Compatibility Validator 0.12.1 -> 0.13.0
+- Android Gradle Plugin 7.3.1 -> 7.4.1
 
 ## [0.1.0](https://github.com/wmontwe/blueprint-mobile/releases/tag/v0.1.0)
 
