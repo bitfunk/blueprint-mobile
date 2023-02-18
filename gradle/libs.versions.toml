@@ -2,7 +2,7 @@
 gradle = "8.0.1"
 
 # Kotlin
-kotlin = "1.7.20"
+kotlin = "1.8.0"
 kotlinx-coroutines = "1.6.4"
 kotlinx-serialization = "1.4.1"
 kotlinx-datetime = "0.4.0"
@@ -15,13 +15,13 @@ minSdk = "21"
 targetSdk = "33"
 compileSdk = "33"
 
-android-desugaring = "1.2.2"
 android-gradlePlugin = "7.4.1"
+android-desugaring = "2.0.2"
 
 androidx-core = "1.9.0"
 
-androidx-compose-compiler = "1.3.2"
-androidx-compose = "1.3.2"
+androidx-compose-compiler = "1.4.0"
+androidx-compose = "1.3.3"
 androidx-compose-foundation = "1.3.1"
 androidx-compose-material3 = "1.0.1"
 androidx-activity-compose = "1.6.1"
@@ -29,21 +29,21 @@ androidx-navigation-compose = "2.5.3"
 androidx-lifecycle-viewmodel-compose = "2.5.1"
 
 # Libraries
-koin = "3.3.0"
-koin-android = "3.3.1"
+koin = "3.3.3"
+koin-android = "3.3.3"
 ktor = "2.2.1"
-sqldelight = "1.5.4"
+sqldelight = "1.5.5"
 
 # Android Test
 test-jUnit = "4.13.2"
-test-mockk = "1.13.3"
+test-mockk = "1.13.4"
 test-robolectric = "4.9.1"
 test-turbine = "0.12.1"
 
 # Android AndroidTest
-androidx-test-runner = "1.5.1"
+androidx-test-runner = "1.5.2"
 androidx-test-rules = "1.5.0"
-androidx-test-junit = "1.1.4"
+androidx-test-junit = "1.1.5"
 androidx-test-espresso = "3.5.0"
 android-test-kakaoCompose = "0.1.1"
 
