@@ -23,5 +23,5 @@ include("docs")
 
 // App
 include(
-    "app-android"
+    "app-android",
 )
