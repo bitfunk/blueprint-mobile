@@ -1,5 +1,5 @@
 [versions]
-gradle = "7.5.1"
+gradle = "8.0.1"
 
 # Kotlin
 kotlin = "1.7.20"
