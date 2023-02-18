@@ -15,19 +15,19 @@ plugins {
 }
 
 reportConfig {
-   sonarProjectKey.set("bitfunk_blueprint-mobile")
-   sonarOrganization.set("bitfunk")
-   coverageReportSourceDirs.set(
-       listOf(
-           "$projectDir/build/reports/jacoco/testCodeCoverageReport"
-       )
-   )
+    sonarProjectKey.set("bitfunk_blueprint-mobile")
+    sonarOrganization.set("bitfunk")
+    coverageReportSourceDirs.set(
+        listOf(
+            "$projectDir/build/reports/jacoco/testCodeCoverageReport",
+        ),
+    )
 }
 
 project(":docs") {
-   sonarqube {
-       isSkipProject = true
-   }
+    sonarqube {
+        isSkipProject = true
+    }
 }
 
 tasks.maybeCreate("clean", Delete::class.java).delete("build")

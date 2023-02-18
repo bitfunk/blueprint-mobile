@@ -39,7 +39,7 @@ import eu.bitfunk.blueprint.mobile.android.app.test.util.saveBitmapInDownloads
 fun SemanticsNodeInteraction.assertScreenshotMatches(
     folderPath: String,
     fileName: String,
-    saveAsExpected: Boolean = true
+    saveAsExpected: Boolean = true,
 ) {
     val actualBitmap = captureToImage().asAndroidBitmap()
     val screenShotName = "$fileName-${actualBitmap.width}x${actualBitmap.height}.png"

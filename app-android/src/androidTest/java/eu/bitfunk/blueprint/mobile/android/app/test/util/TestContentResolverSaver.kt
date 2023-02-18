@@ -41,7 +41,7 @@ fun saveBitmapInDownloads(name: String, bitmap: Bitmap) {
 fun saveWithContentResolver(
     contentValues: ContentValues,
     contentUri: Uri,
-    mapping: (OutputStream) -> Unit
+    mapping: (OutputStream) -> Unit,
 ) {
     val resolver = InstrumentationRegistry.getInstrumentation().targetContext.contentResolver
     val uri: Uri? = resolver.insert(contentUri, contentValues)

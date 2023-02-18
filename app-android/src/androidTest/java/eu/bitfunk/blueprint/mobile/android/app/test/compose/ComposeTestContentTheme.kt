@@ -30,7 +30,7 @@ import eu.bitfunk.blueprint.mobile.android.app.ui.theme.BlueprintColors
 import eu.bitfunk.blueprint.mobile.android.app.ui.theme.BlueprintTheme
 
 fun ComposeContentTestRule.setThemedContent(
-    content: @Composable () -> Unit
+    content: @Composable () -> Unit,
 ) {
     setContent {
         BlueprintTheme {
@@ -40,17 +40,17 @@ fun ComposeContentTestRule.setThemedContent(
 }
 
 fun ComposeContentTestRule.setThemedScreenshotContent(
-    content: @Composable () -> Unit
+    content: @Composable () -> Unit,
 ) {
     setContent {
         BlueprintTheme {
             Surface(
-                color = BlueprintColors.debug
+                color = BlueprintColors.debug,
             ) {
                 Box(
                     modifier = Modifier
                         .height(800.dp)
-                        .width(480.dp)
+                        .width(480.dp),
                 ) {
                     content()
                 }
