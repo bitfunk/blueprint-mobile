@@ -33,6 +33,9 @@ See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.1.0...mai
 - SqlDelight 1.5.4 -> 1.5.5
 - AndroidX Test Runner 1.5.1 -> 1.5.2
 - AndroidX Test Junit 1.1.4 -> 1.1.5
+- Ktor 2.2.1 -> 2.2.3
+- Robolectric 4.9.1 -> 4.9.2
+- Compose Kakao 0.1.1 -> 0.2.2
 
 ## [0.1.0](https://github.com/wmontwe/blueprint-mobile/releases/tag/v0.1.0)
 
