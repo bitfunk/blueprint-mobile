@@ -24,6 +24,9 @@ android {
     }
 
     buildTypes {
+        getByName("debug") {
+            enableUnitTestCoverage = true
+        }
         getByName("release") {
             isMinifyEnabled = false
             proguardFiles(

@@ -16,6 +16,10 @@ See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.1.0...mai
 
 - Bitfunk Versioning 0.1.2
 
+### Changed
+
+- Change emulator to Gradle managed devices for local and CI builds
+
 ### Bumped
 
 - Gradle 7.5.1 -> 8.0.1

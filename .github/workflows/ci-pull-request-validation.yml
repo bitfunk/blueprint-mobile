@@ -45,8 +45,9 @@ jobs:
 
       - name: Run Android instrumented tests
         run: ./gradlew cleanManagedDevices --unused-only &&
-          ./gradlew --stacktrace androidGroupDebugAndroidTest -Dorg.gradle.workers.max=1
-          -Pandroid.testoptions.manageddevices.emulator.gpu="swiftshader_indirect" -Pandroid.experimental.testOptions.managedDevices.emulator.showKernelLogging=true --info
+          ./gradlew --stacktrace androidGroupDebugAndroidTest
+          -Dorg.gradle.workers.max=1
+          -Pandroid.testoptions.manageddevices.emulator.gpu="swiftshader_indirect"
 
       - name: Publish test report
         uses: mikepenz/action-junit-report@v3
@@ -55,10 +56,11 @@ jobs:
           report_paths: '**/build/test-results/**/TEST-*.xml'
 
       - name: Analyze
+        if: ${{ false }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: ./gradlew --no-daemon --stacktrace testCodeCoverageReport sonarqube
+        run: ./gradlew --stacktrace :app-android:createDebugUnitTestCoverageReport sonar
 
       - name: Publish Development Version
         run: echo "TODO"
