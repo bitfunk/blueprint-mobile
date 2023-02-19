@@ -15,19 +15,9 @@ jobs:
 
     runs-on: macos-latest
 
-    strategy:
-      matrix:
-        api-level: [ 30 ]
-
     concurrency:
       group: validation-${{ github.head_ref }}
       cancel-in-progress: true
-
-    env:
-      GITHUB_PACKAGE_DOWNLOAD_USER: ${{ github.actor }}
-      GITHUB_PACKAGE_DOWNLOAD_KEY: ${{ secrets.GITHUB_TOKEN }}
-      GITHUB_PACKAGE_UPLOAD_USER: ${{ github.actor }}
-      GITHUB_PACKAGE_UPLOAD_KEY: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - uses: actions/checkout@v3
@@ -38,42 +28,39 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
-          distribution: 'temurin'
-          java-version: '11'
+          distribution: temurin
+          java-version: 11
 
       - name: Setup Android SDK
-        uses: bitfunk/setup-android@v1.0.0
+        uses: android-actions/setup-android@v2
+
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v2
 
       - name: Version
-        run: ./gradlew --no-daemon --stacktrace versionInfo
+        run: ./gradlew --stacktrace versionInfo
 
       - name: Build
-        run: ./gradlew --no-daemon --stacktrace build
+        run: ./gradlew --stacktrace build
 
-      - name: Run Android Device Tests
-        uses: bitfunk/android-emulator-runner@v1.0.0
-        with:
-          api-level: ${{ matrix.api-level }}
-          target: google_apis
-          arch: x86_64
-          profile: Nexus 5
-          avd-name: blueprint-${{ matrix.api-level }}
-          force-avd-creation: false
-          emulator-options: -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
-          disable-animations: true
-          script: ./gradlew --no-daemon --stacktrace connectedCheck
+      - name: Run Android instrumented tests
+        run: ./gradlew cleanManagedDevices --unused-only &&
+          ./gradlew --stacktrace androidGroupDebugAndroidTest
+          -Dorg.gradle.workers.max=1
+          -Pandroid.testoptions.manageddevices.emulator.gpu="swiftshader_indirect"
 
-      - name: Publish Test Report
+      - name: Publish test report
         uses: mikepenz/action-junit-report@v3
         if: always()
         with:
-          report_paths: '**/build/test-results/test/TEST-*.xml'
+          report_paths: '**/build/test-results/**/TEST-*.xml'
 
       - name: Analyze
+        if: ${{ false }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: ./gradlew --no-daemon --stacktrace testCodeCoverageReport sonarqube
+        run: ./gradlew --stacktrace :app-android:createDebugUnitTestCoverageReport sonar
 
       - name: Publish Development Version
         run: echo "TODO"

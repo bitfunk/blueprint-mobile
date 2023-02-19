@@ -1,3 +1,4 @@
+import com.android.build.api.dsl.ManagedVirtualDevice
 import eu.bitfunk.gradle.plugin.tool.versioning.version
 import eu.bitfunk.gradle.plugin.tool.versioning.versionCode
 
@@ -23,6 +24,9 @@ android {
     }
 
     buildTypes {
+        getByName("debug") {
+            enableUnitTestCoverage = true
+        }
         getByName("release") {
             isMinifyEnabled = false
             proguardFiles(
@@ -54,7 +58,7 @@ android {
 
     packagingOptions {
         resources {
-            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "/META-INF/{AL2.0,LGPL2.1,*.md}"
         }
     }
 
@@ -63,6 +67,23 @@ android {
         abortOnError = true
 
         baseline = file("lint-baseline.xml")
+    }
+
+    testOptions {
+        managedDevices {
+            devices {
+                maybeCreate<ManagedVirtualDevice>("Pixel_2_API_30").apply {
+                    device = "Pixel 2"
+                    apiLevel = 30
+                    systemImageSource = "google-atd"
+                }
+            }
+            groups {
+                maybeCreate("android").apply {
+                    targetDevices.add(devices["Pixel_2_API_30"])
+                }
+            }
+        }
     }
 }
 
@@ -74,4 +95,5 @@ dependencies {
     debugImplementation(libs.bundles.app.android.compose.debug)
     testImplementation(libs.bundles.app.android.test)
     androidTestImplementation(libs.bundles.app.android.androidTest)
+    androidTestImplementation(libs.bundles.app.android.androidTest.compose)
 }
