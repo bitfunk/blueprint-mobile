@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="eu.bitfunk.blueprint.mobile.android.app.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-19T15:35:41" hostname="Mac-1676819631348.local" time="0.231">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="eu.bitfunk.blueprint.mobile.android.app.ExampleUnitTest" time="0.231"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

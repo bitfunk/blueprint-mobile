@@ -1,0 +1,17 @@
+EXECUTING: /Users/runner/Library/Android/sdk/platform-tools/adb -H localhost -P 5037 -s emulator-5554 install -r -t /Users/runner/work/blueprint-mobile/blueprint-mobile/app-android/build/outputs/apk/debug/app-android-debug.apk
+CURRENT_WORKING_DIRECTORY: /Users/runner/work/blueprint-mobile/blueprint-mobile/app-android
+START_TIME: 2023-02-19 15:41:44.839
+START_TIME-NANOS: 2023-02-19 15:41:44.839208000
+ENVIRONMENT:
+ANDROID_SDK_HOME=/Users/runner/Library/Android/sdk
+ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
+*****************************************
+STDOUT/STDERR BELOW
+===================
+Performing Streamed Install
+Success
+===================
+END_TIME: 2023-02-19 15:41:46.746
+END_TIME-NANOS: 2023-02-19 15:41:46.746580000
+DURATION: 1907ms
+EXIT CODE: 0

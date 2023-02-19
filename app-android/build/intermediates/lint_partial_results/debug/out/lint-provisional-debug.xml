@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.4.1" type="conditional_incidents">
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="error"
+        message="Unnecessary; SDK_INT is always >= 33">
+        <fix-replace
+            description="Delete tools:targetApi"
+            replacement="">
+            <range
+                file="${:app-android*debug*sourceProvider*0*manifest*0}"
+                startOffset="673"
+                endOffset="693"/>
+        </fix-replace>
+        <location
+            file="${:app-android*debug*sourceProvider*0*manifest*0}"
+            line="19"
+            column="9"
+            startOffset="673"
+            endLine="19"
+            endColumn="29"
+            endOffset="693"/>
+        <map>
+            <condition minGE="33"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="31"/>
+        <location
+            file="${:app-android*debug*sourceProvider*0*javaDir*0}/eu/bitfunk/blueprint/mobile/android/app/ui/theme/Theme.kt"
+            line="56"
+            column="42"
+            startOffset="2073"
+            endLine="56"
+            endColumn="64"
+            endOffset="2095"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="21"/>
+            <entry
+                name="requiresApi"
+                int="31"/>
+            <entry
+                name="message"
+                string="Call requires API level 31 (current min is %1$s): `dynamicDarkColorScheme`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data requiresApi="31"/>
+        <location
+            file="${:app-android*debug*sourceProvider*0*javaDir*0}/eu/bitfunk/blueprint/mobile/android/app/ui/theme/Theme.kt"
+            line="57"
+            column="43"
+            startOffset="2160"
+            endLine="57"
+            endColumn="66"
+            endOffset="2183"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="21"/>
+            <entry
+                name="requiresApi"
+                int="31"/>
+            <entry
+                name="message"
+                string="Call requires API level 31 (current min is %1$s): `dynamicLightColorScheme`"/>
+        </map>
+    </incident>
+
+</incidents>

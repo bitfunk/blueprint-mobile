@@ -1,0 +1,3 @@
+/Users/runner/work/blueprint-mobile/blueprint-mobile/app-android/lint-baseline.xml: Information: 2 errors were filtered out because they are listed in the baseline file, lint-baseline.xml
+ [LintBaseline]
+0 errors, 0 warnings (2 errors filtered by baseline lint-baseline.xml)

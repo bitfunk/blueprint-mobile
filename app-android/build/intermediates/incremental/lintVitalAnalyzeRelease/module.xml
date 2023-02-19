@@ -1,0 +1,20 @@
+<lint-module
+    format="1"
+    dir="/Users/runner/work/blueprint-mobile/blueprint-mobile/app-android"
+    name=":app-android"
+    type="APP"
+    maven="blueprint-mobile:app-android:"
+    gradle="7.4.1"
+    buildFolder="build"
+    bootClassPath="/Users/runner/Library/Android/sdk/platforms/android-33/android.jar:/Users/runner/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-33"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      warningsAsErrors="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

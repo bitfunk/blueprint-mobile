@@ -1,0 +1,38 @@
+EXECUTING: /Users/runner/Library/Android/sdk/platform-tools/adb -H localhost -P 5037 -s emulator-5554 shell am instrument -w -r -e additionalTestOutputDir /sdcard/Android/media/eu.bitfunk.blueprint.mobile.android.app/additional_test_output -e testTimeoutSeconds 31536000 eu.bitfunk.blueprint.mobile.android.app.test/androidx.test.runner.AndroidJUnitRunner
+CURRENT_WORKING_DIRECTORY: /Users/runner/work/blueprint-mobile/blueprint-mobile/app-android
+START_TIME: 2023-02-19 15:41:48.082
+START_TIME-NANOS: 2023-02-19 15:41:48.082168000
+ENVIRONMENT:
+ANDROID_SDK_HOME=/Users/runner/Library/Android/sdk
+ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
+*****************************************
+STDOUT/STDERR BELOW
+===================
+INSTRUMENTATION_STATUS: class=eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest:
+INSTRUMENTATION_STATUS: test=useAppContext
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=useAppContext
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.343
+
+OK (1 test)
+
+
+INSTRUMENTATION_CODE: -1
+===================
+END_TIME: 2023-02-19 15:42:01.368
+END_TIME-NANOS: 2023-02-19 15:42:01.368944000
+DURATION: 13286ms
+EXIT CODE: 0

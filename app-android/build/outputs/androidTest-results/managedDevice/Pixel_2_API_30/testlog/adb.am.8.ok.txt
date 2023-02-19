@@ -1,0 +1,16 @@
+EXECUTING: /Users/runner/Library/Android/sdk/platform-tools/adb -H localhost -P 5037 -s emulator-5554 shell am get-current-user
+CURRENT_WORKING_DIRECTORY: /Users/runner/work/blueprint-mobile/blueprint-mobile/app-android
+START_TIME: 2023-02-19 15:41:40.038
+START_TIME-NANOS: 2023-02-19 15:41:40.038441000
+ENVIRONMENT:
+ANDROID_SDK_HOME=/Users/runner/Library/Android/sdk
+ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
+*****************************************
+STDOUT/STDERR BELOW
+===================
+0
+===================
+END_TIME: 2023-02-19 15:41:40.268
+END_TIME-NANOS: 2023-02-19 15:41:40.268521000
+DURATION: 230ms
+EXIT CODE: 0

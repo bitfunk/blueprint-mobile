@@ -1,0 +1,2 @@
+
+dev30_google_atd_x86_Pixel_230¿ıß«")Intel(R) Xeon(R) CPU E5-1650 v2 @ 3.50GHz*x86*armeabi-v7a*armeabi2Google:emulator-5554Bdev30_google_atd_x86_Pixel_2JPixel_2_API_30RAndroid SDK built for x86

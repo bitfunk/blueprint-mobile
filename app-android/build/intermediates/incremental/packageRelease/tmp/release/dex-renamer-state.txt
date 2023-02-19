@@ -1,0 +1,10 @@
+#Sun Feb 19 15:36:09 UTC 2023
+base.2=/Users/runner/work/blueprint-mobile/blueprint-mobile/app-android/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.2=classes2.dex
+base.1=/Users/runner/work/blueprint-mobile/blueprint-mobile/app-android/build/intermediates/desugar_lib_dex/release/classes1000.dex
+path.1=classes1000.dex
+base.0=/Users/runner/work/blueprint-mobile/blueprint-mobile/app-android/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
