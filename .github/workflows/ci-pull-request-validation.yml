@@ -17,7 +17,7 @@ jobs:
 
     strategy:
       matrix:
-        api-level: [ 30 ]
+        api-level: [ 29 ]
 
     concurrency:
       group: validation-${{ github.head_ref }}
@@ -39,7 +39,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '11'
+          java-version: 11
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v2
@@ -56,12 +56,12 @@ jobs:
           ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL: 120
         with:
           api-level: ${{ matrix.api-level }}
-          target: google_atd
-          arch: x86_64
+          target: google_apis
+          arch: x86
           profile: Nexus 5
           avd-name: blueprint-${{ matrix.api-level }}
           force-avd-creation: false
-          emulator-options: -no-snapshot -noaudio -no-boot-anim -camera-back none
+          emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: true
           disk-size: 2048M
           script: ./gradlew --no-daemon --stacktrace connectedCheck
