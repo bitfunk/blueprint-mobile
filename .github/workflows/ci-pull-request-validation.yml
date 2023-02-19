@@ -44,7 +44,9 @@ jobs:
         run: ./gradlew --stacktrace build
 
       - name: Run Android instrumented tests
-        run: ./gradlew --stacktrace androidGroupDebugAndroidTest
+        run: ./gradlew cleanManagedDevices --unused-only &&
+          ./gradlew --stacktrace androidGroupDebugAndroidTest -Dorg.gradle.workers.max=1
+          -Pandroid.testoptions.manageddevices.emulator.gpu="swiftshader_indirect" -Pandroid.experimental.testOptions.managedDevices.emulator.showKernelLogging=true --info
 
       - name: Publish test report
         uses: mikepenz/action-junit-report@v3
