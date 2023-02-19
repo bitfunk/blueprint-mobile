@@ -42,7 +42,7 @@ jobs:
           java-version: '11'
 
       - name: Setup Android SDK
-        uses: bitfunk/setup-android@v1.0.0
+        uses: android-actions/setup-android@v2
 
       - name: Version
         run: ./gradlew --no-daemon --stacktrace versionInfo
@@ -51,16 +51,19 @@ jobs:
         run: ./gradlew --no-daemon --stacktrace build
 
       - name: Run Android Device Tests
-        uses: bitfunk/android-emulator-runner@v1.0.0
+        uses: reactivecircus/android-emulator-runner@v2
+        env:
+          ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL: 120
         with:
           api-level: ${{ matrix.api-level }}
-          target: google_apis
+          target: google_atd
           arch: x86_64
           profile: Nexus 5
           avd-name: blueprint-${{ matrix.api-level }}
           force-avd-creation: false
-          emulator-options: -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none
+          emulator-options: -no-snapshot -noaudio -no-boot-anim -camera-back none
           disable-animations: true
+          disk-size: 2048M
           script: ./gradlew --no-daemon --stacktrace connectedCheck
 
       - name: Publish Test Report
