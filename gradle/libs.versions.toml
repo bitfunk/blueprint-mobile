@@ -48,7 +48,7 @@ androidx-test-espresso = "3.5.1"
 android-test-kakaoCompose = "0.2.2"
 
 ## Gradle plugins
-plugin-version-update = "0.44.0"
+plugin-version-update = "0.45.0"
 plugin-binary-compatibility-validator = "0.13.0"
 plugin-bitfunk-quality = "0.2.0"
 plugin-bitfunk-versioning = "0.2.0"
