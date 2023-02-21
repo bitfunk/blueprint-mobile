@@ -41,7 +41,7 @@ See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.1.0...mai
 - Robolectric 4.9.1 -> 4.9.2
 - Compose Kakao 0.1.1 -> 0.2.2
 - Kotlinx Espresso 3.5.0 -> 3.5.1
-- Dependency Updates 0.44.0 -> 0.45.0
+- Dependency Updates 0.44.0 -> 0.46.0
 
 ## [0.1.0](https://github.com/wmontwe/blueprint-mobile/releases/tag/v0.1.0)
 
