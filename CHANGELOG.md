@@ -23,7 +23,7 @@ See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.1.0...mai
 ### Bumped
 
 - Gradle 7.5.1 -> 8.0.2
-- Android Gradle Plugin 7.3.1 -> 7.4.1
+- Android Gradle Plugin 7.3.1 -> 7.4.2
 - Bitfunk Quality 0.1.1 -> 0.2.0
 - Bitfunk Versioning 0.1.2 -> 0.2.0
 - Binary Compatibility Validator 0.12.1 -> 0.13.0
@@ -37,7 +37,7 @@ See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.1.0...mai
 - SqlDelight 1.5.4 -> 1.5.5
 - AndroidX Test Runner 1.5.1 -> 1.5.2
 - AndroidX Test Junit 1.1.4 -> 1.1.5
-- Ktor 2.2.1 -> 2.2.3
+- Ktor 2.2.1 -> 2.2.4
 - Robolectric 4.9.1 -> 4.9.2
 - Compose Kakao 0.1.1 -> 0.2.2
 - Kotlinx Espresso 3.5.0 -> 3.5.1
