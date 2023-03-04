@@ -15,7 +15,7 @@ minSdk = "21"
 targetSdk = "33"
 compileSdk = "33"
 
-android-gradlePlugin = "7.4.1"
+android-gradlePlugin = "7.4.2"
 android-desugaring = "2.0.2"
 
 androidx-core = "1.9.0"
