@@ -22,7 +22,7 @@ See [changeset](https://github.com/wmontwe/blueprint-mobile/compare/v0.1.0...mai
 
 ### Bumped
 
-- Gradle 7.5.1 -> 8.0.1
+- Gradle 7.5.1 -> 8.0.2
 - Android Gradle Plugin 7.3.1 -> 7.4.2
 - Bitfunk Quality 0.1.1 -> 0.2.0
 - Bitfunk Versioning 0.1.2 -> 0.2.0
