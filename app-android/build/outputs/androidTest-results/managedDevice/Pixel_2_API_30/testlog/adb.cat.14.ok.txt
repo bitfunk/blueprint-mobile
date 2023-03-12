@@ -1,7 +1,7 @@
 EXECUTING: /Users/runner/Library/Android/sdk/platform-tools/adb -H localhost -P 5037 -s emulator-5554 shell cat /proc/meminfo
 CURRENT_WORKING_DIRECTORY: /Users/runner/work/blueprint-mobile/blueprint-mobile/app-android
-START_TIME: 2023-02-19 15:41:46.751
-START_TIME-NANOS: 2023-02-19 15:41:46.751429000
+START_TIME: 2023-03-12 13:52:54.789
+START_TIME-NANOS: 2023-03-12 13:52:54.789136000
 ENVIRONMENT:
 ANDROID_SDK_HOME=/Users/runner/Library/Android/sdk
 ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
@@ -9,47 +9,47 @@ ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
 STDOUT/STDERR BELOW
 ===================
 MemTotal:        2028600 kB
-MemFree:          237076 kB
-MemAvailable:    1427320 kB
-Buffers:          236696 kB
-Cached:          1014244 kB
+MemFree:          240692 kB
+MemAvailable:    1437328 kB
+Buffers:          236704 kB
+Cached:          1019532 kB
 SwapCached:            0 kB
-Active:           825528 kB
-Inactive:         771956 kB
-Active(anon):     351568 kB
-Inactive(anon):     3012 kB
-Active(file):     473960 kB
-Inactive(file):   768944 kB
-Unevictable:        5752 kB
-Mlocked:            5752 kB
+Active:           816944 kB
+Inactive:         777404 kB
+Active(anon):     342972 kB
+Inactive(anon):     2868 kB
+Active(file):     473972 kB
+Inactive(file):   774536 kB
+Unevictable:        5680 kB
+Mlocked:            5680 kB
 SwapTotal:       1521444 kB
 SwapFree:        1521444 kB
-Dirty:             16748 kB
+Dirty:              9164 kB
 Writeback:             0 kB
-AnonPages:        352392 kB
-Mapped:           423492 kB
-Shmem:              3464 kB
-KReclaimable:      40752 kB
-Slab:              98844 kB
-SReclaimable:      40752 kB
-SUnreclaim:        58092 kB
-KernelStack:       16792 kB
-PageTables:        27152 kB
+AnonPages:        343788 kB
+Mapped:           421704 kB
+Shmem:              3312 kB
+KReclaimable:      42324 kB
+Slab:              99740 kB
+SReclaimable:      42324 kB
+SUnreclaim:        57416 kB
+KernelStack:       16456 kB
+PageTables:        26432 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:     2535744 kB
-Committed_AS:   21845720 kB
+Committed_AS:   21186720 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:       32804 kB
+VmallocUsed:       32444 kB
 VmallocChunk:          0 kB
 Percpu:             1600 kB
 CmaTotal:         294912 kB
-CmaFree:           68024 kB
-DirectMap4k:      116568 kB
-DirectMap2M:     1980416 kB
+CmaFree:           73396 kB
+DirectMap4k:      102232 kB
+DirectMap2M:     1994752 kB
 ===================
-END_TIME: 2023-02-19 15:41:46.963
-END_TIME-NANOS: 2023-02-19 15:41:46.963744000
-DURATION: 212ms
+END_TIME: 2023-03-12 13:52:54.984
+END_TIME-NANOS: 2023-03-12 13:52:54.984165000
+DURATION: 195ms
 EXIT CODE: 0

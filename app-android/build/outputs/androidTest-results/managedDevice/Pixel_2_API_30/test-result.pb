@@ -1,7 +1,10 @@
 
-ÿ
+ó
 l
-ExampleInstrumentedTest'eu.bitfunk.blueprint.mobile.android.appuseAppContext2È†ÉŸ€¸¸r:È†ÉŸ€¢§…"¬
+ExampleInstrumentedTest'eu.bitfunk.blueprint.mobile.android.appuseAppContext2È²· €¿Ö:È²· €¸Áì"ñ
+
+logcatandroidÛ
+Ø/Users/runner/work/blueprint-mobile/blueprint-mobile/app-android/build/outputs/androidTest-results/managedDevice/Pixel_2_API_30/logcat-eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest-useAppContext.txt"¬
 
 device-infoandroid‘
 Ž/Users/runner/work/blueprint-mobile/blueprint-mobile/app-android/build/outputs/androidTest-results/managedDevice/Pixel_2_API_30/device-info.pb"­

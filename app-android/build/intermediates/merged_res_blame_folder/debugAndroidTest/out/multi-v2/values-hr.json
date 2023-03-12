@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "eu.bitfunk.blueprint.mobile.android.app.test.app-android-mergeDebugAndroidTestResources-30:/values-hr/values-hr.xml",
+            "outputFile": "eu.bitfunk.blueprint.mobile.android.app.test.app-android-mergeDebugAndroidTestResources-31:/values-hr/values-hr.xml",
             "map": [
                 {
-                    "source": "/Users/runner/.gradle/caches/transforms-3/7822d5e28fd13d06d8b01b2d8a0b89cc/transformed/core-1.9.0/res/values-hr/values-hr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "1315",
-                        "endColumns": "100",
-                        "endOffsets": "1411"
-                    }
-                },
-                {
-                    "source": "/Users/runner/.gradle/caches/transforms-3/bddf5f3c67554e020ebbd152345a68c2/transformed/ui-1.3.3/res/values-hr/values-hr.xml",
+                    "source": "/Users/runner/.gradle/caches/transforms-3/ad15e69961df41bc922e3bd2dd5dacb0/transformed/ui-1.3.3/res/values-hr/values-hr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,210,297,391,490,580,659,752,847,932,1004,1075,1156,1242,1416,1486",
                         "endColumns": "104,86,93,98,89,78,92,94,84,71,70,80,85,72,69,117",
                         "endOffsets": "205,292,386,485,575,654,747,842,927,999,1070,1151,1237,1310,1481,1599"
+                    }
+                },
+                {
+                    "source": "/Users/runner/.gradle/caches/transforms-3/50428969b589ec03122829634cdeab2f/transformed/core-1.9.0/res/values-hr/values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "1315",
+                        "endColumns": "100",
+                        "endOffsets": "1411"
                     }
                 }
             ]

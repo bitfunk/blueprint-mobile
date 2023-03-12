@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<incidents format="6" by="lint 7.4.1" type="conditional_incidents">
+<incidents format="6" by="lint 7.4.2" type="conditional_incidents">
 
     <incident
         id="ObsoleteSdkInt"

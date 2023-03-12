@@ -1,7 +1,7 @@
 EXECUTING: /Users/runner/Library/Android/sdk/platform-tools/adb -H localhost -P 5037 -s emulator-5554 shell pm list packages androidx.test.services
 CURRENT_WORKING_DIRECTORY: /Users/runner/work/blueprint-mobile/blueprint-mobile/app-android
-START_TIME: 2023-02-19 15:42:01.689
-START_TIME-NANOS: 2023-02-19 15:42:01.689059000
+START_TIME: 2023-03-12 13:53:13.938
+START_TIME-NANOS: 2023-03-12 13:53:13.938996000
 ENVIRONMENT:
 ANDROID_SDK_HOME=/Users/runner/Library/Android/sdk
 ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
@@ -9,7 +9,7 @@ ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
 STDOUT/STDERR BELOW
 ===================
 ===================
-END_TIME: 2023-02-19 15:42:01.882
-END_TIME-NANOS: 2023-02-19 15:42:01.882199000
-DURATION: 193ms
+END_TIME: 2023-03-12 13:53:14.220
+END_TIME-NANOS: 2023-03-12 13:53:14.220839000
+DURATION: 281ms
 EXIT CODE: 0

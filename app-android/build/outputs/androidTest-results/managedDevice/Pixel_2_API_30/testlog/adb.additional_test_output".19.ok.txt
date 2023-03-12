@@ -1,7 +1,7 @@
 EXECUTING: /Users/runner/Library/Android/sdk/platform-tools/adb -H localhost -P 5037 -s emulator-5554 shell mkdir -p "/sdcard/Android/media/eu.bitfunk.blueprint.mobile.android.app/additional_test_output"
 CURRENT_WORKING_DIRECTORY: /Users/runner/work/blueprint-mobile/blueprint-mobile/app-android
-START_TIME: 2023-02-19 15:41:47.389
-START_TIME-NANOS: 2023-02-19 15:41:47.389583000
+START_TIME: 2023-03-12 13:52:55.607
+START_TIME-NANOS: 2023-03-12 13:52:55.607055000
 ENVIRONMENT:
 ANDROID_SDK_HOME=/Users/runner/Library/Android/sdk
 ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
@@ -9,7 +9,7 @@ ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
 STDOUT/STDERR BELOW
 ===================
 ===================
-END_TIME: 2023-02-19 15:41:47.688
-END_TIME-NANOS: 2023-02-19 15:41:47.688554000
-DURATION: 298ms
+END_TIME: 2023-03-12 13:52:55.709
+END_TIME-NANOS: 2023-03-12 13:52:55.709892000
+DURATION: 102ms
 EXIT CODE: 0

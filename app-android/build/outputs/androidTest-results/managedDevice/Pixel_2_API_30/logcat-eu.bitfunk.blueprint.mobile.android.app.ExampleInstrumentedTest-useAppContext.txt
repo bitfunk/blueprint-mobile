@@ -1,27 +1,5 @@
-02-19 15:41:59.523  2049  2138 I TestRunner: started: useAppContext(eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest)
-02-19 15:41:59.592   864  1776 D NetworkMonitor/101: Forcing reevaluation for UID 10057. Dns signal count: 0
-02-19 15:41:59.633  1113  2009 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
-02-19 15:41:59.688   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
-02-19 15:41:59.699   525   635 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
-02-19 15:41:59.701   756   756 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
-02-19 15:41:59.701   756   756 D AvrcpMediaPlayerList: Name of package changed: com.google.android.gms
-02-19 15:41:59.726  1070  2076 W anjv    : Committing snapshot for com.google.android.gms.settings.platform failed [CONTEXT service_id=204 ]
-02-19 15:41:59.726  1070  2076 W anjv    : java.util.concurrent.TimeoutException: Timed out waiting for Task
-02-19 15:41:59.726  1070  2076 W anjv    : 	at auct.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):22)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at anjv.b(:com.google.android.gms@201817022@20.18.17 (040700-311416286):20)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at anjv.b(:com.google.android.gms@201817022@20.18.17 (040700-311416286):18)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at anjv.d(:com.google.android.gms@201817022@20.18.17 (040700-311416286):5)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):5)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):16)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at qgf.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):4)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at cui.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):5)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at cuh.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):9)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at java.lang.Thread.run(Thread.java:923)
-02-19 15:41:59.742   525   615 W system_server: Long monitor contention with owner Binder:525_1 (560) at void com.android.server.am.ActivityManagerService.notifyPackageUse(java.lang.String, int)(ActivityManagerService.java:3134) waiters=1 in android.content.ComponentName com.android.server.am.ActivityManagerService.startService(android.app.IApplicationThread, android.content.Intent, java.lang.String, boolean, java.lang.String, java.lang.String, int) for 200ms
-02-19 15:41:59.745   525  1439 W system_server: Long monitor contention with owner Binder:525_1 (560) at void com.android.server.am.ActivityManagerService.notifyPackageUse(java.lang.String, int)(ActivityManagerService.java:3134) waiters=4 in java.lang.String com.android.server.am.ActivityManagerService.getTagForIntentSender(android.content.IIntentSender, java.lang.String) for 137ms
-02-19 15:41:59.750  1070  1968 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.google.android.gms flg=0x45000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
-02-19 15:41:59.813   864  2167 D NetworkMonitor/101: PROBE_DNS www.google.com 147ms OK 142.250.69.196,2607:f8b0:400a:806::2004
-02-19 15:41:59.826  2049  2138 I TestRunner: finished: useAppContext(eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest)
+03-12 13:53:11.173  1923  2131 I TestRunner: started: useAppContext(eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest)
+03-12 13:53:11.209  1167  1297 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=IpaAppsCorpus serviceId=32 [CONTEXT service_id=21 ]
+03-12 13:53:11.299   512  1619 D WifiNl80211Manager: Scan result ready event
+03-12 13:53:11.299   512  1619 D WifiNative: Scan result ready event
+03-12 13:53:11.669  1923  2131 I TestRunner: finished: useAppContext(eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest)

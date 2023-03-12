@@ -4,7 +4,7 @@
     name=":app-android"
     type="APP"
     maven="blueprint-mobile:app-android:"
-    gradle="7.4.1"
+    gradle="7.4.2"
     buildFolder="build"
     bootClassPath="/Users/runner/Library/Android/sdk/platforms/android-33/android.jar:/Users/runner/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
     javaSourceLevel="11"

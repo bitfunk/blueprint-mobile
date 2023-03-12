@@ -1,7 +1,7 @@
 EXECUTING: /Users/runner/Library/Android/sdk/platform-tools/adb -H localhost -P 5037 -s emulator-5554 shell getprop
 CURRENT_WORKING_DIRECTORY: /Users/runner/work/blueprint-mobile/blueprint-mobile/app-android
-START_TIME: 2023-02-19 15:41:40.566
-START_TIME-NANOS: 2023-02-19 15:41:40.566733000
+START_TIME: 2023-03-12 13:52:47.818
+START_TIME-NANOS: 2023-03-12 13:52:47.818775000
 ENVIRONMENT:
 ANDROID_SDK_HOME=/Users/runner/Library/Android/sdk
 ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
@@ -9,23 +9,23 @@ ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
 STDOUT/STDERR BELOW
 ===================
 [build.version.extensions.r]: [0]
-[cache_key.bluetooth.get_bond_state]: [620069762854901113]
-[cache_key.bluetooth.get_profile_connection_state]: [620069762854901116]
-[cache_key.bluetooth.get_state]: [620069762854901117]
-[cache_key.bluetooth.is_offloaded_filtering_supported]: [620069762854901112]
-[cache_key.display_info]: [7141428605991505965]
-[cache_key.has_system_feature]: [7141428605991505959]
-[cache_key.is_compat_change_enabled]: [7141428605991505982]
-[cache_key.is_interactive]: [7141428605991505950]
-[cache_key.is_power_save_mode]: [7141428605991505971]
-[cache_key.is_user_unlocked]: [7141428605991505981]
-[cache_key.location_enabled]: [7141428605991505983]
+[cache_key.bluetooth.get_bond_state]: [3810330566376718676]
+[cache_key.bluetooth.get_profile_connection_state]: [3810330566376718679]
+[cache_key.bluetooth.get_state]: [3810330566376718680]
+[cache_key.bluetooth.is_offloaded_filtering_supported]: [3810330566376718675]
+[cache_key.display_info]: [5510271773996628513]
+[cache_key.has_system_feature]: [5510271773996628507]
+[cache_key.is_compat_change_enabled]: [5510271773996628531]
+[cache_key.is_interactive]: [5510271773996628498]
+[cache_key.is_power_save_mode]: [5510271773996628519]
+[cache_key.is_user_unlocked]: [5510271773996628533]
+[cache_key.location_enabled]: [5510271773996628535]
 [cache_key.package_info]: [0]
-[cache_key.telephony.get_active_data_sub_id]: [3079891964227960482]
-[cache_key.telephony.get_default_data_sub_id]: [3079891964227960471]
-[cache_key.telephony.get_default_sms_sub_id]: [3079891964227960477]
-[cache_key.telephony.get_default_sub_id]: [3079891964227960475]
-[cache_key.telephony.get_slot_index]: [3079891964227960476]
+[cache_key.telephony.get_active_data_sub_id]: [-4071389356284001027]
+[cache_key.telephony.get_default_data_sub_id]: [-4071389356284001037]
+[cache_key.telephony.get_default_sms_sub_id]: [-4071389356284001031]
+[cache_key.telephony.get_default_sub_id]: [-4071389356284001033]
+[cache_key.telephony.get_slot_index]: [-4071389356284001032]
 [dalvik.vm.appimageformat]: [lz4]
 [dalvik.vm.dex2oat-Xms]: [64m]
 [dalvik.vm.dex2oat-Xmx]: [512m]
@@ -166,8 +166,8 @@ STDOUT/STDERR BELOW
 [net.tcp.default_init_rwnd]: [60]
 [persist.debug.dalvik.vm.core_platform_api_policy]: [just-warn]
 [persist.sys.boot.reason]: []
-[persist.sys.boot.reason.history]: [reboot,factory_reset,1676821188
-reboot,1676821066]
+[persist.sys.boot.reason.history]: [reboot,factory_reset,1678628985
+reboot,1678628906]
 [persist.sys.dalvik.vm.lib.2]: [libart.so]
 [persist.sys.device_provisioned]: [1]
 [persist.sys.displayinset.top]: [0]
@@ -404,8 +404,8 @@ reboot,1676821066]
 [sys.sysctl.extra_free_kbytes]: [24300]
 [sys.sysctl.tcp_def_init_rwnd]: [60]
 [sys.system_server.start_count]: [1]
-[sys.system_server.start_elapsed]: [80580]
-[sys.system_server.start_uptime]: [80580]
+[sys.system_server.start_elapsed]: [76240]
+[sys.system_server.start_uptime]: [76240]
 [sys.usb.config]: [adb]
 [sys.usb.configfs]: [0]
 [sys.usb.controller]: [dummy_udc.0]
@@ -423,7 +423,7 @@ reboot,1676821066]
 [wifi.direct.interface]: [p2p-dev-wlan0]
 [wifi.interface]: [wlan0]
 ===================
-END_TIME: 2023-02-19 15:41:41.146
-END_TIME-NANOS: 2023-02-19 15:41:41.146179000
-DURATION: 579ms
+END_TIME: 2023-03-12 13:52:48.064
+END_TIME-NANOS: 2023-03-12 13:52:48.064694000
+DURATION: 245ms
 EXIT CODE: 0

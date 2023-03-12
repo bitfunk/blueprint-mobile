@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "eu.bitfunk.blueprint.mobile.android.app.app-android-mergeReleaseResources-50:/values-it/values-it.xml",
+            "outputFile": "eu.bitfunk.blueprint.mobile.android.app.app-android-mergeReleaseResources-52:/values-it/values-it.xml",
             "map": [
                 {
-                    "source": "/Users/runner/.gradle/caches/transforms-3/7822d5e28fd13d06d8b01b2d8a0b89cc/transformed/core-1.9.0/res/values-it/values-it.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "47",
-                        "startColumns": "4",
-                        "startOffsets": "4370",
-                        "endColumns": "100",
-                        "endOffsets": "4466"
-                    }
-                },
-                {
-                    "source": "/Users/runner/.gradle/caches/transforms-3/4ebdc9990380c7bb153be14aee22ace0/transformed/appcompat-1.5.1/res/values-it/values-it.xml",
+                    "source": "/Users/runner/.gradle/caches/transforms-3/752e5a981a5f4235e1584c4fb936b5bf/transformed/appcompat-1.5.1/res/values-it/values-it.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/runner/.gradle/caches/transforms-3/7dc84dbb71ec25f590d0bfbb759d713f/transformed/material3-1.0.1/res/values-it/values-it.xml",
+                    "source": "/Users/runner/.gradle/caches/transforms-3/50428969b589ec03122829634cdeab2f/transformed/core-1.9.0/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "47",
+                        "startColumns": "4",
+                        "startOffsets": "4370",
+                        "endColumns": "100",
+                        "endOffsets": "4466"
+                    }
+                },
+                {
+                    "source": "/Users/runner/.gradle/caches/transforms-3/a60fd495b5113561de083db458292d60/transformed/material3-1.0.1/res/values-it/values-it.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/runner/.gradle/caches/transforms-3/bddf5f3c67554e020ebbd152345a68c2/transformed/ui-1.3.3/res/values-it/values-it.xml",
+                    "source": "/Users/runner/.gradle/caches/transforms-3/ad15e69961df41bc922e3bd2dd5dacb0/transformed/ui-1.3.3/res/values-it/values-it.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

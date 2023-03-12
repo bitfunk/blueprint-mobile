@@ -1,7 +1,7 @@
 EXECUTING: /Users/runner/Library/Android/sdk/platform-tools/adb devices
 CURRENT_WORKING_DIRECTORY: /Users/runner/work/blueprint-mobile/blueprint-mobile/app-android
-START_TIME: 2023-02-19 15:41:33.128
-START_TIME-NANOS: 2023-02-19 15:41:33.128184000
+START_TIME: 2023-03-12 13:52:37.079
+START_TIME-NANOS: 2023-03-12 13:52:37.079232000
 ENVIRONMENT:
 PATH=/Users/runner/Library/Android/sdk/platform-tools:/Users/runner/Library/Android/sdk/cmdline-tools/7.0/bin:/Users/runner/hostedtoolcache/Python/3.9.16/x64/bin:/Users/runner/hostedtoolcache/Python/3.9.16/x64:/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home/bin:/usr/local/lib/ruby/gems/3.0.0/bin:/usr/local/opt/ruby@3.0/bin:/usr/local/opt/pipx_bin:/Users/runner/.cargo/bin:/usr/local/opt/curl/bin:/usr/local/bin:/usr/local/sbin:/Users/runner/bin:/Users/runner/.yarn/bin:/Users/runner/Library/Android/sdk/tools:/Users/runner/Library/Android/sdk/platform-tools:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/bin:/bin:/usr/sbin:/sbin:/Users/runner/.dotnet/tools:/Users/runner/.ghcup/bin:/Users/runner/hostedtoolcache/stack/2.9.3/x64
 PKG_CONFIG_PATH=/Users/runner/hostedtoolcache/Python/3.9.16/x64/lib/pkgconfig
@@ -10,14 +10,15 @@ GITHUB_REPOSITORY_OWNER=bitfunk
 Python3_ROOT_DIR=/Users/runner/hostedtoolcache/Python/3.9.16/x64
 GITHUB_REPOSITORY_ID=551671314
 CHROMEWEBDRIVER=/usr/local/Caskroom/chromedriver/110.0.5481.77
-GITHUB_RUN_NUMBER=11
+GITHUB_RUN_NUMBER=17
 ANDROID_HOME=/Users/runner/Library/Android/sdk
 NUNIT3_PATH=/Library/Developer/nunit/3.6.0
 GITHUB_WORKSPACE=/Users/runner/work/blueprint-mobile/blueprint-mobile
 GITHUB_RETENTION_DAYS=90
 GITHUB_API_URL=https://api.github.com
-GITHUB_RUN_ATTEMPT=1
+GITHUB_RUN_ATTEMPT=2
 PWD=/Users/runner/work/blueprint-mobile/blueprint-mobile
+JAVA_MAIN_CLASS_19332=com.google.testing.platform.launcher.Launcher
 GITHUB_JOB=build-snapshot-version
 GITHUB_ACTIONS=true
 DOTNET_MULTILEVEL_LOOKUP=0
@@ -28,7 +29,7 @@ STATS_RDCL=true
 ANDROID_NDK=/Users/runner/Library/Android/sdk/ndk/25.2.9519653
 Python2_ROOT_DIR=/Users/runner/hostedtoolcache/Python/3.9.16/x64
 GOROOT_1_18_X64=/Users/runner/hostedtoolcache/go/1.18.10/x64
-GITHUB_ENV=/Users/runner/work/_temp/_runner_file_commands/set_env_d9a1d805-a193-46a0-9201-9523cddd0091
+GITHUB_ENV=/Users/runner/work/_temp/_runner_file_commands/set_env_66122e4c-60cb-4fe4-ba83-8edced4723d6
 GRAALVM_11_ROOT=/Library/Java/JavaVirtualMachines/graalvm-ce-java11-22.3.1/Contents/Home/bin
 GITHUB_EVENT_PATH=/Users/runner/work/_temp/_github_workflow/event.json
 XPC_FLAGS=0x0
@@ -38,7 +39,6 @@ GITHUB_REF_TYPE=branch
 LC_CTYPE=en_US.UTF-8
 SHLVL=2
 RUNNER_TOOL_CACHE=/Users/runner/hostedtoolcache
-STATS_NM=true
 GITHUB_SERVER_URL=https://github.com
 JAVA_HOME=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home
 GITHUB_REF=refs/heads/main
@@ -46,22 +46,22 @@ RUNNER_NAME=Hosted Agent
 BOOTSTRAP_HASKELL_NONINTERACTIVE=1
 XCODE_13_DEVELOPER_DIR=/Applications/Xcode_13.4.1.app/Contents/Developer
 NUNIT_BASE_PATH=/Library/Developer/nunit
-GITHUB_OUTPUT=/Users/runner/work/_temp/_runner_file_commands/set_output_d9a1d805-a193-46a0-9201-9523cddd0091
+GITHUB_OUTPUT=/Users/runner/work/_temp/_runner_file_commands/set_output_66122e4c-60cb-4fe4-ba83-8edced4723d6
 JAVA_HOME_17_X64=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.6-10/x64/Contents/Home/
 GITHUB_REPOSITORY=bitfunk/blueprint-mobile
-GITHUB_STEP_SUMMARY=/Users/runner/work/_temp/_runner_file_commands/step_summary_d9a1d805-a193-46a0-9201-9523cddd0091
+GITHUB_STEP_SUMMARY=/Users/runner/work/_temp/_runner_file_commands/step_summary_66122e4c-60cb-4fe4-ba83-8edced4723d6
 GITHUB_ACTION_REF=
 RCT_NO_LAUNCH_PACKAGER=1
 CI=true
 RUNNER_ARCH=X64
-GITHUB_SHA=e30be635bf51ad6776c44f89c4f0bc3e325a594f
+GITHUB_SHA=8dce9f1e1421b2b914a2df1e49c63b8580938ba5
 ImageOS=macos12
-ImageVersion=20230214.2
-PARALLELS_DMG_URL=https://download.parallels.com/desktop/v18/18.1.1-53328/ParallelsDesktop-18.1.1-53328.dmg
+ImageVersion=20230224.1
+PARALLELS_DMG_URL=https://download.parallels.com/desktop/v18/18.2.0-53488/ParallelsDesktop-18.2.0-53488.dmg
 pythonLocation=/Users/runner/hostedtoolcache/Python/3.9.16/x64
 RUNNER_PERFLOG=/usr/local/opt/runner/perflog
 PERFLOG_LOCATION_SETTING=RUNNER_PERFLOG
-RUNNER_TRACKING_ID=github_c0080af2-2bcd-4abb-89d0-bc9a89b13b4b
+RUNNER_TRACKING_ID=github_16172092-cbea-4962-bbc3-d3c632f18f6e
 RUNNER_WORKSPACE=/Users/runner/work/blueprint-mobile
 GITHUB_REF_PROTECTED=true
 EDGEWEBDRIVER=/usr/local/share/edge_driver
@@ -70,8 +70,9 @@ CONDA=/usr/local/miniconda
 GRADLE_BUILD_ACTION_CACHE_RESTORED=true
 GITHUB_BASE_REF=
 PIPX_HOME=/usr/local/opt/pipx
-GITHUB_WORKFLOW_SHA=e30be635bf51ad6776c44f89c4f0bc3e325a594f
-GITHUB_PATH=/Users/runner/work/_temp/_runner_file_commands/add_path_d9a1d805-a193-46a0-9201-9523cddd0091
+GITHUB_WORKFLOW_SHA=8dce9f1e1421b2b914a2df1e49c63b8580938ba5
+HOMEBREW_NO_INSTALL_FROM_API=1
+GITHUB_PATH=/Users/runner/work/_temp/_runner_file_commands/add_path_66122e4c-60cb-4fe4-ba83-8edced4723d6
 LOGNAME=runner
 GITHUB_EVENT_NAME=push
 GITHUB_TRIGGERING_ACTOR=wmontwe
@@ -81,6 +82,7 @@ AGENT_TOOLSDIRECTORY=/Users/runner/hostedtoolcache
 HOMEBREW_CASK_OPTS=--no-quarantine
 Python_ROOT_DIR=/Users/runner/hostedtoolcache/Python/3.9.16/x64
 ANDROID_NDK_HOME=/Users/runner/Library/Android/sdk/ndk/25.2.9519653
+JAVA_MAIN_CLASS_8382=org.gradle.wrapper.GradleWrapperMain
 ANDROID_NDK_ROOT=/Users/runner/Library/Android/sdk/ndk/25.2.9519653
 VCPKG_INSTALLATION_ROOT=/usr/local/share/vcpkg
 GITHUB_GRAPHQL_URL=https://api.github.com/graphql
@@ -93,26 +95,25 @@ GITHUB_ACTION=__run_3
 POWERSHELL_DISTRIBUTION_CHANNEL=GitHub-Actions-macos12
 __CF_USER_TEXT_ENCODING=0x1F5:0:0
 GITHUB_ACTOR=wmontwe
-GOROOT_1_19_X64=/Users/runner/hostedtoolcache/go/1.19.5/x64
-JAVA_MAIN_CLASS_17101=com.google.testing.platform.launcher.Launcher
+GOROOT_1_19_X64=/Users/runner/hostedtoolcache/go/1.19.6/x64
 PIPX_BIN_DIR=/usr/local/opt/pipx_bin
 VM_ASSETS=/usr/local/opt/runner/scripts
-JAVA_MAIN_CLASS_10895=org.gradle.wrapper.GradleWrapperMain
 GECKOWEBDRIVER=/usr/local/opt/geckodriver/bin
 JAVA_HOME_8_X64=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.362-9/x64/Contents/Home/
 LANG=en_US.UTF-8
 GITHUB_REPOSITORY_OWNER_ID=100277078
 XPC_SERVICE_NAME=0
-GITHUB_STATE=/Users/runner/work/_temp/_runner_file_commands/save_state_d9a1d805-a193-46a0-9201-9523cddd0091
+GITHUB_STATE=/Users/runner/work/_temp/_runner_file_commands/save_state_66122e4c-60cb-4fe4-ba83-8edced4723d6
 GITHUB_REF_NAME=main
 NVM_DIR=/Users/runner/.nvm
 ANDROID_NDK_LATEST_HOME=/Users/runner/Library/Android/sdk/ndk/25.2.9519653
 GITHUB_ACTION_REPOSITORY=
 HOMEBREW_NO_AUTO_UPDATE=1
-GITHUB_RUN_ID=4216920552
+GITHUB_RUN_ID=4397688752
+GOROOT_1_20_X64=/Users/runner/hostedtoolcache/go/1.20.1/x64
 USER=runner
 ANDROID_SDK_ROOT=/Users/runner/Library/Android/sdk
-SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.Mq9jjt3VTh/Listeners
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.YrGirQxehF/Listeners
 RUNNER_TEMP=/Users/runner/work/_temp
 GITHUB_HEAD_REF=
 JAVA_HOME_11_X64=/Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.18-10/x64/Contents/Home
@@ -123,7 +124,7 @@ STDOUT/STDERR BELOW
 List of devices attached
 
 ===================
-END_TIME: 2023-02-19 15:41:33.176
-END_TIME-NANOS: 2023-02-19 15:41:33.176148000
-DURATION: 47ms
+END_TIME: 2023-03-12 13:52:37.124
+END_TIME-NANOS: 2023-03-12 13:52:37.124907000
+DURATION: 45ms
 EXIT CODE: 0

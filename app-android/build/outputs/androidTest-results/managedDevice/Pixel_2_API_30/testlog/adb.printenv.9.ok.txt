@@ -1,7 +1,7 @@
 EXECUTING: /Users/runner/Library/Android/sdk/platform-tools/adb -H localhost -P 5037 -s emulator-5554 shell printenv
 CURRENT_WORKING_DIRECTORY: /Users/runner/work/blueprint-mobile/blueprint-mobile/app-android
-START_TIME: 2023-02-19 15:41:40.274
-START_TIME-NANOS: 2023-02-19 15:41:40.274481000
+START_TIME: 2023-03-12 13:52:47.477
+START_TIME-NANOS: 2023-03-12 13:52:47.477700000
 ENVIRONMENT:
 ANDROID_SDK_HOME=/Users/runner/Library/Android/sdk
 ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
@@ -33,7 +33,7 @@ ANDROID_ROOT=/system
 ANDROID_I18N_ROOT=/apex/com.android.i18n
 EXTERNAL_STORAGE=/sdcard
 ===================
-END_TIME: 2023-02-19 15:41:40.547
-END_TIME-NANOS: 2023-02-19 15:41:40.547638000
-DURATION: 273ms
+END_TIME: 2023-03-12 13:52:47.797
+END_TIME-NANOS: 2023-03-12 13:52:47.797540000
+DURATION: 319ms
 EXIT CODE: 0

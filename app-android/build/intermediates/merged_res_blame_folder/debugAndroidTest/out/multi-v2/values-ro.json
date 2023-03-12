@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "eu.bitfunk.blueprint.mobile.android.app.test.app-android-mergeDebugAndroidTestResources-30:/values-ro/values-ro.xml",
+            "outputFile": "eu.bitfunk.blueprint.mobile.android.app.test.app-android-mergeDebugAndroidTestResources-31:/values-ro/values-ro.xml",
             "map": [
                 {
-                    "source": "/Users/runner/.gradle/caches/transforms-3/bddf5f3c67554e020ebbd152345a68c2/transformed/ui-1.3.3/res/values-ro/values-ro.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,236,333,435,523,601,688,779,861,933,1002,1090,1180,1253",
-                        "endColumns": "96,83,96,101,87,77,86,90,81,71,68,87,89,72,66",
-                        "endOffsets": "147,231,328,430,518,596,683,774,856,928,997,1085,1175,1248,1315"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,236,333,435,523,601,688,779,861,933,1002,1090,1180,1354",
-                        "endColumns": "96,83,96,101,87,77,86,90,81,71,68,87,89,72,66",
-                        "endOffsets": "147,231,328,430,518,596,683,774,856,928,997,1085,1175,1248,1416"
-                    }
-                },
-                {
-                    "source": "/Users/runner/.gradle/caches/transforms-3/7822d5e28fd13d06d8b01b2d8a0b89cc/transformed/core-1.9.0/res/values-ro/values-ro.xml",
+                    "source": "/Users/runner/.gradle/caches/transforms-3/50428969b589ec03122829634cdeab2f/transformed/core-1.9.0/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,6 +18,23 @@
                         "startOffsets": "1253",
                         "endColumns": "100",
                         "endOffsets": "1349"
+                    }
+                },
+                {
+                    "source": "/Users/runner/.gradle/caches/transforms-3/ad15e69961df41bc922e3bd2dd5dacb0/transformed/ui-1.3.3/res/values-ro/values-ro.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,236,333,435,523,601,688,779,861,933,1002,1090,1180,1253",
+                        "endColumns": "96,83,96,101,87,77,86,90,81,71,68,87,89,72,66",
+                        "endOffsets": "147,231,328,430,518,596,683,774,856,928,997,1085,1175,1248,1315"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,236,333,435,523,601,688,779,861,933,1002,1090,1180,1354",
+                        "endColumns": "96,83,96,101,87,77,86,90,81,71,68,87,89,72,66",
+                        "endOffsets": "147,231,328,430,518,596,683,774,856,928,997,1085,1175,1248,1416"
                     }
                 }
             ]

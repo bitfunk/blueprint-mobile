@@ -1,7 +1,7 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="eu.bitfunk.blueprint.mobile.android.app"
-4    android:versionCode="10040"
+4    android:versionCode="10060"
 5    android:versionName="0.1.0-SNAPSHOT" >
 6
 7    <uses-sdk
@@ -15,15 +15,15 @@
 11-->/Users/runner/work/blueprint-mobile/blueprint-mobile/app-android/src/main/AndroidManifest.xml:7:22-64
 12
 13    <permission
-13-->[androidx.core:core:1.9.0] /Users/runner/.gradle/caches/transforms-3/7822d5e28fd13d06d8b01b2d8a0b89cc/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+13-->[androidx.core:core:1.9.0] /Users/runner/.gradle/caches/transforms-3/50428969b589ec03122829634cdeab2f/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 14        android:name="eu.bitfunk.blueprint.mobile.android.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.9.0] /Users/runner/.gradle/caches/transforms-3/7822d5e28fd13d06d8b01b2d8a0b89cc/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+14-->[androidx.core:core:1.9.0] /Users/runner/.gradle/caches/transforms-3/50428969b589ec03122829634cdeab2f/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.9.0] /Users/runner/.gradle/caches/transforms-3/7822d5e28fd13d06d8b01b2d8a0b89cc/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+15-->[androidx.core:core:1.9.0] /Users/runner/.gradle/caches/transforms-3/50428969b589ec03122829634cdeab2f/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 16
 17    <uses-permission android:name="eu.bitfunk.blueprint.mobile.android.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.9.0] /Users/runner/.gradle/caches/transforms-3/7822d5e28fd13d06d8b01b2d8a0b89cc/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.9.0] /Users/runner/.gradle/caches/transforms-3/7822d5e28fd13d06d8b01b2d8a0b89cc/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+17-->[androidx.core:core:1.9.0] /Users/runner/.gradle/caches/transforms-3/50428969b589ec03122829634cdeab2f/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] /Users/runner/.gradle/caches/transforms-3/50428969b589ec03122829634cdeab2f/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 18
 19    <application
 19-->/Users/runner/work/blueprint-mobile/blueprint-mobile/app-android/src/main/AndroidManifest.xml:9:5-32:19
@@ -32,7 +32,7 @@
 21        android:allowBackup="false"
 21-->/Users/runner/work/blueprint-mobile/blueprint-mobile/app-android/src/main/AndroidManifest.xml:11:9-36
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.9.0] /Users/runner/.gradle/caches/transforms-3/7822d5e28fd13d06d8b01b2d8a0b89cc/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+22-->[androidx.core:core:1.9.0] /Users/runner/.gradle/caches/transforms-3/50428969b589ec03122829634cdeab2f/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
 23-->/Users/runner/work/blueprint-mobile/blueprint-mobile/app-android/src/main/AndroidManifest.xml:12:9-65
 24        android:fullBackupContent="@xml/backup_rules"
@@ -68,56 +68,56 @@
 39        </activity>
 40
 41        <provider
-41-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/110919a01b09897c1129e9d46c606322/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+41-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/4b31908276979d5fa97ede3ec8b251f1/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 42            android:name="androidx.startup.InitializationProvider"
-42-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/110919a01b09897c1129e9d46c606322/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+42-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/4b31908276979d5fa97ede3ec8b251f1/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
 43            android:authorities="eu.bitfunk.blueprint.mobile.android.app.androidx-startup"
-43-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/110919a01b09897c1129e9d46c606322/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+43-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/4b31908276979d5fa97ede3ec8b251f1/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
 44            android:exported="false" >
-44-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/110919a01b09897c1129e9d46c606322/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+44-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/4b31908276979d5fa97ede3ec8b251f1/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 45            <meta-data
-45-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/110919a01b09897c1129e9d46c606322/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/4b31908276979d5fa97ede3ec8b251f1/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-46-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/110919a01b09897c1129e9d46c606322/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+46-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/4b31908276979d5fa97ede3ec8b251f1/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 47                android:value="androidx.startup" />
-47-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/110919a01b09897c1129e9d46c606322/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+47-->[androidx.emoji2:emoji2:1.2.0] /Users/runner/.gradle/caches/transforms-3/4b31908276979d5fa97ede3ec8b251f1/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 48            <meta-data
-48-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/runner/.gradle/caches/transforms-3/e9e219fa71dc1a7c41b715dd75e9d34b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+48-->[androidx.lifecycle:lifecycle-process:2.6.0] /Users/runner/.gradle/caches/transforms-3/283f99e24a07452052ee9f0e43f0f9a2/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:29:13-31:52
 49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/runner/.gradle/caches/transforms-3/e9e219fa71dc1a7c41b715dd75e9d34b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+49-->[androidx.lifecycle:lifecycle-process:2.6.0] /Users/runner/.gradle/caches/transforms-3/283f99e24a07452052ee9f0e43f0f9a2/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:30:17-78
 50                android:value="androidx.startup" />
-50-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/runner/.gradle/caches/transforms-3/e9e219fa71dc1a7c41b715dd75e9d34b/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+50-->[androidx.lifecycle:lifecycle-process:2.6.0] /Users/runner/.gradle/caches/transforms-3/283f99e24a07452052ee9f0e43f0f9a2/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:31:17-49
 51            <meta-data
-51-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:30:13-32:52
+51-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:30:13-32:52
 52                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-52-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:31:17-85
+52-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:31:17-85
 53                android:value="androidx.startup" />
-53-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:32:17-49
+53-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:32:17-49
 54        </provider>
 55
 56        <receiver
-56-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:35:9-47:20
+56-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:35:9-47:20
 57            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-57-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:36:13-76
+57-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:36:13-76
 58            android:directBootAware="false"
-58-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:37:13-44
+58-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:37:13-44
 59            android:enabled="true"
-59-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:38:13-35
+59-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:38:13-35
 60            android:exported="true"
-60-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:39:13-36
+60-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:39:13-36
 61            android:permission="android.permission.DUMP" >
-61-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:40:13-57
+61-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:40:13-57
 62            <intent-filter>
-62-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:41:13-43:29
+62-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:41:13-43:29
 63                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-63-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:17-91
-63-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:25-88
+63-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:42:17-91
+63-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:42:25-88
 64            </intent-filter>
 65            <intent-filter>
-65-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:44:13-46:29
+65-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:44:13-46:29
 66                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-66-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:17-85
-66-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/runner/.gradle/caches/transforms-3/f7e67f6b348e85799ffd3acd1946def0/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:25-82
+66-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:45:17-85
+66-->[androidx.profileinstaller:profileinstaller:1.2.1] /Users/runner/.gradle/caches/transforms-3/23467d87f44b882eee727eef5811b487/transformed/profileinstaller-1.2.1/AndroidManifest.xml:45:25-82
 67            </intent-filter>
 68        </receiver>
 69    </application>

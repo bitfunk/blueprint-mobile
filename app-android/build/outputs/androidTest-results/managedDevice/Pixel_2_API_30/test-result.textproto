@@ -1,4 +1,4 @@
-# 2023-02-19T15:42:02.047Z:
+# 2023-03-12T13:53:15.012Z:
 test_suite_meta_data {
   scheduled_test_case_count: 1
 }
@@ -9,15 +9,24 @@ test_result {
     test_package: "eu.bitfunk.blueprint.mobile.android.app"
     test_method: "useAppContext"
     start_time {
-      seconds: 1676821320
-      nanos: 240000000
+      seconds: 1678629192
+      nanos: 14000000
     }
     end_time {
-      seconds: 1676821320
-      nanos: 548000000
+      seconds: 1678629192
+      nanos: 496000000
     }
   }
   test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/runner/work/blueprint-mobile/blueprint-mobile/app-android/build/outputs/androidTest-results/managedDevice/Pixel_2_API_30/logcat-eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest-useAppContext.txt"
+    }
+  }
   output_artifact {
     label {
       label: "device-info"

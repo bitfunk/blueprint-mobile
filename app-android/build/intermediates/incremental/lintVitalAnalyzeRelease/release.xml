@@ -4,9 +4,9 @@
     minSdkVersion="21"
     targetSdkVersion="33"
     mergedManifest="build/intermediates/merged_manifest/release/AndroidManifest.xml"
-    proguardFiles="build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-7.4.1:proguard-rules.pro"
+    proguardFiles="build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-7.4.2:proguard-rules.pro"
     partialResultsDir="build/intermediates/lint_vital_partial_results/release/out"
-    desugaredMethodsFiles="/Users/runner/.gradle/caches/transforms-3/fa1da4e3f22b0c8f733008dbf17822a0/transformed/desugar_jdk_libs_configuration-2.0.2-desugar-lint.txt:/Users/runner/.gradle/caches/transforms-3/a36ad69cc0137b9c4bd331d23b369309/transformed/D8BackportedDesugaredMethods.txt">
+    desugaredMethodsFiles="/Users/runner/.gradle/caches/transforms-3/5b20ea9e7edb96d04cfd97b174b2ac9c/transformed/desugar_jdk_libs_configuration-2.0.2-desugar-lint.txt:/Users/runner/.gradle/caches/transforms-3/aeddec0d32cab7892d0edf872405e919/transformed/D8BackportedDesugaredMethods.txt">
   <buildFeatures
       coreLibraryDesugaring="true"
       namespacing="REQUIRED"/>

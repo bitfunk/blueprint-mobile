@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="1.655" timestamp="2023-02-19T15:42:01" hostname="localhost">
+<testsuite name="eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="2.798" timestamp="2023-03-12T13:53:14" hostname="localhost">
   <properties>
     <property name="device" value="Pixel_2_API_30" />
     <property name="flavor" value="" />
     <property name="project" value=":app-android" />
   </properties>
-  <testcase name="useAppContext" classname="eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest" time="0.283" />
+  <testcase name="useAppContext" classname="eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest" time="0.398" />
 </testsuite>

@@ -1,7 +1,7 @@
-EXECUTING: /Users/runner/Library/Android/sdk/platform-tools/adb -H localhost -P 5037 -s emulator-5554 shell logcat -v threadtime -b main -T '02-19 15:40:05.000'
+EXECUTING: /Users/runner/Library/Android/sdk/platform-tools/adb -H localhost -P 5037 -s emulator-5554 shell logcat -v threadtime -b main -T '03-12 13:52:54.000'
 CURRENT_WORKING_DIRECTORY: /Users/runner/work/blueprint-mobile/blueprint-mobile/app-android
-START_TIME: 2023-02-19 15:41:47.169
-START_TIME-NANOS: 2023-02-19 15:41:47.169386000
+START_TIME: 2023-03-12 13:52:55.482
+START_TIME-NANOS: 2023-03-12 13:52:55.482358000
 ENVIRONMENT:
 ANDROID_SDK_HOME=/Users/runner/Library/Android/sdk
 ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
@@ -9,642 +9,634 @@ ANDROID_ADB=/Users/runner/Library/Android/sdk/platform-tools/adb
 STDOUT/STDERR BELOW
 ===================
 --------- beginning of main
-02-19 15:40:05.046   525   563 I GnssNetworkConnectivityHandler: updateNetworkState, state=CLOSED, connected=true, network=101, capabilities=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=141000Kbps LinkDnBandwidth>=141000Kbps SignalStrength: -30 OwnerUid: 1000 AdministratorUids: [] SSID: "AndroidWifi" RequestorUid: -1 RequestorPackageName: null], apn: , availableNetworkCount: 2
-02-19 15:40:05.105  1070  1778 I NearbyDiscovery: Show notifications: 0 total, no changes since last shown, no-op. [CONTEXT service_id=49 ]
-02-19 15:40:05.135   438   450 E installd: Couldn't opendir /data/app/vmdl1867045979.tmp: No such file or directory
-02-19 15:40:05.135   438   450 E installd: Failed to delete /data/app/vmdl1867045979.tmp: No such file or directory
-02-19 15:40:05.146  1726  1857 I abb     : oneway function results will be dropped but finished with status OK and parcel size 4
-02-19 15:40:05.165   525   701 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:05.190   525   704 W LastMileLogger: Failed to stop event tracing: /sys/kernel/debug/tracing/instances/wifi/tracing_on: open failed: ENOENT (No such file or directory)
-02-19 15:40:05.198   525   708 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:05.199  1376  1376 I MediaProvider: Invalidating LocalCallingIdentity cache for package eu.bitfunk.blueprint.mobile.android.app. Reason: package android.intent.action.PACKAGE_ADDED
-02-19 15:40:05.203   525   708 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:05.212   525   708 I chatty  : uid=1000(system) ConnectivitySer identical 1 line
-02-19 15:40:05.215   525   708 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:05.233   525   635 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
-02-19 15:40:05.243   756   756 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_ADDED
-02-19 15:40:05.243   756   756 D AvrcpMediaPlayerList: Name of package changed: eu.bitfunk.blueprint.mobile.android.app
-02-19 15:40:05.298   525  1438 D WifiMemoryStoreImpl: Set cluster G3bdfdb093f798359 for W31d9044d21a0c4cb: SUCCESS
-02-19 15:40:05.314   525   701 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:05.336   776  1633 I PermissionControllerServiceImpl: Updating user sensitive for uid 10075
-02-19 15:40:05.357   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
-02-19 15:40:05.360   525   701 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:05.382   525   701 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:05.132   525   525 W Binder:525_C: type=1400 audit(0.0:31): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
-02-19 15:40:05.519   916   916 D CarrierSvcBindHelper: No carrier app for: 0
-02-19 15:40:05.590   916   916 D CarrierConfigLoader: mHandler: 9 phoneId: 0
-02-19 15:40:05.648  1070  1265 I GCoreUlr: Unbound from all signal providers.
-02-19 15:40:05.668   525   535 I system_server: Background concurrent copying GC freed 55828(2904KB) AllocSpace objects, 24(1324KB) LOS objects, 49% free, 9361KB/18MB, paused 2.725ms total 561.061ms
-02-19 15:40:05.706   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
-02-19 15:40:05.747   525   708 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:05.748   525   701 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:05.799   525   701 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:05.800   525   708 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:05.864   525   571 W Searchables: No global search activity found
-02-19 15:40:05.989   525   701 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:05.993   525   708 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:06.029   756   756 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
-02-19 15:40:06.029   756   756 D AvrcpMediaPlayerList: Name of package changed: com.google.android.gsf
-02-19 15:40:06.031   525   635 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
-02-19 15:40:06.041   776  1633 I PermissionControllerServiceImpl: Updating user sensitive for uid 10057
-02-19 15:40:05.132   525   525 W Binder:525_C: type=1400 audit(0.0:32): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
-02-19 15:40:06.079   916   916 D CarrierSvcBindHelper: No carrier app for: 0
-02-19 15:40:06.168  1070  1070 D CompatibilityChangeReporter: Compat change id reported: 144027538; UID 10057; state: DISABLED
-02-19 15:40:06.251  1070  1070 D CompatibilityChangeReporter: Compat change id reported: 148180766; UID 10057; state: ENABLED
-02-19 15:40:06.263  1897  1898 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
-02-19 15:40:06.276   525   571 W Searchables: No global search activity found
-02-19 15:40:06.302  1113  1251 E native  : filesystem.cc:93 Opening file /data/user/0/com.google.android.gms/files/AppDataSearch/main/cur/compact_status for read failed: No such file or directory
-02-19 15:40:06.321   525  1454 D WifiMemoryStoreImpl: Set cluster G3bdfdb093f798359 for W3bdfdb093f798359: SUCCESS
-02-19 15:40:06.322  1697  1709 W ndroid.keychai: Suspending all threads took: 15.228ms
-02-19 15:40:06.333  1113  1251 I native  : permission-checker.cc:74 Creating PermissionChecker based on ACL with config_version 1 having 14 permissions defined.
-02-19 15:40:06.346  1113  1251 W native  : words-map.cc:30 INVALID_ARGUMENT: Empty URI
-02-19 15:40:06.346  1113  1251 W native  : words-map.cc:34 WordsMap was not properly initialized
-02-19 15:40:06.354  1070  1778 E NearbyDiscovery: DiscoveryNearbyMessagesManager failed to background subscribe [CONTEXT service_id=49 ]
-02-19 15:40:06.354  1070  1778 E NearbyDiscovery: java.util.concurrent.TimeoutException: Timed out waiting for Task
-02-19 15:40:06.354  1070  1778 E NearbyDiscovery: 	at auct.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):22)
-02-19 15:40:06.354  1070  1778 E NearbyDiscovery: 	at ahoi.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):23)
-02-19 15:40:06.354  1070  1778 E NearbyDiscovery: 	at ahnz.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):3)
-02-19 15:40:06.354  1070  1778 E NearbyDiscovery: 	at buwi.handleMessage(:com.google.android.gms@201817022@20.18.17 (040700-311416286):6)
-02-19 15:40:06.354  1070  1778 E NearbyDiscovery: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-02-19 15:40:06.354  1070  1778 E NearbyDiscovery: 	at adxm.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
-02-19 15:40:06.354  1070  1778 E NearbyDiscovery: 	at adxm.dispatchMessage(:com.google.android.gms@201817022@20.18.17 (040700-311416286):14)
-02-19 15:40:06.354  1070  1778 E NearbyDiscovery: 	at android.os.Looper.loop(Looper.java:223)
-02-19 15:40:06.354  1070  1778 E NearbyDiscovery: 	at android.os.HandlerThread.run(HandlerThread.java:67)
-02-19 15:40:06.383  1070  1070 W SystemServiceRegistry: No service published for: contexthub
-02-19 15:40:06.418  1070  1070 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
-02-19 15:40:06.425  1376  1902 E StorageManager: Failed to set extended attributes for /storage/emulated/0/Android to set project id.: Permission denied
-02-19 15:40:06.427  1376  1902 W MediaProvider: Failed to update quota type for /storage/emulated/0/Android
-02-19 15:40:06.427  1376  1902 W MediaProvider: java.io.IOException: Failed to update quota type for /storage/emulated/0/Android
-02-19 15:40:06.427  1376  1902 W MediaProvider: 	at android.os.storage.StorageManager.updateExternalStorageFileQuotaType(StorageManager.java:2512)
-02-19 15:40:06.427  1376  1902 W MediaProvider: 	at com.android.providers.media.MediaProvider.updateQuotaTypeForFileInternal(MediaProvider.java:585)
-02-19 15:40:06.427  1376  1902 W MediaProvider: 	at com.android.providers.media.MediaProvider.updateQuotaTypeForUri(MediaProvider.java:560)
-02-19 15:40:06.427  1376  1902 W MediaProvider: 	at com.android.providers.media.MediaProvider.access$800(MediaProvider.java:222)
-02-19 15:40:06.427  1376  1902 W MediaProvider: 	at com.android.providers.media.MediaProvider$3.lambda$onInsert$0(MediaProvider.java:611)
-02-19 15:40:06.427  1376  1902 W MediaProvider: 	at com.android.providers.media.MediaProvider$3.lambda$onInsert$0$MediaProvider$3(Unknown Source:0)
-02-19 15:40:06.427  1376  1902 W MediaProvider: 	at com.android.providers.media.-$$Lambda$MediaProvider$3$OA4Hj-5lam3D4oprnbu7ZpL-f_E.run(Unknown Source:10)
-02-19 15:40:06.427  1376  1902 W MediaProvider: 	at android.os.Handler.handleCallback(Handler.java:938)
-02-19 15:40:06.427  1376  1902 W MediaProvider: 	at android.os.Handler.dispatchMessage(Handler.java:99)
-02-19 15:40:06.427  1376  1902 W MediaProvider: 	at android.os.Looper.loop(Looper.java:223)
-02-19 15:40:06.427  1376  1902 W MediaProvider: 	at android.os.HandlerThread.run(HandlerThread.java:67)
-02-19 15:40:06.433  1376  1902 E StorageManager: Failed to set extended attributes for /storage/emulated/0/Android/media to set project id.: Permission denied
-02-19 15:40:06.433  1376  1902 W MediaProvider: Failed to update quota type for /storage/emulated/0/Android/media
-02-19 15:40:06.433  1376  1902 W MediaProvider: java.io.IOException: Failed to update quota type for /storage/emulated/0/Android/media
-02-19 15:40:06.433  1376  1902 W MediaProvider: 	at android.os.storage.StorageManager.updateExternalStorageFileQuotaType(StorageManager.java:2512)
-02-19 15:40:06.433  1376  1902 W MediaProvider: 	at com.android.providers.media.MediaProvider.updateQuotaTypeForFileInternal(MediaProvider.java:585)
-02-19 15:40:06.433  1376  1902 W MediaProvider: 	at com.android.providers.media.MediaProvider.updateQuotaTypeForUri(MediaProvider.java:560)
-02-19 15:40:06.433  1376  1902 W MediaProvider: 	at com.android.providers.media.MediaProvider.access$800(MediaProvider.java:222)
-02-19 15:40:06.433  1376  1902 W MediaProvider: 	at com.android.providers.media.MediaProvider$3.lambda$onInsert$0(MediaProvider.java:611)
-02-19 15:40:06.433  1376  1902 W MediaProvider: 	at com.android.providers.media.MediaProvider$3.lambda$onInsert$0$MediaProvider$3(Unknown Source:0)
-02-19 15:40:06.433  1376  1902 W MediaProvider: 	at com.android.providers.media.-$$Lambda$MediaProvider$3$OA4Hj-5lam3D4oprnbu7ZpL-f_E.run(Unknown Source:10)
-02-19 15:40:06.433  1376  1902 W MediaProvider: 	at android.os.Handler.handleCallback(Handler.java:938)
-02-19 15:40:06.433  1376  1902 W MediaProvider: 	at android.os.Handler.dispatchMessage(Handler.java:99)
-02-19 15:40:06.433  1376  1902 W MediaProvider: 	at android.os.Looper.loop(Looper.java:223)
-02-19 15:40:06.433  1376  1902 W MediaProvider: 	at android.os.HandlerThread.run(HandlerThread.java:67)
-02-19 15:40:06.454  1903  1905 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
-02-19 15:40:06.477  1070  1163 I aneu    : No Heterodyne serving version in database [CONTEXT service_id=51 ]
-02-19 15:40:06.534  1376  1789 I MediaProvider: Scanned external_primary due to REASON_MOUNTED, found 16 items in 885ms, 4 inserts 0 updates 0 deletes
-02-19 15:40:06.546  1376  1789 I MediaProvider: End Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
-02-19 15:40:06.551  1376  1789 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
-02-19 15:40:06.559  1376  1789 W ModernMediaScanner: Failed to visit /system/media: java.nio.file.NoSuchFileException: /system/media
-02-19 15:40:06.561  1376  1789 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 0 items in 2ms, 0 inserts 0 updates 0 deletes
-02-19 15:40:06.562  1376  1789 W ModernMediaScanner: Failed to visit /oem/media: java.nio.file.NoSuchFileException: /oem/media
-02-19 15:40:06.564  1376  1789 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 0 items in 2ms, 0 inserts 0 updates 0 deletes
-02-19 15:40:06.565  1376  1789 W ModernMediaScanner: Failed to visit /product/media: java.nio.file.NoSuchFileException: /product/media
-02-19 15:40:06.636  1070  1872 E GeofenceStateCache: Unable to load state, all registered geofences are lost.
-02-19 15:40:06.662  1070  1070 I GeofencerStateMachine: sendWifiConnectivityChanged: connectivity=true
-02-19 15:40:06.695   525  1913 I RecoverySystem: No recovery log file
-02-19 15:40:06.697   525  1639 D SntpClient: request time failed: java.net.SocketTimeoutException: Poll timed out
-02-19 15:40:06.697   525   870 W system_server: Long monitor contention with owner Thread-48 (1639) at boolean android.util.NtpTrustedTime.forceRefresh()(NtpTrustedTime.java:173) waiters=0 in boolean android.util.NtpTrustedTime.forceRefresh() for 1.717s
-02-19 15:40:06.698   525  1639 E NtpTimeHelper: requestTime failed
-02-19 15:40:06.736   156   156 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
-02-19 15:40:06.787  1070  1265 I GCoreUlr: DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
-02-19 15:40:06.837  1070  1070 I GCoreUlr: Unbound from all signal providers.
-02-19 15:40:06.837  1070  1070 I GCoreUlr: Stopping handler for UlrDispSvcFast
-02-19 15:40:06.891  1413  1413 W .ims.rcsservic: Long monitor contention with owner Binder:1413_3 (1433) at boolean android.os.MessageQueue.enqueueMessage(android.os.Message, long)(MessageQueue.java:600) waiters=0 in android.os.Message android.os.MessageQueue.next() for 251ms
-02-19 15:40:06.895  1413  1413 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:40:06.902  1200  1211 W d.process.acor: Suspending all threads took: 16.195ms
-02-19 15:40:06.964  1113  1251 I Icing   : Version not set, assuming clear data. [CONTEXT service_id=21 ]
-02-19 15:40:06.964  1113  1251 I Icing   : Clearing storage [CONTEXT service_id=21 ]
-02-19 15:40:06.965  1113  1251 I Icing   : Clearing CorpusMap, ClientRegistry, Setting [CONTEXT service_id=21 ]
-02-19 15:40:06.977   916   916 D CarrierConfigLoader: mHandler: 13 phoneId: 0
-02-19 15:40:06.977   916   916 D CarrierConfigLoader: System unlocked
-02-19 15:40:06.977   916   916 D CarrierConfigLoader: mHandler: 7 phoneId: 0
-02-19 15:40:06.978   916   916 D CarrierConfigLoader: File not found: /data/user_de/0/com.android.phone/files/carrierconfig-com.android.carrierconfig-override-89014103211118510720-1.xml
-02-19 15:40:06.981   916   916 D CarrierConfigLoader: Loaded config from XML. package=com.android.carrierconfig phoneId=0
-02-19 15:40:06.981   916   916 D CarrierConfigLoader: mHandler: 5 phoneId: 0
-02-19 15:40:06.992   916   916 D CarrierConfigLoader: mHandler: 16 phoneId: 0
-02-19 15:40:06.993   916   916 D CarrierConfigLoader: Broadcast CARRIER_CONFIG_CHANGED for phone 0 simApplicationState 10
-02-19 15:40:07.009   916   916 D CarrierConfigLoader: Broadcast CARRIER_CONFIG_CHANGED for phone 0, subId=1
-02-19 15:40:07.075   525   525 D WifiService: ACTION_CARRIER_CONFIG_CHANGED, active subId: 1
-02-19 15:40:07.095   916   916 D CarrierKeyDownloadManager: Carrier Config changed: android.telephony.action.CARRIER_CONFIG_CHANGED
-02-19 15:40:07.127  1070  1248 W .gms.persisten: Accessing hidden method Landroid/net/ConnectivityManager;->isNetworkTypeMobile(I)Z (greylist-max-p, reflection, denied)
-02-19 15:40:07.143   525   701 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:07.143   279   279 D Zygote  : Forked child process 1920
-02-19 15:40:07.165  1920  1920 W droid.dynsyste: Unexpected CPU variant for X86 using defaults: x86
-02-19 15:40:07.180  1170  1170 D CellBroadcastReceiver: onReceive Intent { act=android.telephony.action.CARRIER_CONFIG_CHANGED flg=0x15000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
-02-19 15:40:07.181  1170  1170 D CellBroadcastReceiver: initializeSharedPreference
-02-19 15:40:07.181  1170  1170 D CellBroadcastReceiver: Skip setting default values of shared preference.
-02-19 15:40:07.182  1170  1170 D CellBroadcastReceiver: Default interval 2 did not change.
-02-19 15:40:07.190  1170  1170 D CellBroadcastReceiver: disable launcher activity: com.android.cellbroadcastreceiver.CellBroadcastListLauncherActivity
-02-19 15:40:07.197  1170  1170 D CellBroadcastReceiver: Start Cell Broadcast configuration.
-02-19 15:40:07.269   395   418 I adbd    : jdwp connection from 1920
-02-19 15:40:07.295   916   916 I Telephony: Carrier-config changed, checking for phone account updates.
-02-19 15:40:07.296   916   916 D Telephony: TelecomAccountRegistry: handleCarrierConfigChange: subId=1, accountSubId=1
-02-19 15:40:07.307   916   916 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
-02-19 15:40:07.307   916   916 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
-02-19 15:40:07.330  1170  1937 D CellBroadcastConfigService: Enable CellBroadcast on sub 1
-02-19 15:40:07.349  1376  1789 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 0 items in 785ms, 0 inserts 0 updates 0 deletes
-02-19 15:40:07.372  1070  1070 I BeaconBle: Using BLE 'L' hardware layer [CONTEXT service_id=111 ]
-02-19 15:40:07.400   916   916 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
-02-19 15:40:07.400   916   916 I Telephony:  isRttSupported: false
-02-19 15:40:07.400   916   916 I Telephony:  isRoaming: false
-02-19 15:40:07.400   916   916 I Telephony:  isOnWfc: false
-02-19 15:40:07.436  1070  1771 D CompatibilityChangeReporter: Compat change id reported: 150935354; UID 10057; state: ENABLED
-02-19 15:40:07.468   525   560 D WifiNl80211Manager: Scan result ready event
-02-19 15:40:07.468   525   560 D WifiNative: Scan result ready event
-02-19 15:40:07.480   525   585 W system_server: Long monitor contention with owner AlarmManager (631) at void com.android.server.power.PowerManagerService.acquireWakeLockInternal(android.os.IBinder, int, java.lang.String, java.lang.String, android.os.WorkSource, java.lang.String, int, int)(PowerManagerService.java:1329) waiters=0 in void com.android.server.power.PowerManagerService.handleSandman() for 126ms
-02-19 15:40:07.481   525   704 W system_server: Long monitor contention with owner AlarmManager (631) at void com.android.server.AlarmManagerService$AlarmThread.run()(AlarmManagerService.java:4108) waiters=0 in void com.android.server.AlarmManagerService.setImpl(int, long, long, long, android.app.PendingIntent, android.app.IAlarmListener, java.lang.String, int, android.os.WorkSource, android.app.AlarmManager$AlarmClockInfo, int, java.lang.String) for 127ms
-02-19 15:40:07.490  1070  1070 W Nearby  : Bind call too late - someone already tried to get: interface bvem [CONTEXT service_id=49 ]
-02-19 15:40:07.510  1920  1920 I droid.dynsyste: The ClassLoaderContext is a special shared library.
-02-19 15:40:07.511   525   563 E GnssLocationProvider: IGnssConfiguration setEsExtensionSec() failed.
-02-19 15:40:07.511   525   563 E GnssConfiguration: Unable to set ES_EXTENSION_SEC: 0
-02-19 15:40:07.519   525   708 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:07.538  1920  1920 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:40:07.539  1920  1920 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:40:07.550   525   701 W BestClock: java.time.DateTimeException: Missing NTP fix
-02-19 15:40:07.561  1534  1534 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:40:07.593   916   916 I Telephony: reRegisterPstnPhoneAccount: subId: 1 - no change
-02-19 15:40:07.598   916   916 D MultiSimSettingController: onCarrierConfigChanged phoneId 0 subId 1
-02-19 15:40:07.598   916   916 D MultiSimSettingController: updateDefaults
-02-19 15:40:07.600   916   916 D MultiSimSettingController: [updateDefaultValues] change: 0
-02-19 15:40:07.631   916   916 D CarrierKeyDownloadManager: Carrier not enabled or invalid values
-02-19 15:40:07.631   916   916 D CarrierKeyDownloadManager: Cleaning up existing renewal alarms
-02-19 15:40:07.676   279   279 D Zygote  : Forked child process 1941
-02-19 15:40:07.731  1941  1941 W com.android.nf: Unexpected CPU variant for X86 using defaults: x86
-02-19 15:40:07.777   395   418 I adbd    : jdwp connection from 1941
-02-19 15:40:07.797   916   916 D OtaspSimStateReceiver: Received intent: android.telephony.action.CARRIER_CONFIG_CHANGED
-02-19 15:40:07.836   916   916 D OtaspSimStateReceiver: otasp activation not needed: no supported carrier
-02-19 15:40:07.877  1941  1941 I com.android.nf: The ClassLoaderContext is a special shared library.
-02-19 15:40:07.928  1910  1910 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
-02-19 15:40:07.952   916   916 I VvmSimStateTracker: android.telephony.action.CARRIER_CONFIG_CHANGED
-02-19 15:40:07.957   916   916 I VvmSimStateTracker: Service connected on ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
-02-19 15:40:07.968   916   916 D TelephonyProvider: subIdString = 1 subId = 1
-02-19 15:40:07.975  1910  1910 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
-02-19 15:40:07.976  1910  1910 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
-02-19 15:40:07.976  1910  1910 I AndroidRuntime: Using default boot image
-02-19 15:40:07.976  1910  1910 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
-02-19 15:40:07.976  1910  1910 I AndroidRuntime: Leaving lock profiling enabled
-02-19 15:40:07.977  1910  1910 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
-02-19 15:40:08.012  1910  1910 W app_process: Could not reserve sentinel fault page
-02-19 15:40:08.012  1910  1910 I app_process: Core platform API reporting enabled, enforcing=false
-02-19 15:40:08.099  1941  1941 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:40:08.099  1941  1941 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:40:08.108   916   916 I RemoteVvmTaskManager: No service to handle ACTION_START_CELL_SERVICE_CONNECTED, ignoring
-02-19 15:40:08.157   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
-02-19 15:40:08.188   525   635 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
-02-19 15:40:08.190   756   756 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
-02-19 15:40:08.190   756   756 D AvrcpMediaPlayerList: Name of package changed: com.android.nfc
-02-19 15:40:08.220   525   525 D WifiService: Remove settings for package:com.android.nfc
-02-19 15:40:08.221   525   704 D WifiConfigManager: Remove all networks for app ApplicationInfo{4dceb67 com.android.nfc}
-02-19 15:40:08.228   776  1633 I PermissionControllerServiceImpl: Updating user sensitive for uid 1027
-02-19 15:40:08.258   279   279 I Zygote  : Process 1941 exited due to signal 9 (Killed)
-02-19 15:40:08.278   525   574 I libprocessgroup: Successfully killed process cgroup uid 1027 pid 1941 in 154ms
-02-19 15:40:08.281   525   704 D WifiConfigStore: Writing to stores completed in 34 ms.
-02-19 15:40:08.281   525   704 I PasspointManager: No app ops listener found for com.android.nfc
-02-19 15:40:08.373  1376  1789 I MediaProvider: Scanned external_primary due to REASON_MOUNTED, found 16 items in 453ms, 0 inserts 0 updates 0 deletes
-02-19 15:40:08.389   776   776 I AutoRevokePermissions: Parsed teamfood setting value: null
-02-19 15:40:08.394   776   776 I AutoRevokePermissions: Parsed teamfood setting value: null
-02-19 15:40:08.395   776   776 I AutoRevokePermissions: scheduleAutoRevokePermissions with frequency 1296000000ms and threshold 7776000000ms
-02-19 15:40:08.398   776   776 I AutoRevokePermissions: user 0 is a profile owner. Running Auto Revoke.
-02-19 15:40:08.399   776   776 I AutoRevokePermissions: Parsed teamfood setting value: null
-02-19 15:40:08.399   916   916 D CarrierSvcBindHelper: No carrier app for: 0
-02-19 15:40:08.457   776   776 I AutoRevokePermissions: onStartJob
-02-19 15:40:08.468   776   776 I AutoRevokePermissions: Skipping auto revoke first run when scheduled by system
-02-19 15:40:08.472   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
-02-19 15:40:08.483   916   916 I VvmSimStateTracker: android.intent.action.BOOT_COMPLETED
-02-19 15:40:08.487   525   563 D AlarmManagerService: Setting time of day to sec=1676821309
-02-19 15:41:49.359  1376  1789 I MediaProvider: End Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
-02-19 15:41:49.401  1070  1082 I .gms.persisten: Background young concurrent copying GC freed 22797(1460KB) AllocSpace objects, 24(1264KB) LOS objects, 35% free, 4572KB/7067KB, paused 3.783ms total 1.018s
-02-19 15:41:49.417  1070  1771 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
-02-19 15:41:49.418   916   916 I VvmSimStateTracker: Service connected on ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
-02-19 15:41:49.502   916   916 I RemoteVvmTaskManager: No service to handle ACTION_START_CELL_SERVICE_CONNECTED, ignoring
-02-19 15:41:49.542  1113  1736 I Auth    : [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
-02-19 15:41:49.545  1070  1968 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:eu.bitfunk.blueprint.mobile.android.app.test flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
-02-19 15:41:49.561   525  1970 I system_server: The ClassLoaderContext is a special shared library.
-02-19 15:41:49.637   525  1970 I chatty  : uid=1000(system) BackgroundDexOp identical 4 lines
-02-19 15:41:49.654   525  1970 I system_server: The ClassLoaderContext is a special shared library.
-02-19 15:41:49.675  1376  1789 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
-02-19 15:41:49.679  1376  1789 W ModernMediaScanner: Failed to visit /system/media: java.nio.file.NoSuchFileException: /system/media
-02-19 15:41:49.691  1113  1736 I Auth    : [SupervisedAccountIntentOperation] This operation is disabled
-02-19 15:41:49.694   525  1970 I system_server: The ClassLoaderContext is a special shared library.
-02-19 15:41:49.758   525  1970 I chatty  : uid=1000(system) BackgroundDexOp identical 2 lines
-02-19 15:41:49.776   525  1970 I system_server: The ClassLoaderContext is a special shared library.
-02-19 15:41:49.808  1113  1251 I Icing   : updateResources: need to parse abvr{com.google.android.gms} [CONTEXT service_id=21 ]
-02-19 15:41:49.832   525  1970 I system_server: The ClassLoaderContext is a special shared library.
-02-19 15:41:49.838   525  1970 I chatty  : uid=1000(system) BackgroundDexOp identical 1 line
-02-19 15:41:49.843   525  1970 I system_server: The ClassLoaderContext is a special shared library.
-02-19 15:41:49.857  1070  1771 W SystemServiceRegistry: No service published for: wifirtt
-02-19 15:41:49.946   279   279 D Zygote  : Forked child process 1981
-02-19 15:41:49.970   525  1970 I system_server: The ClassLoaderContext is a special shared library.
-02-19 15:41:49.997  1981  1981 W m.android.shel: Unexpected CPU variant for X86 using defaults: x86
-02-19 15:41:50.021   395   418 I adbd    : jdwp connection from 1981
-02-19 15:41:50.025  1376  1789 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 0 items in 346ms, 0 inserts 0 updates 0 deletes
-02-19 15:41:50.027  1376  1789 W ModernMediaScanner: Failed to visit /oem/media: java.nio.file.NoSuchFileException: /oem/media
-02-19 15:41:50.029  1376  1789 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 0 items in 2ms, 0 inserts 0 updates 0 deletes
-02-19 15:41:50.031  1376  1789 W ModernMediaScanner: Failed to visit /product/media: java.nio.file.NoSuchFileException: /product/media
-02-19 15:41:50.054   525  1970 I system_server: The ClassLoaderContext is a special shared library.
-02-19 15:41:50.064   525  1970 I chatty  : uid=1000(system) BackgroundDexOp identical 1 line
-02-19 15:41:50.101   525  1970 I system_server: The ClassLoaderContext is a special shared library.
-02-19 15:41:50.153   525  1970 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~3OZ5aDQPzWqI3oYqL68g0A==/eu.bitfunk.blueprint.mobile.android.app-az0fOlmBP6wu_DH7O9WzhA==/base.apk pkg=eu.bitfunk.blueprint.mobile.android.app isa=x86 dexoptFlags=boot_complete,debuggable,public,enable_hidden_api_checks targetFilter=verify oatDir=/data/app/~~3OZ5aDQPzWqI3oYqL68g0A==/eu.bitfunk.blueprint.mobile.android.app-az0fOlmBP6wu_DH7O9WzhA==/oat classLoaderContext=PCL[]{}
-02-19 15:41:50.230   438   450 V installd: DexInv: --- BEGIN '/data/app/~~3OZ5aDQPzWqI3oYqL68g0A==/eu.bitfunk.blueprint.mobile.android.app-az0fOlmBP6wu_DH7O9WzhA==/base.apk' ---
-02-19 15:41:50.245  1981  1981 I m.android.shel: The ClassLoaderContext is a special shared library.
-02-19 15:40:07.960  1910  1910 W app_process: type=1400 audit(0.0:34): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=448 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
-02-19 15:41:50.299  2000  2000 W dex2oat32: Unexpected CPU variant for X86 using defaults: x86
-02-19 15:41:50.301  2000  2000 W dex2oat32: Mismatch between dex2oat instruction set features to use (ISA: X86 Feature string: -ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) and those from CPP defines (ISA: X86 Feature string: ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) for the command line:
-02-19 15:41:50.301  2000  2000 W dex2oat32: /apex/com.android.art/bin/dex2oat32 --zip-fd=7 --zip-location=base.apk --input-vdex-fd=-1 --output-vdex-fd=9 --oat-fd=8 --oat-location=/data/app/~~3OZ5aDQPzWqI3oYqL68g0A==/eu.bitfunk.blueprint.mobile.android.app-az0fOlmBP6wu_DH7O9WzhA==/oat/x86/base.odex --instruction-set=x86 --instruction-set-variant=x86 --instruction-set-features=default --runtime-arg -Xbootclasspath:/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/core-icu4j.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-atb-backward-compatibility.jar --runtime-arg -Xms64m --runtime-arg -Xmx512m --updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt --resolve-startup-const-strings=true --max-image-block-size=524288 --compiler-filter=verify --swap-fd=10 --debuggable --classpath-dir=/data/app/~~3OZ5aDQPzWqI3oYqL68g0A==/eu.bitfunk.blueprint.mobile.android.app-az0fOlmBP6wu_DH7O9WzhA== --class-loader-context=PCL[]{} --generate-mini-debug-info --compact-dex-level=none --runtime-arg -Xtarget-sdk-version:33 --runtime-arg -Xhidden-api-policy:enabled --compilation-reason=boot
-02-19 15:41:50.305  2000  2000 I dex2oat32: /apex/com.android.art/bin/dex2oat32 --input-vdex-fd=-1 --output-vdex-fd=9 --updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt --resolve-startup-const-strings=true --max-image-block-size=524288 --compiler-filter=verify --debuggable --classpath-dir=/data/app/~~3OZ5aDQPzWqI3oYqL68g0A==/eu.bitfunk.blueprint.mobile.android.app-az0fOlmBP6wu_DH7O9WzhA== --class-loader-context=PCL[]{} --generate-mini-debug-info --compact-dex-level=none --compilation-reason=boot
-02-19 15:41:50.310  2000  2000 I dex2oat32: setting boot class path to /apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/core-icu4j.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-atb-backward-compatibility.jar
-02-19 15:41:50.335  1981  1981 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:41:50.336  1981  1981 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:41:50.402  1070  1962 W .gms.persisten: Verification of boolean aanz.b(aaoc) took 142.973ms (6476.75 bytecodes/s) (15296B approximate peak alloc)
-02-19 15:41:50.417  1981  1981 D HeapDumpReceiver: onReceive(): Intent { act=android.intent.action.BOOT_COMPLETED flg=0x89000010 cmp=com.android.shell/.HeapDumpReceiver (has extras) }
-02-19 15:41:50.431  1981  2003 D HeapDumpReceiver: Deleting from /data/user_de/0/com.android.shell/files/heapdumps
-02-19 15:41:50.525  1113  1253 W gle.android.gm: Long monitor contention with owner GoogleApiHandler (1651) at android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean)(ActivityThread.java:6942) waiters=0 in boolean android.app.ActivityThread.releaseProvider(android.content.IContentProvider, boolean) for 428ms
-02-19 15:41:50.526  1113  1251 W gle.android.gm: Long monitor contention with owner GoogleApiHandler (1651) at android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean)(ActivityThread.java:6942) waiters=1 in boolean android.app.ActivityThread.releaseProvider(android.content.IContentProvider, boolean) for 428ms
-02-19 15:41:50.539  1376  1789 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 0 items in 508ms, 0 inserts 0 updates 0 deletes
-02-19 15:40:07.972  1910  1910 W app_process: type=1400 audit(0.0:35): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=448 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
-02-19 15:41:50.586   916   916 I m.android.phon: The ClassLoaderContext is a special shared library.
-02-19 15:41:50.639  1910  1910 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
-02-19 15:41:50.639  1910  1910 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
-02-19 15:41:50.649  1910  1910 W app_process: Unexpected CPU variant for X86 using defaults: x86
-02-19 15:41:50.677   916   916 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:41:50.677   916   916 W nsconfig: com.android.phone: New config does not match the previously set config.
-02-19 15:41:50.705  1113  1736 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:eu.bitfunk.blueprint.mobile.android.app.test flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
-02-19 15:41:50.729  1113  1971 I FontsPackageChangeOp: Package eu.bitfunk.blueprint.mobile.android.app.test has no metadata
-02-19 15:41:50.780   525   571 W Searchables: No global search activity found
-02-19 15:41:50.790  1910  1910 I app_process: The ClassLoaderContext is a special shared library.
-02-19 15:41:50.824  1070  1968 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.google.android.gsf flg=0x45000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
-02-19 15:41:50.955  1910  1910 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
-02-19 15:41:50.962   279   279 D Zygote  : Forked child process 2020
-02-19 15:41:50.980  1910  1910 D AndroidRuntime: Calling main entry com.android.commands.am.Am
-02-19 15:41:51.014  2020  2020 W android.traceu: Unexpected CPU variant for X86 using defaults: x86
-02-19 15:41:51.047  1070  2017 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
-02-19 15:40:07.972  1910  1910 W app_process: type=1400 audit(0.0:36): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=448 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
-02-19 15:41:51.265  1113  1651 E GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
-02-19 15:41:51.352  1376  1789 I MediaProvider: Scanned external_primary due to REASON_MOUNTED, found 16 items in 638ms, 0 inserts 0 updates 0 deletes
-02-19 15:41:51.357  1376  1789 I MediaProvider: End Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
-02-19 15:41:51.408   525   571 W Searchables: No global search activity found
-02-19 15:41:51.410   279   279 D Zygote  : Forked child process 2049
-02-19 15:41:51.442  2049  2049 I ile.android.ap: Late-enabling -Xcheck:jni
-02-19 15:41:51.578   395   418 I adbd    : jdwp connection from 2020
-02-19 15:41:51.583  2049  2049 I ile.android.ap: Unquickening 12 vdex files!
-02-19 15:41:51.594  2049  2049 W ile.android.ap: Unexpected CPU variant for X86 using defaults: x86
-02-19 15:41:51.633  1070  1862 I NearbyMessages: OfflineCache: old scanner cache is not enabled [CONTEXT service_id=62 ]
-02-19 15:41:51.697  2020  2020 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
-02-19 15:41:51.704   395   418 I adbd    : jdwp connection from 2049
-02-19 15:41:51.715  1070  1969 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
-02-19 15:41:51.727  1113  2027 W gle.android.gm: Long monitor contention with owner main (1113) at android.os.Message android.os.MessageQueue.next()(MessageQueue.java:364) waiters=1 in void android.os.MessageQueue.removeMessages(android.os.Handler, java.lang.Runnable, java.lang.Object) for 222ms
-02-19 15:41:51.749  1113  1125 I gle.android.gm: Background young concurrent copying GC freed 18512(1279KB) AllocSpace objects, 29(1348KB) LOS objects, 29% free, 4398KB/6266KB, paused 3.623ms total 1.017s
-02-19 15:41:51.754  2020  2020 I android.traceu: The ClassLoaderContext is a special shared library.
-02-19 15:41:51.771  1070  1716 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.android.nfc flg=0x5000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
-02-19 15:40:07.972  1910  1910 W app_process: type=1400 audit(0.0:37): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=448 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
-02-19 15:41:51.825  1113  1736 I ChromeSync: [Persistence,AffiliationManager] One of affiliation or grouping data for android://aF6g5D-LNT7NghT7sby9jY0kN6ZLoRl_GpVfkt6IkTtYZYsBs8uVzBIeAfvN0fu3hGP17lzRwsA04pqc3Uf8sA==@eu.bitfunk.blueprint.mobile.android.app.test/ was not found. Marking affiliation data as stale...
-02-19 15:41:51.885  2020  2020 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:41:51.886  2020  2020 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:41:51.902  1070  1248 I NetworkScheduler: Using standalone scheduling engine
-02-19 15:41:52.007  1070  1862 W NearbyMessages: Runnable[subscribe] was delayed for 00:03.820 [CONTEXT service_id=62 ]
-02-19 15:41:52.027  2049  2049 I ile.android.ap: The ClassLoaderContext is a special shared library.
-02-19 15:41:52.100  2049  2049 I chatty  : uid=10075(eu.bitfunk.blueprint.mobile.android.app) identical 1 line
-02-19 15:41:52.102  2049  2049 I ile.android.ap: The ClassLoaderContext is a special shared library.
-02-19 15:41:52.112  1113  2027 I Auth    : [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
-02-19 15:41:52.112  1113  2027 I Auth    : [SupervisedAccountIntentOperation] This operation is disabled
-02-19 15:41:52.113  1113  2027 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:eu.bitfunk.blueprint.mobile.android.app flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
-02-19 15:41:52.120  1113  2019 I FontsPackageChangeOp: Package eu.bitfunk.blueprint.mobile.android.app has no metadata
-02-19 15:41:52.258  1113  2027 I ChromeSync: [Persistence,AffiliationManager] One of affiliation or grouping data for android://aF6g5D-LNT7NghT7sby9jY0kN6ZLoRl_GpVfkt6IkTtYZYsBs8uVzBIeAfvN0fu3hGP17lzRwsA04pqc3Uf8sA==@eu.bitfunk.blueprint.mobile.android.app/ was not found. Marking affiliation data as stale...
-02-19 15:41:52.287   525   635 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
-02-19 15:41:52.318   756   756 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
-02-19 15:41:52.355   525   635 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
-02-19 15:41:52.358   756   756 D AvrcpMediaPlayerList: Name of package changed: com.android.stk
-02-19 15:41:52.359   756   756 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
-02-19 15:41:52.359   756   756 D AvrcpMediaPlayerList: Name of package changed: com.android.traceur
-02-19 15:41:52.417  1070  1962 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:eu.bitfunk.blueprint.mobile.android.app.test flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
-02-19 15:41:52.470  1070  1962 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:eu.bitfunk.blueprint.mobile.android.app flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
-02-19 15:41:52.473  1070  1962 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:eu.bitfunk.blueprint.mobile.android.app flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
-02-19 15:41:52.563   916   916 D CarrierSvcBindHelper: No carrier app for: 0
-02-19 15:41:52.657   525   870 D SntpClient: request time failed: java.net.SocketTimeoutException: Poll timed out
-02-19 15:41:52.690  1070  1882 I NearbyMediums: BluetoothAdapter's name was not set by Nearby Connections, ignoring call to restore device name [CONTEXT service_id=54 ]
-02-19 15:41:52.704  1113  2027 I ChimeraCfgMgr: Sending com.google.android.chimera.IntentOperation.NEW_MODULE Intents: 2,true,true
-02-19 15:41:52.755  1113  1125 I gle.android.gm: Background concurrent copying GC freed 32793(1976KB) AllocSpace objects, 6(248KB) LOS objects, 49% free, 4377KB/8754KB, paused 1.524ms total 494.408ms
-02-19 15:41:52.756   525   535 I system_server: Background young concurrent copying GC freed 147248(7687KB) AllocSpace objects, 28(1688KB) LOS objects, 41% free, 10MB/18MB, paused 36.058ms total 660.859ms
-02-19 15:41:52.811   916   916 D CarrierSvcBindHelper: No carrier app for: 0
-02-19 15:41:52.921  1113  2009 D SharedPreferencesImpl: Time required to fsync /data/user_de/0/com.google.android.gms/shared_prefs/gservices-direboot-cache.xml: [<1: 0, <2: 0, <4: 0, <8: 0, <16: 0, <32: 0, <64: 0, <128: 0, <256: 0, <512: 1, <1024: 0, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
-02-19 15:41:53.003   776  1112 I PermissionControllerServiceImpl: Updating user sensitive for uid 1001
-02-19 15:41:53.005   776  1112 I PermissionControllerServiceImpl: Updating user sensitive for uid 10053
-02-19 15:41:53.109   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
-02-19 15:41:53.341  1070  1082 I .gms.persisten: Background concurrent copying GC freed 35686(1923KB) AllocSpace objects, 4(208KB) LOS objects, 49% free, 5033KB/10067KB, paused 191.232ms total 716.844ms
-02-19 15:41:53.380  1070  1084 W System  : A resource failed to call close. 
-02-19 15:41:53.393   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
-02-19 15:41:53.690   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
-02-19 15:41:53.697   756   756 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
-02-19 15:41:53.697   756   756 D AvrcpMediaPlayerList: Name of package changed: com.google.android.gms
-02-19 15:41:53.712  2049  2063 I ile.android.ap: Background young concurrent copying GC freed 15311(699KB) AllocSpace objects, 0(0B) LOS objects, 93% free, 1693KB/25MB, paused 1.655ms total 124.408ms
-02-19 15:41:53.823   525   635 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
-02-19 15:41:53.895   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
-02-19 15:41:53.908   776  1112 I PermissionControllerServiceImpl: Updating user sensitive for uid 10057
-02-19 15:41:53.932   916   916 D CarrierSvcBindHelper: No carrier app for: 0
-02-19 15:41:53.933   525   571 W Searchables: No global search activity found
-02-19 15:41:53.994  1070  1596 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=LOW_LATENCY, callbackType=ALL_MATCHES, reportDelayMillis=0, 5 filters, 1 clients, callingClientName=Nearby] [CONTEXT service_id=111 ]
-02-19 15:41:54.006  1070  1771 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
-02-19 15:41:54.061  1113  1253 W gle.android.gm: Long monitor contention with owner [com.google.android.gms.chimera.GmsIntentOperationService$ChimeraService-Executor] processing qgf for action android.intent.action.BOOT_COMPLETED (2027) at cxe ctb.a(csv)(:com.google.android.gms@201817022@20.18.17 (040700-311416286):79) waiters=0 in cxe ctb.a(csv) for 1.373s
-02-19 15:41:54.113   525   571 W Searchables: No global search activity found
-02-19 15:41:54.189  1113  2027 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.car [CONTEXT service_id=231 ]
-02-19 15:41:54.255  1070  2093 W ProviderHelper: Unknown dynamite feature providerinstaller
-02-19 15:41:54.310  1070  2093 I DynamiteModule: Considering local module providerinstaller:0 and remote module providerinstaller:0
-02-19 15:41:54.311  1070  2093 I DynamiteModule: Considering local module providerinstaller:0 and remote module providerinstaller:0
-02-19 15:41:54.345  1113  2027 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
-02-19 15:41:54.347  1113  2027 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
-02-19 15:41:54.371  1070  2093 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
-02-19 15:41:54.378  1113  2027 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
-02-19 15:41:54.453  1340  1352 I ocess.gservice: Background concurrent copying GC freed 21612(772KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2170KB/4341KB, paused 1.542ms total 123.489ms
-02-19 15:41:54.474   525   571 W Searchables: No global search activity found
-02-19 15:41:54.519  1113  2027 D HostConnection: HostConnection::get() New Host Connection established 0xee7c6360, tid 2027
-02-19 15:41:54.568  1070  2076 W anjr    : Phenotype platform registration failed for com.google.android.gms.settings.platform [CONTEXT service_id=204 ]
-02-19 15:41:54.568  1070  2076 W anjr    : java.util.concurrent.TimeoutException: Timed out waiting for Task
-02-19 15:41:54.568  1070  2076 W anjr    : 	at auct.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):22)
-02-19 15:41:54.568  1070  2076 W anjr    : 	at anjr.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):10)
-02-19 15:41:54.568  1070  2076 W anjr    : 	at anjr.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):3)
-02-19 15:41:54.568  1070  2076 W anjr    : 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.d(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
-02-19 15:41:54.568  1070  2076 W anjr    : 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.c(:com.google.android.gms@201817022@20.18.17 (040700-311416286):1)
-02-19 15:41:54.568  1070  2076 W anjr    : 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):16)
-02-19 15:41:54.568  1070  2076 W anjr    : 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
-02-19 15:41:54.568  1070  2076 W anjr    : 	at qgf.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):4)
-02-19 15:41:54.568  1070  2076 W anjr    : 	at cui.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):5)
-02-19 15:41:54.568  1070  2076 W anjr    : 	at cuh.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):9)
-02-19 15:41:54.568  1070  2076 W anjr    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-02-19 15:41:54.568  1070  2076 W anjr    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-02-19 15:41:54.568  1070  2076 W anjr    : 	at java.lang.Thread.run(Thread.java:923)
-02-19 15:41:54.630  2049  2049 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
-02-19 15:41:54.631  2049  2049 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
-02-19 15:41:54.677  1070  1596 I BeaconBle: 'L' hardware scan: 5 filters, scanMode=2, reportdelay=0, callback type=1, #clients=1, workSource=WorkSource{10057 com.google.android.gms} [CONTEXT service_id=111 ]
-02-19 15:41:54.678  1070  1596 I BeaconBle: Starting scan on OS scanner. BT state: 12 [CONTEXT service_id=111 ]
-02-19 15:41:54.678  1070  1596 D BluetoothAdapter: isLeEnabled(): ON
-02-19 15:41:54.709  2049  2049 I ile.android.ap: The ClassLoaderContext is a special shared library.
-02-19 15:41:54.716  2049  2049 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
-02-19 15:41:54.716  2049  2049 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
-02-19 15:41:54.717  2049  2049 I ile.android.ap: The ClassLoaderContext is a special shared library.
-02-19 15:41:54.720  2049  2049 I ile.android.ap: The ClassLoaderContext is a special shared library.
-02-19 15:41:54.722  1113  2027 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
-02-19 15:41:54.724  2049  2049 I ile.android.ap: The ClassLoaderContext is a special shared library.
-02-19 15:41:54.725  2049  2049 I ile.android.ap: The ClassLoaderContext is a special shared library.
-02-19 15:41:54.726   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
-02-19 15:41:54.727  1113  2027 D EGL_emulation: eglCreateContext: 0xee7c7c50: maj 1 min 0 rcv 1
-02-19 15:41:54.737  1113  2027 D EGL_emulation: eglMakeCurrent: 0xee7c7c50: ver 1 0 (tinfo 0xeeb19830) (first time)
-02-19 15:41:54.738  1113  2027 D EGL_emulation: eglMakeCurrent: 0xee7c7c50: ver 1 0 (tinfo 0xeeb19830) (first time)
-02-19 15:41:54.740  1113  2027 D EGL_emulation: eglCreateContext: 0xee7c7c50: maj 3 min 0 rcv 3
-02-19 15:41:54.780  1070  1862 I NearbyMessages: ReportRpcManager:  Skipping some call, returning cached messages for beacon IDs and URLs: {} [CONTEXT service_id=62 ]
-02-19 15:41:54.791  1070  1070 I GeofencerStateMachine: sendQueryLocationOptIn
-02-19 15:41:54.797  1070  1969 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.android.stk flg=0x45000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
-02-19 15:41:54.873   756   989 I bt_stack: [INFO:gatt_api.cc(947)] GATT_Register 125bd6a1-ede1-acda-04fd-30b0209b3f14
-02-19 15:41:54.873   756   989 I bt_stack: [INFO:gatt_api.cc(967)] allocated gatt_if=5
-02-19 15:41:54.876  1113  1251 I Icing   : Not sending global search app notification. Search app not installed or not signed properly. [CONTEXT service_id=21 ]
-02-19 15:41:54.877  1070  2104 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=5 mScannerId=0
-02-19 15:41:54.955  1113  2027 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.games [CONTEXT service_id=231 ]
-02-19 15:41:54.988  1070  1886 W .gms.persisten: Long monitor contention with owner GCMWriter (2093) at boolean android.app.ActivityThread.releaseProvider(android.content.IContentProvider, boolean)(ActivityThread.java:7029) waiters=0 in android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean) for 221ms
-02-19 15:41:54.996  1113  2027 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.mobile_data_plan [CONTEXT service_id=231 ]
-02-19 15:41:55.005  1113  2027 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.signin [CONTEXT service_id=231 ]
-02-19 15:41:55.006  1113  2027 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.udc [CONTEXT service_id=231 ]
-02-19 15:41:55.092  1070  1070 I GeofencerStateMachine: sendQueryLocationOptIn
-02-19 15:41:55.155  1070  2093 E GCM     : Missing checkin config file
-02-19 15:41:55.163  1070  2093 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
-02-19 15:41:55.180  1070  2093 E GCM     : Missing checkin config file
-02-19 15:41:55.180  1070  2093 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
-02-19 15:41:55.277   756  1042 W UnsafeUtil: platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: sun.misc.Unsafe.copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
-02-19 15:41:55.324  1981  2001 I m.android.shel: Waiting for a blocking GC ProfileSaver
-02-19 15:41:55.345  1981  2001 I m.android.shel: WaitForGcToComplete blocked ProfileSaver on RunEmptyCheckpoint for 20.268ms
-02-19 15:41:55.392  1113  1251 I Icing   : Internal init done: storage state 0 [CONTEXT service_id=21 ]
-02-19 15:41:55.560  1070  2093 E WakeLock: GCM_HB_ALARM release without a matched acquire!
-02-19 15:41:55.560  1070  2093 W WakeLock: GCM_HB_ALARM counter does not exist
-02-19 15:41:55.675  1113  1251 I Icing   : Indexing com.google.android.gms-sms from com.google.android.gms [CONTEXT service_id=21 ]
-02-19 15:41:55.687  1070  2112 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
-02-19 15:41:55.766  1070  1969 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.android.traceur flg=0x45000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
-02-19 15:41:55.768  1070  1716 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
-02-19 15:41:55.820  1070  1882 I anhw    : Scheduling Phenotype for a PhenotypeSyncImmediately(6, com.google.android.gms.settings.platform) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
-02-19 15:41:55.840  1070  1850 I anhw    : Scheduling Phenotype for a PhenotypeSyncImmediately(6, com.google.android.gms.settings.platform.boot) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
-02-19 15:41:56.010  1070  1969 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
-02-19 15:41:56.041  1070  1716 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.google.android.gms flg=0x45000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
-02-19 15:41:56.077  1070  2112 E GCM     : Missing checkin config file
-02-19 15:41:56.077  1070  2112 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
-02-19 15:41:56.085  1070  1969 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.android.nfc flg=0x5000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
-02-19 15:41:56.117  1070  2112 E GCM     : Missing checkin config file
-02-19 15:41:56.117  1070  2112 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
-02-19 15:41:56.127  1113  1782 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36 [CONTEXT service_id=21 ]
-02-19 15:41:56.151   286   987 I bt      : system/bt/vendor_libs/test_vendor_lib/model/devices/scripted_beacon.cc:113 set_state: Events file not opened yet, for event: 2
-02-19 15:41:56.153   286   987 I bt      : system/bt/vendor_libs/test_vendor_lib/model/devices/scripted_beacon.cc:113 set_state: Events file not opened yet, for event: 3
-02-19 15:41:56.163  1113  1337 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=IpaAppsCorpus serviceId=32 [CONTEXT service_id=21 ]
-02-19 15:41:56.169  1070  2112 E WakeLock: GCM_HB_ALARM release without a matched acquire!
-02-19 15:41:56.169  1070  2112 W WakeLock: GCM_HB_ALARM counter does not exist
-02-19 15:41:56.179   864  1776 D NetworkMonitor/101: Forcing reevaluation for UID 10057. Dns signal count: 0
-02-19 15:41:56.246  1070  1716 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
-02-19 15:41:56.278  1070  1968 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
-02-19 15:41:56.300   864  2120 D NetworkMonitor/101: PROBE_DNS connectivitycheck.gstatic.com 89ms OK 142.250.217.67,2607:f8b0:400a:801::2003
-02-19 15:41:56.323  1113  1782 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30 [CONTEXT service_id=21 ]
-02-19 15:41:56.327   864  2119 D NetworkMonitor/101: PROBE_DNS www.google.com 135ms OK 142.250.69.196,2607:f8b0:400a:806::2004
-02-19 15:41:56.412  1070  1778 I NearbyDiscovery: Show notifications: 0 total, no changes since last shown, no-op. [CONTEXT service_id=49 ]
-02-19 15:41:56.429   864  2120 D NetworkMonitor/101: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=124ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Sun, 19 Feb 2023 15:41:57 GMT], X-Android-Received-Millis=[1676821316428], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1676821316421]}
-02-19 15:41:56.459  1113  1251 I Icing   : Indexing done com.google.android.gms-sms [CONTEXT service_id=21 ]
-02-19 15:41:56.576  1113  1251 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
-02-19 15:41:56.624   864  2119 D NetworkMonitor/101: PROBE_HTTPS https://www.google.com/generate_204 time=287ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Sun, 19 Feb 2023 15:41:57 GMT], X-Android-Received-Millis=[1676821316622], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1676821316611]}
-02-19 15:41:56.628   864  2118 D NetworkMonitor/101: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=445ms
-02-19 15:41:56.696  1113  1125 I gle.android.gm: Background young concurrent copying GC freed 37573(2468KB) AllocSpace objects, 24(1184KB) LOS objects, 42% free, 5072KB/8754KB, paused 1.759ms total 191.520ms
-02-19 15:41:56.830  1113  1317 I Icing   : Query from package: com.google.android.gms, component: IpaAppsCorpus, restrict package: com.google.android.gms, start: 0, num: 100 maxNumSlices: 2147483647 [CONTEXT service_id=21 ]
-02-19 15:41:56.907  1070  1850 E AsyncOperation: serviceID=51, operation=GetExperimentTokensOperationCall
-02-19 15:41:56.907  1070  1850 E AsyncOperation: OperationException[Status{statusCode=No config packages for log source, or config package not registered, resolution=null}]
-02-19 15:41:56.907  1070  1850 E AsyncOperation: 	at angh.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):92)
-02-19 15:41:56.907  1070  1850 E AsyncOperation: 	at angh.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):77)
-02-19 15:41:56.907  1070  1850 E AsyncOperation: 	at zus.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):10)
-02-19 15:41:56.907  1070  1850 E AsyncOperation: 	at blot.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
-02-19 15:41:56.907  1070  1850 E AsyncOperation: 	at sji.b(:com.google.android.gms@201817022@20.18.17 (040700-311416286):12)
-02-19 15:41:56.907  1070  1850 E AsyncOperation: 	at sji.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):7)
-02-19 15:41:56.907  1070  1850 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-02-19 15:41:56.907  1070  1850 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-02-19 15:41:56.907  1070  1850 E AsyncOperation: 	at spj.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):0)
-02-19 15:41:56.907  1070  1850 E AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
-02-19 15:41:57.264  1070  1882 W .gms.persisten: Long monitor contention with owner highpool[2] (1850) at android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean)(ActivityThread.java:6942) waiters=0 in android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean) for 273ms
-02-19 15:41:57.350  2049  2049 W ile.android.ap: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
-02-19 15:41:57.350  2049  2049 W ile.android.ap: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
-02-19 15:41:57.441  2049  2049 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:41:57.442  2049  2049 D NetworkSecurityConfig: No Network Security Config specified, using platform default
-02-19 15:41:57.442  2049  2049 I MonitoringInstr: newApplication called!
-02-19 15:41:57.542  1070  2076 I anjv    : updateFromConfigurations using legacy put method [CONTEXT service_id=204 ]
-02-19 15:41:57.577  2049  2049 I MonitoringInstr: Instrumentation started!
-02-19 15:41:57.583  1113  1125 I gle.android.gm: Background young concurrent copying GC freed 49082(3814KB) AllocSpace objects, 2(104KB) LOS objects, 37% free, 5443KB/8754KB, paused 15.112ms total 277.065ms
-02-19 15:41:57.661  1113  1254 D SharedPreferencesImpl: Time required to fsync /data/user/0/com.google.android.gms/shared_prefs/AppDataSearch-main-config.xml: [<1: 0, <2: 0, <4: 0, <8: 0, <16: 5, <32: 3, <64: 2, <128: 0, <256: 0, <512: 0, <1024: 0, <2048: 1, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
-02-19 15:41:57.662  1113  1113 W gle.android.gm: Long monitor contention with owner queued-work-looper (1254) at void android.app.QueuedWork.processPendingWork()(QueuedWork.java:272) waiters=0 in void android.app.QueuedWork.processPendingWork() for 514ms
-02-19 15:41:57.662  1113  1113 D QueuedWork: waited: [<1: 0, <2: 14, <4: 1, <8: 0, <16: 2, <32: 1, <64: 1, <128: 2, <256: 0, <512: 0, <1024: 1, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
-02-19 15:41:57.703  2049  2049 I AndroidJUnitRunner: onCreate Bundle[{testTimeoutSeconds=31536000, additionalTestOutputDir=/sdcard/Android/media/eu.bitfunk.blueprint.mobile.android.app/additional_test_output}]
-02-19 15:41:57.715  2049  2049 V TestEventClient: No service name argument was given (testDiscoveryService, testRunEventService or orchestratorService)
-02-19 15:41:57.749  2049  2138 D AndroidJUnitRunner: onStart is called.
-02-19 15:41:57.750  2049  2049 I MonitoringInstr: No JSBridge.
-02-19 15:41:57.785  1113  1251 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
-02-19 15:41:57.786  1113  1251 I Icing   : Indexing com.google.android.gms-contacts_contact_id from com.google.android.gms [CONTEXT service_id=21 ]
-02-19 15:41:57.796  1113  1251 I Icing   : Indexing done com.google.android.gms-contacts_contact_id [CONTEXT service_id=21 ]
-02-19 15:41:57.820  1070  1265 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
-02-19 15:41:57.847  1113  1251 I Icing   : Indexing com.google.android.gms-emails_data_id from com.google.android.gms [CONTEXT service_id=21 ]
-02-19 15:41:57.867  2049  2138 D TestRequestBuilder: Using class path scanning to discover tests
-02-19 15:41:57.868  2049  2138 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/~~oWOmo7CUyFGribpymtxApQ==/eu.bitfunk.blueprint.mobile.android.app.test-T34cZKetttCwzN7pWpjvcQ==/base.apk]
-02-19 15:41:57.870  1113  1251 I Icing   : Indexing done com.google.android.gms-emails_data_id [CONTEXT service_id=21 ]
-02-19 15:41:57.871  2049  2138 W ile.android.ap: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
-02-19 15:41:57.885  1113  1251 I Icing   : Indexing com.google.android.gms-phones_data_id from com.google.android.gms [CONTEXT service_id=21 ]
-02-19 15:41:57.938  1113  2019 E MagicTether: [MagicTetherInitializer] Invalid account list.
-02-19 15:41:58.151  1070  1265 I GCoreUlr: WorldUpdater:android.location.PROVIDERS_CHANGED: Ensuring that reporting is stopped because of reasons: (no Google accounts)
-02-19 15:41:58.214   525   635 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
-02-19 15:41:58.218   525   571 W Searchables: No global search activity found
-02-19 15:41:58.218   756   756 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
-02-19 15:41:58.219   756   756 D AvrcpMediaPlayerList: Name of package changed: com.google.android.gms
-02-19 15:41:58.245   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
-02-19 15:41:58.586   525   525 W system_server: Long monitor contention with owner android.fg (563) at int com.android.server.am.ActivityManagerService.bindIsolatedService(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, int, java.lang.String, java.lang.String, int)(ActivityManagerService.java:15183) waiters=4 in int com.android.server.am.ActivityManagerService.getUidState(int) for 117ms
-02-19 15:41:58.599   776  1112 I PermissionControllerServiceImpl: Updating user sensitive for uid 10057
-02-19 15:41:58.818   916   916 D CarrierSvcBindHelper: No carrier app for: 0
-02-19 15:41:58.895   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
-02-19 15:41:58.902  1070  1778 E NearbyDiscovery: DiscoveryNearbyMessagesManager failed to background subscribe [CONTEXT service_id=49 ]
-02-19 15:41:58.902  1070  1778 E NearbyDiscovery: java.util.concurrent.TimeoutException: Timed out waiting for Task
-02-19 15:41:58.902  1070  1778 E NearbyDiscovery: 	at auct.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):22)
-02-19 15:41:58.902  1070  1778 E NearbyDiscovery: 	at ahoi.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):23)
-02-19 15:41:58.902  1070  1778 E NearbyDiscovery: 	at ahnz.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):3)
-02-19 15:41:58.902  1070  1778 E NearbyDiscovery: 	at buwi.handleMessage(:com.google.android.gms@201817022@20.18.17 (040700-311416286):6)
-02-19 15:41:58.902  1070  1778 E NearbyDiscovery: 	at android.os.Handler.dispatchMessage(Handler.java:106)
-02-19 15:41:58.902  1070  1778 E NearbyDiscovery: 	at adxm.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
-02-19 15:41:58.902  1070  1778 E NearbyDiscovery: 	at adxm.dispatchMessage(:com.google.android.gms@201817022@20.18.17 (040700-311416286):14)
-02-19 15:41:58.902  1070  1778 E NearbyDiscovery: 	at android.os.Looper.loop(Looper.java:223)
-02-19 15:41:58.902  1070  1778 E NearbyDiscovery: 	at android.os.HandlerThread.run(HandlerThread.java:67)
-02-19 15:41:58.907  1070  1778 I NearbyDiscovery: Show notifications: 0 total, no changes since last shown, no-op. [CONTEXT service_id=49 ]
-02-19 15:41:58.993  1070  1265 I GCoreUlr: Unbound from all signal providers.
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: Could not load class: io.mockk.proxy.jvm.transformation.InliningClassTransformer
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: java.lang.ClassNotFoundException: io.mockk.proxy.jvm.transformation.InliningClassTransformer
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at java.lang.Class.classForName(Native Method)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at java.lang.Class.forName(Class.java:454)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at androidx.test.internal.runner.ScanningTestLoader.doCreateRunner(ScanningTestLoader.java:45)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:835)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:650)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:418)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: Caused by: java.lang.ClassNotFoundException: io.mockk.proxy.jvm.transformation.InliningClassTransformer
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at java.lang.VMClassLoader.findLoadedClass(Native Method)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:738)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:363)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	... 8 more
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: Caused by: java.lang.NoClassDefFoundError: Failed resolution of: Ljava/lang/instrument/ClassFileTransformer;
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	... 8 more
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: Caused by: java.lang.ClassNotFoundException: Didn't find class "java.lang.instrument.ClassFileTransformer" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/system/framework/android.test.base.jar", zip file "/data/app/~~oWOmo7CUyFGribpymtxApQ==/eu.bitfunk.blueprint.mobile.android.app.test-T34cZKetttCwzN7pWpjvcQ==/base.apk", zip file "/data/app/~~3OZ5aDQPzWqI3oYqL68g0A==/eu.bitfunk.blueprint.mobile.android.app-az0fOlmBP6wu_DH7O9WzhA==/base.apk"],nativeLibraryDirectories=[/data/app/~~oWOmo7CUyFGribpymtxApQ==/eu.bitfunk.blueprint.mobile.android.app.test-T34cZKetttCwzN7pWpjvcQ==/lib/x86, /data/app/~~3OZ5aDQPzWqI3oYqL68g0A==/eu.bitfunk.blueprint.mobile.android.app-az0fOlmBP6wu_DH7O9WzhA==/lib/x86, /system/lib, /system_ext/lib]]
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:207)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
-02-19 15:41:59.003  2049  2138 W ScanningTestLoader: 	... 8 more
-02-19 15:41:59.037  1113  1251 I Icing   : Indexing done com.google.android.gms-phones_data_id [CONTEXT service_id=21 ]
-02-19 15:41:59.039  1113  1251 I Icing   : Indexing com.google.android.gms-postals_data_id from com.google.android.gms [CONTEXT service_id=21 ]
-02-19 15:41:59.125  1113  2009 I SystemUpdate: [Installation,ReceiverIntentOperation] Received intent: Intent { act=android.intent.action.TIME_SET flg=0x25200010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver }.
-02-19 15:41:59.166  1070  2154 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
-02-19 15:41:59.252  1113  2019 I Auth    : [WorkAccount] update authenticator enabled for boot or update
-02-19 15:41:59.294  1070  1070 I GeofencerStateMachine: sendQueryLocationOptIn
-02-19 15:41:59.301  1070  2154 E GCM     : Missing checkin config file
-02-19 15:41:59.302  1070  2154 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
-02-19 15:41:59.306  1070  2154 E GCM     : Missing checkin config file
-02-19 15:41:59.306  1070  2154 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
-02-19 15:41:59.330   525  1965 W system_server: Long monitor contention with owner Binder:525_4 (615) at void com.android.server.AlarmManagerService.setImpl(int, long, long, long, android.app.PendingIntent, android.app.IAlarmListener, java.lang.String, int, android.os.WorkSource, android.app.AlarmManager$AlarmClockInfo, int, java.lang.String)(AlarmManagerService.java:1784) waiters=0 in void com.android.server.AlarmManagerService.setImpl(int, long, long, long, android.app.PendingIntent, android.app.IAlarmListener, java.lang.String, int, android.os.WorkSource, android.app.AlarmManager$AlarmClockInfo, int, java.lang.String) for 135ms
-02-19 15:41:59.344  1070  2154 E WakeLock: GCM_HB_ALARM release without a matched acquire!
-02-19 15:41:59.345  1070  2154 W WakeLock: GCM_HB_ALARM counter does not exist
-02-19 15:41:59.349  1070  2161 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
-02-19 15:41:59.399  1070  1070 I GeofencerStateMachine: sendQueryLocationOptIn
-02-19 15:41:59.401  1070  2161 E GCM     : Missing checkin config file
-02-19 15:41:59.401  1070  2161 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
-02-19 15:41:59.405  1070  2161 E GCM     : Missing checkin config file
-02-19 15:41:59.405  1070  2161 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
-02-19 15:41:59.461  1070  2161 E WakeLock: GCM_HB_ALARM release without a matched acquire!
-02-19 15:41:59.461  1070  2161 W WakeLock: GCM_HB_ALARM counter does not exist
-02-19 15:41:59.465  2049  2138 D AndroidJUnitRunner: Use the raw file system for managing file I/O.
-02-19 15:41:59.501  2049  2138 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
-02-19 15:41:59.503  2049  2138 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
-02-19 15:41:59.503  2049  2138 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
-02-19 15:41:59.503  2049  2138 D TestExecutor: Adding listener androidx.test.internal.runner.listener.TraceRunListener
-02-19 15:41:59.515  2049  2138 I TestRunner: run started: 1 tests
-02-19 15:41:59.520   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
-02-19 15:41:59.523  2049  2138 I TestRunner: started: useAppContext(eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest)
-02-19 15:41:59.592   864  1776 D NetworkMonitor/101: Forcing reevaluation for UID 10057. Dns signal count: 0
-02-19 15:41:59.633  1113  2009 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
-02-19 15:41:59.688   776  1266 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
-02-19 15:41:59.699   525   635 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
-02-19 15:41:59.701   756   756 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
-02-19 15:41:59.701   756   756 D AvrcpMediaPlayerList: Name of package changed: com.google.android.gms
-02-19 15:41:59.726  1070  2076 W anjv    : Committing snapshot for com.google.android.gms.settings.platform failed [CONTEXT service_id=204 ]
-02-19 15:41:59.726  1070  2076 W anjv    : java.util.concurrent.TimeoutException: Timed out waiting for Task
-02-19 15:41:59.726  1070  2076 W anjv    : 	at auct.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):22)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at anjv.b(:com.google.android.gms@201817022@20.18.17 (040700-311416286):20)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at anjv.b(:com.google.android.gms@201817022@20.18.17 (040700-311416286):18)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at anjv.d(:com.google.android.gms@201817022@20.18.17 (040700-311416286):5)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):5)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):16)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at qgf.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):4)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at cui.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):5)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at cuh.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):9)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-02-19 15:41:59.726  1070  2076 W anjv    : 	at java.lang.Thread.run(Thread.java:923)
-02-19 15:41:59.742   525   615 W system_server: Long monitor contention with owner Binder:525_1 (560) at void com.android.server.am.ActivityManagerService.notifyPackageUse(java.lang.String, int)(ActivityManagerService.java:3134) waiters=1 in android.content.ComponentName com.android.server.am.ActivityManagerService.startService(android.app.IApplicationThread, android.content.Intent, java.lang.String, boolean, java.lang.String, java.lang.String, int) for 200ms
-02-19 15:41:59.745   525  1439 W system_server: Long monitor contention with owner Binder:525_1 (560) at void com.android.server.am.ActivityManagerService.notifyPackageUse(java.lang.String, int)(ActivityManagerService.java:3134) waiters=4 in java.lang.String com.android.server.am.ActivityManagerService.getTagForIntentSender(android.content.IIntentSender, java.lang.String) for 137ms
-02-19 15:41:59.750  1070  1968 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.google.android.gms flg=0x45000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
-02-19 15:41:59.813   864  2167 D NetworkMonitor/101: PROBE_DNS www.google.com 147ms OK 142.250.69.196,2607:f8b0:400a:806::2004
-02-19 15:41:59.826  2049  2138 I TestRunner: finished: useAppContext(eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest)
-02-19 15:41:59.838  1070  1265 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
-02-19 15:41:59.838  1070  1596 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 5 filters, 1 clients, callingClientName=Nearby] [CONTEXT service_id=111 ]
-02-19 15:41:59.845  1070  1265 I GCoreUlr: WorldUpdater:android.location.PROVIDERS_CHANGED: Ensuring that reporting is stopped because of reasons: (no Google accounts)
-02-19 15:41:59.859  2049  2138 I TestRunner: run finished: 1 tests, 0 failed, 0 ignored
-02-19 15:41:59.886   864  2168 D NetworkMonitor/101: PROBE_DNS connectivitycheck.gstatic.com 230ms OK 142.250.217.67,2607:f8b0:400a:801::2003
-02-19 15:41:59.891  1070  1082 I .gms.persisten: ThreadFlipBegin blocked for 8.347ms
-02-19 15:41:59.905   864  2167 D NetworkMonitor/101: PROBE_HTTPS https://www.google.com/generate_204 time=72ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Sun, 19 Feb 2023 15:42:00 GMT], X-Android-Received-Millis=[1676821319902], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1676821319895]}
-02-19 15:41:59.907   864  2166 D NetworkMonitor/101: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=287ms
-02-19 15:41:59.950   525  1049 I system_server: IncrementDisableThreadFlip blocked for 59.948ms
-02-19 15:41:59.952   525  1965 I system_server: IncrementDisableThreadFlip blocked for 60.358ms
-02-19 15:41:59.952   525   806 I system_server: IncrementDisableThreadFlip blocked for 54.885ms
-02-19 15:41:59.953   525   616 I system_server: IncrementDisableThreadFlip blocked for 46.025ms
-02-19 15:41:59.954   525   563 I system_server: IncrementDisableThreadFlip blocked for 43.847ms
-02-19 15:41:59.958   525  2175 I system_server: IncrementDisableThreadFlip blocked for 7.613ms
-02-19 15:41:59.966   864  2168 D NetworkMonitor/101: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=67ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Sun, 19 Feb 2023 15:42:00 GMT], X-Android-Received-Millis=[1676821319947], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1676821319937]}
-02-19 15:41:59.995   525   560 W system_server: Long monitor contention with owner android.fg (563) at void com.android.server.am.ActivityManagerService.notifyPackageUse(java.lang.String, int)(ActivityManagerService.java:3134) waiters=5 in void com.android.server.am.ActivityManagerService.serviceDoneExecuting(android.os.IBinder, int, int, int) for 230ms
-02-19 15:42:00.042  1910  1910 D AndroidRuntime: Shutting down VM
-02-19 15:42:00.165  1070  1596 W .gms.persisten: Long monitor contention with owner lowpool[0] (1163) at android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean)(ActivityThread.java:6942) waiters=0 in android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean) for 110ms
-02-19 15:42:00.208   916   916 D CarrierSvcBindHelper: No carrier app for: 0
-02-19 15:42:00.212   776  1112 I PermissionControllerServiceImpl: Updating user sensitive for uid 10057
-02-19 15:42:00.269   279   279 I Zygote  : Process 2049 exited due to signal 9 (Killed)
-02-19 15:42:00.288   525   574 I libprocessgroup: Successfully killed process cgroup uid 10075 pid 2049 in 210ms
-02-19 15:42:00.339  1070  2171 I Auth    : [Change,AccountsChange] First snapshot
-02-19 15:42:00.347  1113  1251 I Icing   : Indexing done com.google.android.gms-postals_data_id [CONTEXT service_id=21 ]
-02-19 15:42:00.406  1070  1265 I GCoreUlr: Unbound from all signal providers.
-02-19 15:42:00.451   525   535 I system_server: Background concurrent copying GC freed 165331(8589KB) AllocSpace objects, 38(2284KB) LOS objects, 49% free, 10207KB/19MB, paused 42.907ms total 1.746s
-02-19 15:42:00.491  1070  2171 W WakefulBroadcastReceiv.: No active wake lock id #1
-02-19 15:42:00.498  1070  1265 I GCoreUlr: DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
-02-19 15:42:00.531  1070  1968 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
-02-19 15:42:00.563  1070  1265 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction com.google.android.location.internal.server.ACTION_RESTARTED
-02-19 15:42:00.575  1070  1265 I GCoreUlr: WorldUpdater:com.google.android.location.internal.server.ACTION_RESTARTED: Ensuring that reporting is stopped because of reasons: (no Google accounts)
-02-19 15:42:00.617  1070  1265 I GCoreUlr: Unbound from all signal providers.
-02-19 15:42:00.622  1070  1596 I BeaconBle: Stopping scan on delegate scanner. BT state: 12 [CONTEXT service_id=111 ]
-02-19 15:42:00.622  1070  1596 D BluetoothAdapter: isLeEnabled(): ON
-02-19 15:42:00.634  1070  1082 I .gms.persisten: Background young concurrent copying GC freed 77653(4041KB) AllocSpace objects, 7(332KB) LOS objects, 33% free, 6724KB/10067KB, paused 1.813ms total 1.242s
-02-19 15:42:00.765  1070  1596 I BeaconBle: Resetting - new scanner available: true [CONTEXT service_id=111 ]
-02-19 15:42:00.765  1070  1596 I BeaconBle: ZERO_POWER is disabled. [CONTEXT service_id=111 ]
-02-19 15:42:00.766  1070  1596 I BeaconBle: 'L' hardware scan: scan stopped, no powered clients [CONTEXT service_id=111 ]
-02-19 15:42:00.783  1070  2151 I MagicTether: [HostValidator] InvalidHost. MobileData: true, Tethering: true, whitelist: false, ble: true
-02-19 15:42:00.839  1113  1251 I Icing   : Post-init done [CONTEXT service_id=21 ]
-02-19 15:42:00.846  1113  1251 I Icing   : updateResources: need to parse abvr{com.google.android.gms} [CONTEXT service_id=21 ]
-02-19 15:42:00.889  1070  1070 I GeofencerStateMachine: sendQueryLocationOptIn
-02-19 15:42:01.070  1070  2060 W .gms.persisten: Long monitor contention with owner lowpool[0] (1163) at void apkp.a(aphr, aphr, int)(:com.google.android.gms@201817022@20.18.17 (040700-311416286):199) waiters=0 in int apkp.a(apki, aamz) for 440ms
-02-19 15:42:01.097  1070  1070 I GCoreUlr: Unbound from all signal providers.
-02-19 15:42:01.097  1070  1070 I GCoreUlr: Stopping handler for UlrDispSvcFast
-02-19 15:42:01.099  1070  1070 I GeofencerStateMachine: sendQueryLocationOptIn
+03-12 13:52:54.001  1317  1317 I MediaProvider: Invalidating LocalCallingIdentity cache for package eu.bitfunk.blueprint.mobile.android.app. Reason: package android.intent.action.PACKAGE_ADDED
+03-12 13:52:54.028   512   615 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+03-12 13:52:54.031   512   560 W Searchables: No global search activity found
+03-12 13:52:54.033  1317  1781 V MediaProvider: onOpen() finished for internal.db
+03-12 13:52:54.039  1317  1781 W ModernMediaScanner: Failed to visit /system/media: java.nio.file.NoSuchFileException: /system/media
+03-12 13:52:54.044   723   723 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_ADDED
+03-12 13:52:54.044   723   723 D AvrcpMediaPlayerList: Name of package changed: eu.bitfunk.blueprint.mobile.android.app
+03-12 13:52:54.060  1145  1530 I ContactsFTS: Rebuild contact search index in 210ms, 0 contacts
+03-12 13:52:54.062   512  1687 D SntpClient: request time failed: java.net.SocketTimeoutException: Poll timed out
+03-12 13:52:54.063   512  1687 E NtpTimeHelper: requestTime failed
+03-12 13:52:54.074  1079  1823 I NearbyDiscovery: Show notifications: 0 total, no changes since last shown, no-op. [CONTEXT service_id=49 ]
+03-12 13:52:53.915   512   512 W Binder:512_5: type=1400 audit(0.0:29): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+03-12 13:52:54.091   743   759 I PermissionControllerServiceImpl: Updating user sensitive for uid 10075
+03-12 13:52:54.203   743  1550 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
+03-12 13:52:54.461  1317  1781 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 0 items in 426ms, 0 inserts 0 updates 0 deletes
+03-12 13:52:54.469  1145  1402 I ContactsFTS: Rebuild contact search index in 373ms, 0 contacts
+03-12 13:52:54.547   743  1550 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
+03-12 13:52:54.567   888   888 D CarrierSvcBindHelper: No carrier app for: 0
+03-12 13:52:54.616  1317  1781 W ModernMediaScanner: Failed to visit /oem/media: java.nio.file.NoSuchFileException: /oem/media
+03-12 13:52:53.915   512   512 W Binder:512_5: type=1400 audit(0.0:30): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+03-12 13:52:54.621  1317  1781 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 0 items in 12ms, 0 inserts 0 updates 0 deletes
+03-12 13:52:54.623  1317  1781 W ModernMediaScanner: Failed to visit /product/media: java.nio.file.NoSuchFileException: /product/media
+03-12 13:52:54.624  1317  1781 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 0 items in 1ms, 0 inserts 0 updates 0 deletes
+03-12 13:52:54.705   888   888 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+03-12 13:52:54.744  1079  1103 I .gms.persisten: Waiting for a blocking GC ProfileSaver
+03-12 13:52:54.766  1167  1221 E native  : filesystem.cc:93 Opening file /data/user/0/com.google.android.gms/files/AppDataSearch/main/cur/compact_status for read failed: No such file or directory
+03-12 13:52:54.767  1167  1221 I native  : permission-checker.cc:74 Creating PermissionChecker based on ACL with config_version 1 having 14 permissions defined.
+03-12 13:52:54.770  1167  1221 W native  : words-map.cc:30 INVALID_ARGUMENT: Empty URI
+03-12 13:52:54.770  1167  1221 W native  : words-map.cc:34 WordsMap was not properly initialized
+03-12 13:52:54.816  1079  1091 I .gms.persisten: Background concurrent copying GC freed 25651(1617KB) AllocSpace objects, 33(1684KB) LOS objects, 49% free, 3877KB/7754KB, paused 4.440ms total 729.747ms
+03-12 13:52:54.820  1079  1103 I .gms.persisten: WaitForGcToComplete blocked ProfileSaver on HeapTrim for 76.401ms
+03-12 13:52:53.915   512   512 W Binder:512_5: type=1400 audit(0.0:31): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+03-12 13:52:54.848  1079  1093 W System  : A resource failed to call close. 
+03-12 13:52:55.087  1167  1221 I Icing   : Version not set, assuming clear data. [CONTEXT service_id=21 ]
+03-12 13:52:55.088  1167  1221 I Icing   : Clearing storage [CONTEXT service_id=21 ]
+03-12 13:52:55.088  1167  1221 I Icing   : Clearing CorpusMap, ClientRegistry, Setting [CONTEXT service_id=21 ]
+03-12 13:52:55.151  1749  1769 I externalstorag: Waiting for a blocking GC ProfileSaver
+03-12 13:52:55.179  1317  1873 E StorageManager: Failed to set extended attributes for /storage/emulated/0/Android to set project id.: Permission denied
+03-12 13:52:55.181  1317  1873 W MediaProvider: Failed to update quota type for /storage/emulated/0/Android
+03-12 13:52:55.181  1317  1873 W MediaProvider: java.io.IOException: Failed to update quota type for /storage/emulated/0/Android
+03-12 13:52:55.181  1317  1873 W MediaProvider: 	at android.os.storage.StorageManager.updateExternalStorageFileQuotaType(StorageManager.java:2512)
+03-12 13:52:55.181  1317  1873 W MediaProvider: 	at com.android.providers.media.MediaProvider.updateQuotaTypeForFileInternal(MediaProvider.java:585)
+03-12 13:52:55.181  1317  1873 W MediaProvider: 	at com.android.providers.media.MediaProvider.updateQuotaTypeForUri(MediaProvider.java:560)
+03-12 13:52:55.181  1317  1873 W MediaProvider: 	at com.android.providers.media.MediaProvider.access$800(MediaProvider.java:222)
+03-12 13:52:55.181  1317  1873 W MediaProvider: 	at com.android.providers.media.MediaProvider$3.lambda$onInsert$0(MediaProvider.java:611)
+03-12 13:52:55.181  1317  1873 W MediaProvider: 	at com.android.providers.media.MediaProvider$3.lambda$onInsert$0$MediaProvider$3(Unknown Source:0)
+03-12 13:52:55.181  1317  1873 W MediaProvider: 	at com.android.providers.media.-$$Lambda$MediaProvider$3$OA4Hj-5lam3D4oprnbu7ZpL-f_E.run(Unknown Source:10)
+03-12 13:52:55.181  1317  1873 W MediaProvider: 	at android.os.Handler.handleCallback(Handler.java:938)
+03-12 13:52:55.181  1317  1873 W MediaProvider: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-12 13:52:55.181  1317  1873 W MediaProvider: 	at android.os.Looper.loop(Looper.java:223)
+03-12 13:52:55.181  1317  1873 W MediaProvider: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+03-12 13:52:55.203  1749  1769 I externalstorag: WaitForGcToComplete blocked ProfileSaver on ClassLinker for 51.902ms
+03-12 13:52:55.204  1876  1877 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-12 13:52:55.212  1317  1873 E StorageManager: Failed to set extended attributes for /storage/emulated/0/Android/media to set project id.: Permission denied
+03-12 13:52:55.212  1317  1873 W MediaProvider: Failed to update quota type for /storage/emulated/0/Android/media
+03-12 13:52:55.212  1317  1873 W MediaProvider: java.io.IOException: Failed to update quota type for /storage/emulated/0/Android/media
+03-12 13:52:55.212  1317  1873 W MediaProvider: 	at android.os.storage.StorageManager.updateExternalStorageFileQuotaType(StorageManager.java:2512)
+03-12 13:52:55.212  1317  1873 W MediaProvider: 	at com.android.providers.media.MediaProvider.updateQuotaTypeForFileInternal(MediaProvider.java:585)
+03-12 13:52:55.212  1317  1873 W MediaProvider: 	at com.android.providers.media.MediaProvider.updateQuotaTypeForUri(MediaProvider.java:560)
+03-12 13:52:55.212  1317  1873 W MediaProvider: 	at com.android.providers.media.MediaProvider.access$800(MediaProvider.java:222)
+03-12 13:52:55.212  1317  1873 W MediaProvider: 	at com.android.providers.media.MediaProvider$3.lambda$onInsert$0(MediaProvider.java:611)
+03-12 13:52:55.212  1317  1873 W MediaProvider: 	at com.android.providers.media.MediaProvider$3.lambda$onInsert$0$MediaProvider$3(Unknown Source:0)
+03-12 13:52:55.212  1317  1873 W MediaProvider: 	at com.android.providers.media.-$$Lambda$MediaProvider$3$OA4Hj-5lam3D4oprnbu7ZpL-f_E.run(Unknown Source:10)
+03-12 13:52:55.212  1317  1873 W MediaProvider: 	at android.os.Handler.handleCallback(Handler.java:938)
+03-12 13:52:55.212  1317  1873 W MediaProvider: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-12 13:52:55.212  1317  1873 W MediaProvider: 	at android.os.Looper.loop(Looper.java:223)
+03-12 13:52:55.212  1317  1873 W MediaProvider: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+03-12 13:52:55.217  1749  1761 I externalstorag: WaitForGcToComplete blocked RunEmptyCheckpoint on ProfileSaver for 13.777ms
+03-12 13:52:55.408  1079  1079 D CompatibilityChangeReporter: Compat change id reported: 144027538; UID 10057; state: DISABLED
+03-12 13:52:55.419  1317  1781 I MediaProvider: Scanned external_primary due to REASON_MOUNTED, found 16 items in 500ms, 4 inserts 0 updates 0 deletes
+03-12 13:52:55.447  1079  1079 D CompatibilityChangeReporter: Compat change id reported: 148180766; UID 10057; state: ENABLED
+03-12 13:52:55.468  1317  1781 I MediaProvider: End Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+03-12 13:52:55.473  1317  1781 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+03-12 13:52:55.496  1317  1781 W ModernMediaScanner: Failed to visit /system/media: java.nio.file.NoSuchFileException: /system/media
+03-12 13:52:55.498  1317  1781 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 0 items in 2ms, 0 inserts 0 updates 0 deletes
+03-12 13:52:55.509  1317  1781 W ModernMediaScanner: Failed to visit /oem/media: java.nio.file.NoSuchFileException: /oem/media
+03-12 13:52:55.517  1317  1781 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 0 items in 8ms, 0 inserts 0 updates 0 deletes
+03-12 13:52:55.556  1079  1823 E NearbyDiscovery: DiscoveryNearbyMessagesManager failed to background subscribe [CONTEXT service_id=49 ]
+03-12 13:52:55.556  1079  1823 E NearbyDiscovery: java.util.concurrent.TimeoutException: Timed out waiting for Task
+03-12 13:52:55.556  1079  1823 E NearbyDiscovery: 	at auct.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):22)
+03-12 13:52:55.556  1079  1823 E NearbyDiscovery: 	at ahoi.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):23)
+03-12 13:52:55.556  1079  1823 E NearbyDiscovery: 	at ahnz.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):3)
+03-12 13:52:55.556  1079  1823 E NearbyDiscovery: 	at buwi.handleMessage(:com.google.android.gms@201817022@20.18.17 (040700-311416286):6)
+03-12 13:52:55.556  1079  1823 E NearbyDiscovery: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+03-12 13:52:55.556  1079  1823 E NearbyDiscovery: 	at adxm.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
+03-12 13:52:55.556  1079  1823 E NearbyDiscovery: 	at adxm.dispatchMessage(:com.google.android.gms@201817022@20.18.17 (040700-311416286):14)
+03-12 13:52:55.556  1079  1823 E NearbyDiscovery: 	at android.os.Looper.loop(Looper.java:223)
+03-12 13:52:55.556  1079  1823 E NearbyDiscovery: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+03-12 13:52:55.669  1317  1781 W ModernMediaScanner: Failed to visit /product/media: java.nio.file.NoSuchFileException: /product/media
+03-12 13:52:55.670  1317  1781 I MediaProvider: Scanned internal due to REASON_MOUNTED, found 0 items in 3ms, 0 inserts 0 updates 0 deletes
+03-12 13:52:55.729  1079  1079 W SystemServiceRegistry: No service published for: contexthub
+03-12 13:52:55.837   512  1881 I system_server: The ClassLoaderContext is a special shared library.
+03-12 13:52:55.898   512  1881 I chatty  : uid=1000(system) BackgroundDexOp identical 5 lines
+03-12 13:52:55.929   512  1881 I system_server: The ClassLoaderContext is a special shared library.
+03-12 13:52:55.957  1079  1079 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-12 13:52:55.959   512  1881 I system_server: The ClassLoaderContext is a special shared library.
+03-12 13:52:55.986   512  1881 I chatty  : uid=1000(system) BackgroundDexOp identical 3 lines
+03-12 13:52:56.009   512  1881 I system_server: The ClassLoaderContext is a special shared library.
+03-12 13:52:56.015  1079  1795 I GCoreUlr: DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
+03-12 13:52:56.030   512  1881 I system_server: The ClassLoaderContext is a special shared library.
+03-12 13:52:56.035   512   674 D WifiConfigStore: Writing to stores completed in 382 ms.
+03-12 13:52:56.036   512   674 E WifiHealthMonitor:  Hit PackageManager exception
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: android.content.pm.PackageManager$NameNotFoundException: com.google.android.wifi
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:206)
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:178)
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.extractCurrentSoftwareBuildInfo(WifiHealthMonitor.java:545)
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.postBootSwBuildCheck(WifiHealthMonitor.java:477)
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.postBootDetectionHandler(WifiHealthMonitor.java:468)
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.access$200(WifiHealthMonitor.java:70)
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor$2.onAlarm(WifiHealthMonitor.java:163)
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: 	at android.app.AlarmManager$ListenerWrapper.run(AlarmManager.java:239)
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: 	at android.os.Handler.handleCallback(Handler.java:938)
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: 	at android.os.Looper.loop(Looper.java:223)
+03-12 13:52:56.036   512   674 E WifiHealthMonitor: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+03-12 13:52:56.063   512  1881 I system_server: The ClassLoaderContext is a special shared library.
+03-12 13:52:56.156   512  1881 I chatty  : uid=1000(system) BackgroundDexOp identical 2 lines
+03-12 13:52:56.177   512  1881 I system_server: The ClassLoaderContext is a special shared library.
+03-12 13:52:56.193   512  1881 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~pXefRIWrK8KcXq3QSu0ipg==/eu.bitfunk.blueprint.mobile.android.app-iuNMBHwCXclul1lvRQBAAA==/base.apk pkg=eu.bitfunk.blueprint.mobile.android.app isa=x86 dexoptFlags=boot_complete,debuggable,public,enable_hidden_api_checks targetFilter=verify oatDir=/data/app/~~pXefRIWrK8KcXq3QSu0ipg==/eu.bitfunk.blueprint.mobile.android.app-iuNMBHwCXclul1lvRQBAAA==/oat classLoaderContext=PCL[]{}
+03-12 13:52:56.204   442   442 V installd: DexInv: --- BEGIN '/data/app/~~pXefRIWrK8KcXq3QSu0ipg==/eu.bitfunk.blueprint.mobile.android.app-iuNMBHwCXclul1lvRQBAAA==/base.apk' ---
+03-12 13:52:56.293  1879  1879 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+03-12 13:52:56.348  1408  1437 W id.printspoole: Suspending all threads took: 6.612ms
+03-12 13:52:56.379  1879  1879 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-12 13:52:56.647  1879  1879 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-12 13:52:56.647  1879  1879 I AndroidRuntime: Using default boot image
+03-12 13:52:56.648  1879  1879 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-12 13:52:56.648  1879  1879 I AndroidRuntime: Leaving lock profiling enabled
+03-12 13:52:56.649  1879  1879 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-12 13:52:56.669  1879  1879 I app_process: Core platform API reporting enabled, enforcing=false
+03-12 13:52:56.969  1079  1832 D CompatibilityChangeReporter: Compat change id reported: 150935354; UID 10057; state: ENABLED
+03-12 13:52:56.367  1879  1879 W app_process: type=1400 audit(0.0:32): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=443 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-12 13:52:57.096  1079  1832 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-12 13:52:57.130  1079  1832 W SystemServiceRegistry: No service published for: wifirtt
+03-12 13:52:57.180  1883  1883 W dex2oat32: Unexpected CPU variant for X86 using defaults: x86
+03-12 13:52:57.181  1883  1883 W dex2oat32: Mismatch between dex2oat instruction set features to use (ISA: X86 Feature string: -ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) and those from CPP defines (ISA: X86 Feature string: ssse3,-sse4.1,-sse4.2,-avx,-avx2,-popcnt) for the command line:
+03-12 13:52:57.181  1883  1883 W dex2oat32: /apex/com.android.art/bin/dex2oat32 --zip-fd=7 --zip-location=base.apk --input-vdex-fd=-1 --output-vdex-fd=9 --oat-fd=8 --oat-location=/data/app/~~pXefRIWrK8KcXq3QSu0ipg==/eu.bitfunk.blueprint.mobile.android.app-iuNMBHwCXclul1lvRQBAAA==/oat/x86/base.odex --instruction-set=x86 --instruction-set-variant=x86 --instruction-set-features=default --runtime-arg -Xbootclasspath:/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/core-icu4j.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-atb-backward-compatibility.jar --runtime-arg -Xms64m --runtime-arg -Xmx512m --updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt --resolve-startup-const-strings=true --max-image-block-size=524288 --compiler-filter=verify --swap-fd=10 --debuggable --classpath-dir=/data/app/~~pXefRIWrK8KcXq3QSu0ipg==/eu.bitfunk.blueprint.mobile.android.app-iuNMBHwCXclul1lvRQBAAA== --class-loader-context=PCL[]{} --generate-mini-debug-info --compact-dex-level=none --runtime-arg -Xtarget-sdk-version:33 --runtime-arg -Xhidden-api-policy:enabled --compilation-reason=boot
+03-12 13:52:57.181  1883  1883 I dex2oat32: /apex/com.android.art/bin/dex2oat32 --input-vdex-fd=-1 --output-vdex-fd=9 --updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt --resolve-startup-const-strings=true --max-image-block-size=524288 --compiler-filter=verify --debuggable --classpath-dir=/data/app/~~pXefRIWrK8KcXq3QSu0ipg==/eu.bitfunk.blueprint.mobile.android.app-iuNMBHwCXclul1lvRQBAAA== --class-loader-context=PCL[]{} --generate-mini-debug-info --compact-dex-level=none --compilation-reason=boot
+03-12 13:52:57.236  1317  1781 I MediaProvider: Scanned external_primary due to REASON_MOUNTED, found 16 items in 407ms, 0 inserts 0 updates 0 deletes
+03-12 13:52:57.240  1317  1781 I MediaProvider: End Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+03-12 13:52:57.274  1883  1883 I dex2oat32: setting boot class path to /apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/core-icu4j.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-atb-backward-compatibility.jar
+03-12 13:52:57.313  1079  1079 D BluetoothA2dp: Proxy object connected
+03-12 13:52:57.314  1079  1079 I NearbyShared: BTConnStateMgr: onServiceConnected with profile 2.
+03-12 13:52:57.314  1079  1079 I NearbyShared: BTConnStateMgr: onServiceConnected with profile 1.
+03-12 13:52:57.413  1079  1079 I GCoreUlr: Unbound from all signal providers.
+03-12 13:52:57.414  1079  1079 I GCoreUlr: Stopping handler for UlrDispSvcFast
+03-12 13:52:56.367  1879  1879 W app_process: type=1400 audit(0.0:33): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=443 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-12 13:52:57.557  1079  1843 E GeofenceStateCache: Unable to load state, all registered geofences are lost.
+03-12 13:52:57.646  1167  1786 I constellation: [sim_state_checker] Handling intent Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x5000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }
+03-12 13:52:57.646   279   279 D Zygote  : Forked child process 1891
+03-12 13:52:57.676  1891  1891 W ackageinstalle: Unexpected CPU variant for X86 using defaults: x86
+03-12 13:52:57.681  1079  1079 I GeofencerStateMachine: sendWifiConnectivityChanged: connectivity=true
+03-12 13:52:57.765   396   414 I adbd    : jdwp connection from 1891
+03-12 13:52:57.833  1891  1891 I ackageinstalle: The ClassLoaderContext is a special shared library.
+03-12 13:52:57.868  1879  1879 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+03-12 13:52:57.870  1879  1879 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+03-12 13:52:57.881  1879  1879 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-12 13:52:57.902  1891  1891 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:52:57.903  1891  1891 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:52:58.015  1879  1879 I app_process: The ClassLoaderContext is a special shared library.
+03-12 13:52:58.059  1317  1317 I MediaUpgradeReceiver: ---> Start upgrade of media database external.db
+03-12 13:52:58.065  1317  1317 V MediaProvider: onConfigure() for external.db
+03-12 13:52:56.643  1879  1879 W app_process: type=1400 audit(0.0:34): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=443 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-12 13:52:58.093  1879  1879 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-12 13:52:58.106  1317  1317 V MediaProvider: onOpen() for external.db
+03-12 13:52:58.106  1317  1317 V MediaProvider: onOpen() finished for external.db
+03-12 13:52:58.107  1879  1879 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+03-12 13:52:58.109  1317  1317 I MediaUpgradeReceiver: <--- Finished upgrade of media database external.db in 50ms
+03-12 13:52:58.109  1317  1317 I MediaUpgradeReceiver: ---> Start upgrade of media database internal.db
+03-12 13:52:58.118  1317  1317 V MediaProvider: onConfigure() for internal.db
+03-12 13:52:58.123  1317  1317 V MediaProvider: onOpen() for internal.db
+03-12 13:52:58.123  1317  1317 V MediaProvider: onOpen() finished for internal.db
+03-12 13:52:58.134  1317  1317 I MediaUpgradeReceiver: <--- Finished upgrade of media database internal.db in 25ms
+03-12 13:52:58.194   279   279 D Zygote  : Forked child process 1923
+03-12 13:52:58.246  1923  1923 I ile.android.ap: Late-enabling -Xcheck:jni
+03-12 13:52:58.345  1167  1221 I Icing   : updateResources: need to parse abvr{com.google.android.gms} [CONTEXT service_id=21 ]
+03-12 13:52:58.425  1923  1923 I ile.android.ap: Unquickening 12 vdex files!
+03-12 13:52:56.647  1879  1879 W app_process: type=1400 audit(0.0:35): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=443 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-12 13:52:58.434  1923  1923 W ile.android.ap: Unexpected CPU variant for X86 using defaults: x86
+03-12 13:52:58.488   396   414 I adbd    : jdwp connection from 1923
+03-12 13:52:58.586  1167  1776 I Auth    : [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+03-12 13:52:58.620  1079  1832 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-12 13:52:58.688  1167  1679 E GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+03-12 13:52:58.691  1167  1943 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:eu.bitfunk.blueprint.mobile.android.app.test flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+03-12 13:52:58.698  1079  1079 I BeaconBle: Using BLE 'L' hardware layer [CONTEXT service_id=111 ]
+03-12 13:52:58.713  1167  1776 I Auth    : [SupervisedAccountIntentOperation] This operation is disabled
+03-12 13:52:58.801  1079  1079 W Nearby  : Bind call too late - someone already tried to get: interface bvem [CONTEXT service_id=49 ]
+03-12 13:52:58.832  1167  1786 I SystemUpdate: [Installation,ReceiverIntentOperation] Received intent: Intent { act=android.intent.action.TIME_SET flg=0x25200010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver }.
+03-12 13:52:58.839  1923  1923 I ile.android.ap: The ClassLoaderContext is a special shared library.
+03-12 13:52:58.875  1923  1923 I chatty  : uid=10075(eu.bitfunk.blueprint.mobile.android.app) identical 1 line
+03-12 13:52:58.880  1923  1923 I ile.android.ap: The ClassLoaderContext is a special shared library.
+03-12 13:52:58.963  1079  1957 W .gms.persisten: Accessing hidden method Landroid/net/ConnectivityManager;->isNetworkTypeMobile(I)Z (greylist-max-p, reflection, denied)
+03-12 13:52:58.978  1079  1958 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:eu.bitfunk.blueprint.mobile.android.app.test flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+03-12 13:52:59.021  1167  1669 I FontsPackageChangeOp: Package eu.bitfunk.blueprint.mobile.android.app.test has no metadata
+03-12 13:52:59.071  1079  1882 I NearbyMessages: OfflineCache: old scanner cache is not enabled [CONTEXT service_id=62 ]
+03-12 13:52:59.318  1079  1202 E FlatFileLogStore: Failed to get boot count.
+03-12 13:52:59.318  1079  1202 E FlatFileLogStore: java.util.concurrent.TimeoutException: Timed out waiting for Task
+03-12 13:52:59.318  1079  1202 E FlatFileLogStore: 	at auct.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):22)
+03-12 13:52:59.318  1079  1202 E FlatFileLogStore: 	at qym.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):123)
+03-12 13:52:59.318  1079  1202 E FlatFileLogStore: 	at qzc.run(Unknown Source:3)
+03-12 13:52:59.318  1079  1202 E FlatFileLogStore: 	at sji.b(:com.google.android.gms@201817022@20.18.17 (040700-311416286):12)
+03-12 13:52:59.318  1079  1202 E FlatFileLogStore: 	at sji.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):7)
+03-12 13:52:59.318  1079  1202 E FlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-12 13:52:59.318  1079  1202 E FlatFileLogStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-12 13:52:59.318  1079  1202 E FlatFileLogStore: 	at spj.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):0)
+03-12 13:52:59.318  1079  1202 E FlatFileLogStore: 	at java.lang.Thread.run(Thread.java:923)
+03-12 13:52:59.332  1492  1492 D GoogleLoginService: no legacy android id exists to migrate
+03-12 13:52:59.333  1492  1492 D GoogleLoginService: skipping migration because /data/user/0/com.google.android.gsf/databases/accounts.db doesn't exist
+03-12 13:52:59.333  1492  1492 D GoogleLoginService: disabling the migration script since the migration is complete
+03-12 13:52:59.419   512  1965 I RecoverySystem: No recovery log file
+03-12 13:52:59.471  1341  1341 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:52:59.520   888   888 D CarrierConfigLoader: mHandler: 13 phoneId: 0
+03-12 13:52:59.520   888   888 D CarrierConfigLoader: System unlocked
+03-12 13:52:59.521   888   888 D CarrierConfigLoader: mHandler: 7 phoneId: 0
+03-12 13:52:59.532  1167  1776 I SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 6.
+03-12 13:52:59.561  1167  1786 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+03-12 13:52:59.627  1167  1953 I SystemUpdate: [Execution,InstallationIntentOperation] Received intent: Intent { act=com.google.android.gms.update.INSTALL_UPDATE cat=[targeted_intent_op_prefix:.update.execution.InstallationIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService }.
+03-12 13:52:59.633   888   888 D CarrierConfigLoader: File not found: /data/user_de/0/com.android.phone/files/carrierconfig-com.android.carrierconfig-override-89014103211118510720-1.xml
+03-12 13:52:59.637   888   888 D CarrierConfigLoader: Loaded config from XML. package=com.android.carrierconfig phoneId=0
+03-12 13:52:59.697   888   888 D CarrierConfigLoader: mHandler: 5 phoneId: 0
+03-12 13:52:59.711   279   279 D Zygote  : Forked child process 1971
+03-12 13:52:59.721  1079  1079 W .gms.persisten: Long monitor contention with owner GoogleLocationService (1832) at boolean android.app.ActivityThread.releaseProvider(android.content.IContentProvider, boolean)(ActivityThread.java:7029) waiters=0 in android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean) for 217ms
+03-12 13:52:59.753  1971  1971 W droid.dynsyste: Unexpected CPU variant for X86 using defaults: x86
+03-12 13:52:59.776   396   414 I adbd    : jdwp connection from 1971
+03-12 13:52:59.793   888   888 D CarrierConfigLoader: mHandler: 16 phoneId: 0
+03-12 13:52:59.793   888   888 D CarrierConfigLoader: Broadcast CARRIER_CONFIG_CHANGED for phone 0 simApplicationState 10
+03-12 13:52:59.850   888   888 D CarrierConfigLoader: Broadcast CARRIER_CONFIG_CHANGED for phone 0, subId=1
+03-12 13:52:59.881   888   888 D MultiSimSettingController: onCarrierConfigChanged phoneId 0 subId 1
+03-12 13:52:59.881   888   888 D MultiSimSettingController: updateDefaults
+03-12 13:52:59.893   888   888 D MultiSimSettingController: [updateDefaultValues] change: 0
+03-12 13:52:59.895   888   888 D CarrierKeyDownloadManager: Carrier Config changed: android.telephony.action.CARRIER_CONFIG_CHANGED
+03-12 13:52:59.902  1033  1033 D CellBroadcastReceiver: onReceive Intent { act=android.telephony.action.CARRIER_CONFIG_CHANGED flg=0x15000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+03-12 13:52:59.903  1033  1033 D CellBroadcastReceiver: initializeSharedPreference
+03-12 13:52:59.903  1033  1033 D CellBroadcastReceiver: Skip setting default values of shared preference.
+03-12 13:52:59.904  1033  1033 D CellBroadcastReceiver: Default interval 2 did not change.
+03-12 13:52:59.919  1079  1957 W .gms.persisten: Long monitor contention with owner GoogleLocationService (1832) at android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean)(ActivityThread.java:6942) waiters=0 in android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean) for 107ms
+03-12 13:52:59.931   512   512 D WifiService: ACTION_CARRIER_CONFIG_CHANGED, active subId: 1
+03-12 13:52:59.955   512   671 W BestClock: java.time.DateTimeException: Missing NTP fix
+03-12 13:53:00.064  1033  1033 D CellBroadcastReceiver: disable launcher activity: com.android.cellbroadcastreceiver.CellBroadcastListLauncherActivity
+03-12 13:53:00.065  1033  1033 D CellBroadcastReceiver: Start Cell Broadcast configuration.
+03-12 13:53:00.092  1033  1997 D CellBroadcastConfigService: Enable CellBroadcast on sub 1
+03-12 13:53:00.147   888   888 D CarrierKeyDownloadManager: Carrier not enabled or invalid values
+03-12 13:53:00.147   888   888 D CarrierKeyDownloadManager: Cleaning up existing renewal alarms
+03-12 13:53:00.161  1971  1971 I droid.dynsyste: The ClassLoaderContext is a special shared library.
+03-12 13:53:00.163   512   552 E GnssLocationProvider: IGnssConfiguration setEsExtensionSec() failed.
+03-12 13:53:00.163   512   552 E GnssConfiguration: Unable to set ES_EXTENSION_SEC: 0
+03-12 13:53:00.165   512   678 W BestClock: java.time.DateTimeException: Missing NTP fix
+03-12 13:53:00.167   512   671 W BestClock: java.time.DateTimeException: Missing NTP fix
+03-12 13:53:00.182  1167  1175 I gle.android.gm: Background young concurrent copying GC freed 18363(1242KB) AllocSpace objects, 23(1100KB) LOS objects, 10% free, 5635KB/6298KB, paused 1.661ms total 1.358s
+03-12 13:53:00.193  1167  1943 I ChromeSync: [Persistence,AffiliationManager] One of affiliation or grouping data for android://hERfkOrI87dkf-MBmbwA2-RfHitgF4mt5jfgE-1rWqiQKrY5x35BZ4FlrzM1qCOVG1h5C5ihgCjuqWfdRCHvsw==@eu.bitfunk.blueprint.mobile.android.app.test/ was not found. Marking affiliation data as stale...
+03-12 13:53:00.203  1167  1953 I SystemUpdate: [Control,InstallationControl] Installation progress updated to (0x000, -1.000).
+03-12 13:53:00.232  1971  1971 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:53:00.233  1971  1971 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:53:00.279  1592  1592 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:53:00.361   279   279 D Zygote  : Forked child process 2000
+03-12 13:53:00.404   723   723 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+03-12 13:53:00.404   723   723 D AvrcpMediaPlayerList: Name of package changed: com.google.android.gsf
+03-12 13:53:00.405   512   615 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+03-12 13:53:00.414  2000  2000 W com.android.nf: Unexpected CPU variant for X86 using defaults: x86
+03-12 13:53:00.446   743   759 I PermissionControllerServiceImpl: Updating user sensitive for uid 10057
+03-12 13:53:00.459   888   888 I Telephony: Carrier-config changed, checking for phone account updates.
+03-12 13:53:00.459   888   888 D Telephony: TelecomAccountRegistry: handleCarrierConfigChange: subId=1, accountSubId=1
+03-12 13:53:00.482   743  1550 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
+03-12 13:53:00.483   396   414 I adbd    : jdwp connection from 2000
+03-12 13:53:00.525  1167  1786 I Auth    : [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+03-12 13:53:00.525  1167  1786 I Auth    : [SupervisedAccountIntentOperation] This operation is disabled
+03-12 13:53:00.526  1167  1786 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:eu.bitfunk.blueprint.mobile.android.app flg=0x4000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+03-12 13:53:00.551  1167  1669 I FontsPackageChangeOp: Package eu.bitfunk.blueprint.mobile.android.app has no metadata
+03-12 13:53:00.564   888   888 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+03-12 13:53:00.564   888   888 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+03-12 13:53:00.580   512   560 W Searchables: No global search activity found
+03-12 13:53:00.609  1167  1786 I ChromeSync: [Persistence,AffiliationManager] One of affiliation or grouping data for android://hERfkOrI87dkf-MBmbwA2-RfHitgF4mt5jfgE-1rWqiQKrY5x35BZ4FlrzM1qCOVG1h5C5ihgCjuqWfdRCHvsw==@eu.bitfunk.blueprint.mobile.android.app/ was not found. Marking affiliation data as stale...
+03-12 13:53:00.642   888   888 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+03-12 13:53:00.642   888   888 I Telephony:  isRttSupported: false
+03-12 13:53:00.642   888   888 I Telephony:  isRoaming: false
+03-12 13:53:00.642   888   888 I Telephony:  isOnWfc: false
+03-12 13:53:00.654  1923  1939 I ile.android.ap: Background young concurrent copying GC freed 8094(426KB) AllocSpace objects, 0(0B) LOS objects, 93% free, 1693KB/25MB, paused 2.580ms total 222.974ms
+03-12 13:53:00.843  1079  1957 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:eu.bitfunk.blueprint.mobile.android.app.test flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+03-12 13:53:00.844  2000  2000 I com.android.nf: The ClassLoaderContext is a special shared library.
+03-12 13:53:00.862   743  1550 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
+03-12 13:53:00.884  1167  1669 W gle.android.gm: Long monitor contention with owner [com.google.android.gms.chimera.GmsIntentOperationService$ChimeraService-Executor] processing qgf for action com.google.android.gms.update.INSTALL_UPDATE (1953) at android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean)(ActivityThread.java:6942) waiters=0 in android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean) for 167ms
+03-12 13:53:00.925  2000  2000 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:53:00.925  2000  2000 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:53:00.968  1079  1091 I .gms.persisten: ThreadFlipBegin blocked for 128.753ms
+03-12 13:53:00.976  1079  1079 I .gms.persisten: IncrementDisableThreadFlip blocked for 126.968ms
+03-12 13:53:00.976  1079  1095 I .gms.persisten: IncrementDisableThreadFlip blocked for 66.450ms
+03-12 13:53:00.977  1079  1882 I .gms.persisten: IncrementDisableThreadFlip blocked for 27.981ms
+03-12 13:53:00.979  1079  1795 I .gms.persisten: IncrementDisableThreadFlip blocked for 42.981ms
+03-12 13:53:00.986   888   888 I Telephony: reRegisterPstnPhoneAccount: subId: 1 - no change
+03-12 13:53:00.989  1079  1957 I .gms.persisten: IncrementDisableThreadFlip blocked for 145.224ms
+03-12 13:53:00.994   888   888 D OtaspSimStateReceiver: Received intent: android.telephony.action.CARRIER_CONFIG_CHANGED
+03-12 13:53:01.013  1079  1379 I .gms.persisten: IncrementDisableThreadFlip blocked for 172.867ms
+03-12 13:53:01.020   888   888 D OtaspSimStateReceiver: otasp activation not needed: no supported carrier
+03-12 13:53:01.029  1079  1775 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:eu.bitfunk.blueprint.mobile.android.app flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+03-12 13:53:01.030  1079  1957 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:eu.bitfunk.blueprint.mobile.android.app flg=0x4000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+03-12 13:53:01.103   279   279 I Zygote  : Process 2000 exited due to signal 9 (Killed)
+03-12 13:53:01.133   512   615 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+03-12 13:53:01.133   723   723 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+03-12 13:53:01.134   723   723 D AvrcpMediaPlayerList: Name of package changed: com.android.nfc
+03-12 13:53:01.144   512   563 I libprocessgroup: Successfully killed process cgroup uid 1027 pid 2000 in 53ms
+03-12 13:53:01.169   512   512 D WifiService: Remove settings for package:com.android.nfc
+03-12 13:53:01.169   512   674 D WifiConfigManager: Remove all networks for app ApplicationInfo{bfb3731 com.android.nfc}
+03-12 13:53:01.172   743   759 I PermissionControllerServiceImpl: Updating user sensitive for uid 1027
+03-12 13:53:01.209   512   674 D WifiConfigStore: Writing to stores completed in 24 ms.
+03-12 13:53:01.209   512   674 I PasspointManager: No app ops listener found for com.android.nfc
+03-12 13:53:01.266  1079  1202 I .gms.persisten: IncrementDisableThreadFlip blocked for 426.356ms
+03-12 13:53:01.291   512   549 W system_server: Long monitor contention with owner Binder:512_6 (773) at boolean com.android.server.am.ActivityManagerService.stopServiceToken(android.content.ComponentName, android.os.IBinder, int)(ActivityManagerService.java:15075) waiters=0 in android.content.ComponentName com.android.server.am.ActivityManagerService.startService(android.app.IApplicationThread, android.content.Intent, java.lang.String, boolean, java.lang.String, java.lang.String, int) for 109ms
+03-12 13:53:01.397   512   560 W Searchables: No global search activity found
+03-12 13:53:01.416   512   560 W Searchables: No global search activity found
+03-12 13:53:01.421   743  1550 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
+03-12 13:53:01.499  1079  1795 I NetworkScheduler: Using standalone scheduling engine
+03-12 13:53:01.508  1167  1175 I gle.android.gm: Background concurrent copying GC freed 33087(1845KB) AllocSpace objects, 39(1996KB) LOS objects, 49% free, 5211KB/10MB, paused 56.319ms total 1.226s
+03-12 13:53:01.518   743   743 I AutoRevokePermissions: Parsed teamfood setting value: null
+03-12 13:53:01.531   743   743 I AutoRevokePermissions: Parsed teamfood setting value: null
+03-12 13:53:01.532   743   743 I AutoRevokePermissions: scheduleAutoRevokePermissions with frequency 1296000000ms and threshold 7776000000ms
+03-12 13:53:01.546   888   888 D CarrierSvcBindHelper: No carrier app for: 0
+03-12 13:53:01.549   743  1550 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
+03-12 13:53:01.620   743   743 I AutoRevokePermissions: user 0 is a profile owner. Running Auto Revoke.
+03-12 13:53:01.621   743   743 I AutoRevokePermissions: Parsed teamfood setting value: null
+03-12 13:53:01.635   888   888 I VvmSimStateTracker: android.telephony.action.CARRIER_CONFIG_CHANGED
+03-12 13:53:01.640  1167  1953 I SystemUpdate: [Execution,ExecutionManager] Action pending executed for 1.78 seconds.
+03-12 13:53:01.655  1167  1953 I SystemUpdate: [Execution,ExecutionManager] Action finished-execution executed for 0.00 seconds.
+03-12 13:53:01.686   743   743 I AutoRevokePermissions: onStartJob
+03-12 13:53:01.687   743   743 I AutoRevokePermissions: Skipping auto revoke first run when scheduled by system
+03-12 13:53:01.746   888   888 I VvmSimStateTracker: Service connected on ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+03-12 13:53:01.756   512   522 I system_server: Background young concurrent copying GC freed 121588(6286KB) AllocSpace objects, 28(1624KB) LOS objects, 35% free, 11MB/17MB, paused 67.589ms total 549.699ms
+03-12 13:53:01.777  1079  1091 I .gms.persisten: Background young concurrent copying GC freed 37806(2256KB) AllocSpace objects, 10(536KB) LOS objects, 28% free, 5519KB/7754KB, paused 4.496ms total 1.347s
+03-12 13:53:01.872   888   888 D CarrierSvcBindHelper: No carrier app for: 0
+03-12 13:53:01.890   888   888 I VvmSimStateTracker: android.intent.action.BOOT_COMPLETED
+03-12 13:53:01.904   888   888 I VvmSimStateTracker: Service connected on ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}
+03-12 13:53:01.935  1167  1221 D SharedPreferencesImpl: Time required to fsync /data/user/0/com.google.android.gms/shared_prefs/AppDataSearch-main-config.xml: [<1: 0, <2: 0, <4: 0, <8: 0, <16: 2, <32: 1, <64: 1, <128: 0, <256: 1, <512: 1, <1024: 0, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
+03-12 13:53:01.995   888   888 I RemoteVvmTaskManager: No service to handle ACTION_START_CELL_SERVICE_CONNECTED, ignoring
+03-12 13:53:01.998   888   888 D TelephonyProvider: subIdString = 1 subId = 1
+03-12 13:53:02.054   279   279 D Zygote  : Forked child process 2036
+03-12 13:53:02.085  2036  2036 W m.android.shel: Unexpected CPU variant for X86 using defaults: x86
+03-12 13:53:02.120   888   888 I RemoteVvmTaskManager: No service to handle ACTION_START_CELL_SERVICE_CONNECTED, ignoring
+03-12 13:53:02.177   396   414 I adbd    : jdwp connection from 2036
+03-12 13:53:02.356  1923  1923 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+03-12 13:53:02.371  1923  1923 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+03-12 13:53:02.398  2036  2036 I m.android.shel: The ClassLoaderContext is a special shared library.
+03-12 13:53:02.403  1923  1923 I ile.android.ap: The ClassLoaderContext is a special shared library.
+03-12 13:53:02.446  1923  1923 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+03-12 13:53:02.446  1923  1923 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+03-12 13:53:02.448  1923  1923 I ile.android.ap: The ClassLoaderContext is a special shared library.
+03-12 13:53:02.454  1923  1923 I chatty  : uid=10075(eu.bitfunk.blueprint.mobile.android.app) identical 2 lines
+03-12 13:53:02.455  1923  1923 I ile.android.ap: The ClassLoaderContext is a special shared library.
+03-12 13:53:02.461  2036  2036 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:53:02.462  2036  2036 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:53:02.472  2036  2036 D HeapDumpReceiver: onReceive(): Intent { act=android.intent.action.BOOT_COMPLETED flg=0x89000010 cmp=com.android.shell/.HeapDumpReceiver (has extras) }
+03-12 13:53:02.476  2036  2057 D HeapDumpReceiver: Deleting from /data/user_de/0/com.android.shell/files/heapdumps
+03-12 13:53:02.520   888   888 I m.android.phon: The ClassLoaderContext is a special shared library.
+03-12 13:53:02.707   888   888 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:53:02.707   888   888 W nsconfig: com.android.phone: New config does not match the previously set config.
+03-12 13:53:02.739  1079  2058 W ProviderHelper: Unknown dynamite feature providerinstaller
+03-12 13:53:02.752  1079  2058 I DynamiteModule: Considering local module providerinstaller:0 and remote module providerinstaller:0
+03-12 13:53:02.763  1079  2058 I DynamiteModule: Considering local module providerinstaller:0 and remote module providerinstaller:0
+03-12 13:53:02.798   279   279 D Zygote  : Forked child process 2062
+03-12 13:53:02.799  1079  2058 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
+03-12 13:53:02.838  2062  2062 W android.traceu: Unexpected CPU variant for X86 using defaults: x86
+03-12 13:53:02.924   396   414 I adbd    : jdwp connection from 2062
+03-12 13:53:03.021  1079  1653 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=LOW_LATENCY, callbackType=ALL_MATCHES, reportDelayMillis=0, 5 filters, 1 clients, callingClientName=Nearby] [CONTEXT service_id=111 ]
+03-12 13:53:03.136  1079  1653 I BeaconBle: 'L' hardware scan: 5 filters, scanMode=2, reportdelay=0, callback type=1, #clients=1, workSource=WorkSource{10057 com.google.android.gms} [CONTEXT service_id=111 ]
+03-12 13:53:03.137  1079  1653 I BeaconBle: Starting scan on OS scanner. BT state: 12 [CONTEXT service_id=111 ]
+03-12 13:53:03.137  1079  1653 D BluetoothAdapter: isLeEnabled(): ON
+03-12 13:53:03.212  2062  2062 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+03-12 13:53:03.217  2062  2062 I android.traceu: The ClassLoaderContext is a special shared library.
+03-12 13:53:03.322  2062  2062 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:53:03.322  2062  2062 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:53:03.346  1079  1775 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.google.android.gsf flg=0x45000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+03-12 13:53:03.447  1079  2058 E GCM     : Missing checkin config file
+03-12 13:53:03.500   723   958 I bt_stack: [INFO:gatt_api.cc(947)] GATT_Register 43caf849-593c-88f4-8fad-a75fa79282a0
+03-12 13:53:03.501   723   958 I bt_stack: [INFO:gatt_api.cc(967)] allocated gatt_if=5
+03-12 13:53:03.509  1079  1775 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+03-12 13:53:03.509  1079  2083 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction com.google.android.location.internal.server.ACTION_RESTARTED
+03-12 13:53:03.511  1079  1340 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=5 mScannerId=0
+03-12 13:53:03.529  1079  2083 I GCoreUlr: WorldUpdater:com.google.android.location.internal.server.ACTION_RESTARTED: Ensuring that reporting is stopped because of reasons: (no Google accounts)
+03-12 13:53:03.535  1079  2058 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+03-12 13:53:03.539  1079  2083 I GCoreUlr: Unbound from all signal providers.
+03-12 13:53:03.562  1079  2058 E GCM     : Missing checkin config file
+03-12 13:53:03.562  1079  2058 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+03-12 13:53:03.703  1079  1775 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.android.nfc flg=0x5000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+03-12 13:53:03.728   723  1377 W UnsafeUtil: platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: sun.misc.Unsafe.copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+03-12 13:53:03.808  1079  2058 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+03-12 13:53:03.808  1079  2058 W WakeLock: GCM_HB_ALARM counter does not exist
+03-12 13:53:03.819  1079  1079 I GCoreUlr: Unbound from all signal providers.
+03-12 13:53:03.819  1079  1079 I GCoreUlr: Stopping handler for UlrDispSvcFast
+03-12 13:53:03.857  1079  1960 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+03-12 13:53:03.889  1167  1786 I ChimeraCfgMgr: Sending com.google.android.chimera.IntentOperation.NEW_MODULE Intents: 2,true,true
+03-12 13:53:03.931   723   723 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+03-12 13:53:03.932   723   723 D AvrcpMediaPlayerList: Name of package changed: com.android.stk
+03-12 13:53:03.953   723   723 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+03-12 13:53:03.954   723   723 D AvrcpMediaPlayerList: Name of package changed: com.android.traceur
+03-12 13:53:03.973  1079  2093 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
+03-12 13:53:03.980   743  1550 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
+03-12 13:53:03.988   512   615 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+03-12 13:53:03.988   512   560 W Searchables: No global search activity found
+03-12 13:53:03.990   512   615 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+03-12 13:53:04.043   512   560 W Searchables: No global search activity found
+03-12 13:53:04.212   888   888 D CarrierSvcBindHelper: No carrier app for: 0
+03-12 13:53:04.213   743   759 I PermissionControllerServiceImpl: Updating user sensitive for uid 1001
+03-12 13:53:04.213   743   759 I PermissionControllerServiceImpl: Updating user sensitive for uid 10051
+03-12 13:53:04.826   512   561 W system_server: Long monitor contention with owner Binder:512_6 (773) at int com.android.server.appop.AppOpsService.checkOperationUnchecked(int, int, java.lang.String, boolean)(AppOpsService.java:2887) waiters=0 in void com.android.server.appop.AppOpsService.updatePendingState(long, int) for 330ms
+03-12 13:53:04.832  1079  2093 E GCM     : Missing checkin config file
+03-12 13:53:04.837  1079  2093 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+03-12 13:53:04.885   743  1550 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
+03-12 13:53:04.900  1079  2093 E GCM     : Missing checkin config file
+03-12 13:53:04.901  1079  2093 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+03-12 13:53:04.916  1079  2093 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+03-12 13:53:04.916  1079  2093 W WakeLock: GCM_HB_ALARM counter does not exist
+03-12 13:53:04.921   837  1427 D NetworkMonitor/100: Forcing reevaluation for UID 10057. Dns signal count: 0
+03-12 13:53:04.976   743  1550 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
+03-12 13:53:05.005   286   956 I bt      : system/bt/vendor_libs/test_vendor_lib/model/devices/scripted_beacon.cc:113 set_state: Events file not opened yet, for event: 2
+03-12 13:53:05.010   286   956 I bt      : system/bt/vendor_libs/test_vendor_lib/model/devices/scripted_beacon.cc:113 set_state: Events file not opened yet, for event: 3
+03-12 13:53:05.114   888   888 D CarrierSvcBindHelper: No carrier app for: 0
+03-12 13:53:05.174  1079  1822 I NearbyMediums: BluetoothAdapter's name was not set by Nearby Connections, ignoring call to restore device name [CONTEXT service_id=54 ]
+03-12 13:53:05.180  1079  1958 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.android.stk flg=0x45000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+03-12 13:53:05.214  1167  2022 D SharedPreferencesImpl: Time required to fsync /data/user_de/0/com.google.android.gms/shared_prefs/gservices-direboot-cache.xml: [<1: 0, <2: 0, <4: 0, <8: 0, <16: 0, <32: 0, <64: 0, <128: 0, <256: 0, <512: 0, <1024: 1, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
+03-12 13:53:05.391   837  2103 D NetworkMonitor/100: PROBE_DNS www.google.com 402ms OK 172.253.115.106,172.253.115.104,172.253.115.99,172.253.115.105,172.253.115.147,172.253.115.103,2607:f8b0:4004:c07::68,2607:f8b0:4004:c07::93,2607:f8b0:4004:c07::6a,2607:f8b0:4004:c07::67
+03-12 13:53:05.431  1971  1999 I droid.dynsyste: WaitForGcToComplete blocked ProfileSaver on None for 142.884ms
+03-12 13:53:05.445   837  2104 D NetworkMonitor/100: PROBE_DNS connectivitycheck.gstatic.com 466ms OK 142.251.167.94,2607:f8b0:4004:c1d::5e
+03-12 13:53:05.482   512   773 W system_server: Long monitor contention with owner android.fg (552) at android.content.pm.ApplicationInfo com.android.server.pm.PackageManagerService.getApplicationInfoInternal(java.lang.String, int, int, int)(PackageManagerService.java:4971) waiters=0 in boolean com.android.server.pm.PackageManagerService$PackageManagerInternalImpl.isPermissionsReviewRequired(java.lang.String, int) for 104ms
+03-12 13:53:05.514   743  1550 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
+03-12 13:53:05.645  1167  1221 D SharedPreferencesImpl: Time required to fsync /data/user/0/com.google.android.gms/shared_prefs/AppDataSearch-main-config.xml: [<1: 0, <2: 0, <4: 0, <8: 0, <16: 3, <32: 1, <64: 1, <128: 0, <256: 1, <512: 2, <1024: 0, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
+03-12 13:53:05.685   837  2104 D NetworkMonitor/100: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=196ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Sun, 12 Mar 2023 13:53:06 GMT], X-Android-Received-Millis=[1678629185683], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1678629185556]}
+03-12 13:53:05.731  1079  1961 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.android.nfc flg=0x5000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+03-12 13:53:05.738  1079  1958 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+03-12 13:53:05.904   512   615 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+03-12 13:53:05.978   723   723 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+03-12 13:53:05.978   723   723 D AvrcpMediaPlayerList: Name of package changed: com.google.android.gms
+03-12 13:53:05.986  1079  1775 W anjr    : Phenotype platform registration failed for com.google.android.gms.settings.platform [CONTEXT service_id=204 ]
+03-12 13:53:05.986  1079  1775 W anjr    : java.util.concurrent.TimeoutException: Timed out waiting for Task
+03-12 13:53:05.986  1079  1775 W anjr    : 	at auct.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):22)
+03-12 13:53:05.986  1079  1775 W anjr    : 	at anjr.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):10)
+03-12 13:53:05.986  1079  1775 W anjr    : 	at anjr.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):3)
+03-12 13:53:05.986  1079  1775 W anjr    : 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.d(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
+03-12 13:53:05.986  1079  1775 W anjr    : 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.c(:com.google.android.gms@201817022@20.18.17 (040700-311416286):1)
+03-12 13:53:05.986  1079  1775 W anjr    : 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):16)
+03-12 13:53:05.986  1079  1775 W anjr    : 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
+03-12 13:53:05.986  1079  1775 W anjr    : 	at qgf.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):4)
+03-12 13:53:05.986  1079  1775 W anjr    : 	at cui.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):5)
+03-12 13:53:05.986  1079  1775 W anjr    : 	at cuh.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):9)
+03-12 13:53:05.986  1079  1775 W anjr    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-12 13:53:05.986  1079  1775 W anjr    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-12 13:53:05.986  1079  1775 W anjr    : 	at java.lang.Thread.run(Thread.java:923)
+03-12 13:53:06.009   512   560 W Searchables: No global search activity found
+03-12 13:53:06.018   837  2103 D NetworkMonitor/100: PROBE_HTTPS https://www.google.com/generate_204 time=532ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Sun, 12 Mar 2023 13:53:06 GMT], X-Android-Received-Millis=[1678629185996], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1678629185972]}
+03-12 13:53:06.020   837  2102 D NetworkMonitor/100: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=1083ms
+03-12 13:53:06.053   888   888 D CarrierSvcBindHelper: No carrier app for: 0
+03-12 13:53:06.115   743   760 I PermissionControllerServiceImpl: Updating user sensitive for uid 10057
+03-12 13:53:06.212  1079  1091 I .gms.persisten: Background concurrent copying GC freed 56515(2762KB) AllocSpace objects, 2(104KB) LOS objects, 49% free, 5317KB/10MB, paused 3.175ms total 2.357s
+03-12 13:53:06.238  1079  1958 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.android.traceur flg=0x45000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+03-12 13:53:06.246  1079  1958 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+03-12 13:53:06.406  1079  1079 I GeofencerStateMachine: sendQueryLocationOptIn
+03-12 13:53:06.528  1079  1882 W NearbyMessages: Runnable[subscribe] ran for 00:06.106 [CONTEXT service_id=62 ]
+03-12 13:53:06.529  1079  1882 W NearbyMessages: Runnable[NearbyMessagesService.stopServiceIfIdle] was delayed for 00:03.832 [CONTEXT service_id=62 ]
+03-12 13:53:06.682  1167  1270 W gle.android.gm: Long monitor contention with owner [com.google.android.gms.chimera.GmsIntentOperationService$ChimeraService-Executor] processing qgf for action android.intent.action.BOOT_COMPLETED (1786) at cxe ctb.a(csv)(:com.google.android.gms@201817022@20.18.17 (040700-311416286):79) waiters=0 in cxe ctb.a(csv) for 2.732s
+03-12 13:53:06.708  1079  1960 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+03-12 13:53:06.720  1079  1079 I GeofencerStateMachine: sendQueryLocationOptIn
+03-12 13:53:06.848  1167  2022 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.car [CONTEXT service_id=231 ]
+03-12 13:53:06.854  1079  1822 I anhw    : Scheduling Phenotype for a PhenotypeSyncImmediately(6, com.google.android.gms.settings.platform) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+03-12 13:53:06.907  1079  1958 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.google.android.gms flg=0x45000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+03-12 13:53:06.931  1167  2022 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+03-12 13:53:06.944  1167  2022 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+03-12 13:53:06.947  1167  2022 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+03-12 13:53:07.002  1079  1882 I NearbyMessages: ReportRpcManager:  Skipping some call, returning cached messages for beacon IDs and URLs: {} [CONTEXT service_id=62 ]
+03-12 13:53:07.029  1079  1804 I anhw    : Scheduling Phenotype for a PhenotypeSyncImmediately(6, com.google.android.gms.settings.platform.boot) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+03-12 13:53:07.077  1167  2022 D HostConnection: HostConnection::get() New Host Connection established 0xf12a2de0, tid 2022
+03-12 13:53:07.089  1079  2119 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+03-12 13:53:07.146  1923  1923 W ile.android.ap: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+03-12 13:53:07.147  1923  1923 W ile.android.ap: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+03-12 13:53:07.189  1167  2022 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+03-12 13:53:07.210   161   161 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+03-12 13:53:07.213  1167  2022 D EGL_emulation: eglCreateContext: 0xf1281970: maj 1 min 0 rcv 1
+03-12 13:53:07.237  1167  1221 D SharedPreferencesImpl: Time required to fsync /data/user/0/com.google.android.gms/shared_prefs/AppDataSearch-main-config.xml: [<1: 0, <2: 0, <4: 0, <8: 0, <16: 3, <32: 1, <64: 1, <128: 0, <256: 1, <512: 3, <1024: 0, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
+03-12 13:53:07.240   512   522 I system_server: Background concurrent copying GC freed 126918(7325KB) AllocSpace objects, 37(2324KB) LOS objects, 49% free, 9217KB/18MB, paused 1.585ms total 1.176s
+03-12 13:53:07.248  1167  2022 D EGL_emulation: eglMakeCurrent: 0xf1281970: ver 1 0 (tinfo 0xf15f0dd0) (first time)
+03-12 13:53:07.249  1167  2022 D EGL_emulation: eglMakeCurrent: 0xf1281970: ver 1 0 (tinfo 0xf15f0dd0) (first time)
+03-12 13:53:07.250  1079  1795 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
+03-12 13:53:07.271  1167  2022 D EGL_emulation: eglCreateContext: 0xf1281970: maj 3 min 0 rcv 3
+03-12 13:53:07.332  1167  2022 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.games [CONTEXT service_id=231 ]
+03-12 13:53:07.334  1167  2022 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.mobile_data_plan [CONTEXT service_id=231 ]
+03-12 13:53:07.335  1167  2022 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.signin [CONTEXT service_id=231 ]
+03-12 13:53:07.357  1167  2022 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.udc [CONTEXT service_id=231 ]
+03-12 13:53:07.368  1923  1923 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:53:07.395  1923  1923 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+03-12 13:53:07.395  1923  1923 I MonitoringInstr: newApplication called!
+03-12 13:53:07.417  1923  2054 I ile.android.ap: Waiting for a blocking GC ProfileSaver
+03-12 13:53:07.497  2036  2056 I m.android.shel: Waiting for a blocking GC ProfileSaver
+03-12 13:53:07.541  1923  2054 I ile.android.ap: WaitForGcToComplete blocked ProfileSaver on RunEmptyCheckpoint for 124.333ms
+03-12 13:53:07.577  1079  1795 I GCoreUlr: WorldUpdater:android.location.PROVIDERS_CHANGED: Ensuring that reporting is stopped because of reasons: (no Google accounts)
+03-12 13:53:07.583  1079  2118 W .gms.persisten: Long monitor contention with owner lowpool[5] (2079) at android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean)(ActivityThread.java:6942) waiters=1 in android.content.IContentProvider android.app.ActivityThread.acquireExistingProvider(android.content.Context, java.lang.String, int, boolean) for 514ms
+03-12 13:53:07.694  1923  1923 W ile.android.ap: Verification of java.util.List androidx.lifecycle.ProcessLifecycleInitializer.dependencies() took 149.913ms (33.35 bytecodes/s) (776B approximate peak alloc)
+03-12 13:53:07.856  2036  2056 I m.android.shel: WaitForGcToComplete blocked ProfileSaver on ClassLinker for 358.299ms
+03-12 13:53:07.897  1923  1923 W ile.android.ap: Verification of int kotlin.collections.CollectionsKt__CollectionsKt.binarySearchBy(java.util.List, java.lang.Comparable, int, int, kotlin.jvm.functions.Function1) took 167.513ms (137.30 bytecodes/s) (1096B approximate peak alloc)
+03-12 13:53:08.028  1079  1823 I NearbyDiscovery: Show notifications: 0 total, no changes since last shown, no-op. [CONTEXT service_id=49 ]
+03-12 13:53:08.276  1923  1923 W ile.android.ap: Verification of boolean androidx.collection.ArraySet.addAll(java.util.Collection) took 190.543ms (167.94 bytecodes/s) (1080B approximate peak alloc)
+03-12 13:53:08.281  1079  1079 W .gms.persisten: Long monitor contention with owner NearbyDiscovery (1823) at void android.app.SharedPreferencesImpl.startReloadIfChangedUnexpectedly()(SharedPreferencesImpl.java:224) waiters=0 in void android.app.SharedPreferencesImpl.startReloadIfChangedUnexpectedly() for 211ms
+03-12 13:53:08.327  2062  2082 I android.traceu: Waiting for a blocking GC ProfileSaver
+03-12 13:53:08.404  2062  2082 I android.traceu: WaitForGcToComplete blocked ProfileSaver on ClassLinker for 76.597ms
+03-12 13:53:08.431  2062  2074 I android.traceu: WaitForGcToComplete blocked RunEmptyCheckpoint on None for 22.673ms
+03-12 13:53:08.449  1079  1804 E AsyncOperation: serviceID=51, operation=GetExperimentTokensOperationCall
+03-12 13:53:08.449  1079  1804 E AsyncOperation: OperationException[Status{statusCode=No config packages for log source, or config package not registered, resolution=null}]
+03-12 13:53:08.449  1079  1804 E AsyncOperation: 	at angh.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):92)
+03-12 13:53:08.449  1079  1804 E AsyncOperation: 	at angh.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):77)
+03-12 13:53:08.449  1079  1804 E AsyncOperation: 	at zus.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):10)
+03-12 13:53:08.449  1079  1804 E AsyncOperation: 	at blot.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
+03-12 13:53:08.449  1079  1804 E AsyncOperation: 	at sji.b(:com.google.android.gms@201817022@20.18.17 (040700-311416286):12)
+03-12 13:53:08.449  1079  1804 E AsyncOperation: 	at sji.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):7)
+03-12 13:53:08.449  1079  1804 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-12 13:53:08.449  1079  1804 E AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-12 13:53:08.449  1079  1804 E AsyncOperation: 	at spj.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):0)
+03-12 13:53:08.449  1079  1804 E AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+03-12 13:53:08.450  1923  1923 I MonitoringInstr: Instrumentation started!
+03-12 13:53:08.528  1923  1923 I AndroidJUnitRunner: onCreate Bundle[{testTimeoutSeconds=31536000, additionalTestOutputDir=/sdcard/Android/media/eu.bitfunk.blueprint.mobile.android.app/additional_test_output}]
+03-12 13:53:08.536  1923  1923 V TestEventClient: No service name argument was given (testDiscoveryService, testRunEventService or orchestratorService)
+03-12 13:53:08.544  1923  2131 D AndroidJUnitRunner: onStart is called.
+03-12 13:53:08.546  1923  1923 I MonitoringInstr: No JSBridge.
+03-12 13:53:08.565  1079  1795 I GCoreUlr: Unbound from all signal providers.
+03-12 13:53:08.614  1923  2131 D TestRequestBuilder: Using class path scanning to discover tests
+03-12 13:53:08.615  1923  2131 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/~~LTtcQvDyFSw-g7RAnNbeJA==/eu.bitfunk.blueprint.mobile.android.app.test-_CZ5lG_8v7NR4vj2H9xExw==/base.apk]
+03-12 13:53:08.617  1923  2131 W ile.android.ap: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+03-12 13:53:08.691  1079  1795 I GCoreUlr: DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
+03-12 13:53:08.699  1079  1775 I anjv    : updateFromConfigurations using legacy put method [CONTEXT service_id=204 ]
+03-12 13:53:08.812  1079  1795 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
+03-12 13:53:09.004  1079  1795 I GCoreUlr: WorldUpdater:android.location.PROVIDERS_CHANGED: Ensuring that reporting is stopped because of reasons: (no Google accounts)
+03-12 13:53:09.145  1079  1653 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 5 filters, 1 clients, callingClientName=Nearby] [CONTEXT service_id=111 ]
+03-12 13:53:09.170  1079  1653 I BeaconBle: Stopping scan on delegate scanner. BT state: 12 [CONTEXT service_id=111 ]
+03-12 13:53:09.170  1079  1653 D BluetoothAdapter: isLeEnabled(): ON
+03-12 13:53:09.311  1079  1823 I NearbyDiscovery: Show notifications: 0 total, no changes since last shown, no-op. [CONTEXT service_id=49 ]
+03-12 13:53:09.433  1079  1795 I GCoreUlr: Unbound from all signal providers.
+03-12 13:53:09.460  1079  1079 I GCoreUlr: Unbound from all signal providers.
+03-12 13:53:09.460  1079  1079 I GCoreUlr: Stopping handler for UlrDispSvcFast
+03-12 13:53:09.466  1079  1653 I BeaconBle: Resetting - new scanner available: true [CONTEXT service_id=111 ]
+03-12 13:53:09.471  1079  1653 I BeaconBle: ZERO_POWER is disabled. [CONTEXT service_id=111 ]
+03-12 13:53:09.471  1079  1653 I BeaconBle: 'L' hardware scan: scan stopped, no powered clients [CONTEXT service_id=111 ]
+03-12 13:53:10.029  1079  1653 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=LOW_LATENCY, callbackType=ALL_MATCHES, reportDelayMillis=0, 5 filters, 1 clients, callingClientName=Nearby] [CONTEXT service_id=111 ]
+03-12 13:53:10.081  1079  1653 I BeaconBle: 'L' hardware scan: 5 filters, scanMode=2, reportdelay=0, callback type=1, #clients=1, workSource=WorkSource{10057 com.google.android.gms} [CONTEXT service_id=111 ]
+03-12 13:53:10.082  1079  1653 I BeaconBle: Starting scan on OS scanner. BT state: 12 [CONTEXT service_id=111 ]
+03-12 13:53:10.082  1079  1653 D BluetoothAdapter: isLeEnabled(): ON
+03-12 13:53:10.084   723   958 I bt_stack: [INFO:gatt_api.cc(947)] GATT_Register 616b3105-613d-a22c-a3f8-10fbea01b398
+03-12 13:53:10.085   723   958 I bt_stack: [INFO:gatt_api.cc(967)] allocated gatt_if=5
+03-12 13:53:10.085  1079  1340 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=5 mScannerId=0
+03-12 13:53:10.190  2062  2074 W android.traceu: Suspending all threads took: 11.867ms
+03-12 13:53:10.367  1079  1823 E NearbyDiscovery: DiscoveryNearbyMessagesManager failed to background subscribe [CONTEXT service_id=49 ]
+03-12 13:53:10.367  1079  1823 E NearbyDiscovery: java.util.concurrent.TimeoutException: Timed out waiting for Task
+03-12 13:53:10.367  1079  1823 E NearbyDiscovery: 	at auct.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):22)
+03-12 13:53:10.367  1079  1823 E NearbyDiscovery: 	at ahoi.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):23)
+03-12 13:53:10.367  1079  1823 E NearbyDiscovery: 	at ahnz.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):3)
+03-12 13:53:10.367  1079  1823 E NearbyDiscovery: 	at buwi.handleMessage(:com.google.android.gms@201817022@20.18.17 (040700-311416286):6)
+03-12 13:53:10.367  1079  1823 E NearbyDiscovery: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+03-12 13:53:10.367  1079  1823 E NearbyDiscovery: 	at adxm.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
+03-12 13:53:10.367  1079  1823 E NearbyDiscovery: 	at adxm.dispatchMessage(:com.google.android.gms@201817022@20.18.17 (040700-311416286):14)
+03-12 13:53:10.367  1079  1823 E NearbyDiscovery: 	at android.os.Looper.loop(Looper.java:223)
+03-12 13:53:10.367  1079  1823 E NearbyDiscovery: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: Could not load class: io.mockk.proxy.jvm.transformation.InliningClassTransformer
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: java.lang.ClassNotFoundException: io.mockk.proxy.jvm.transformation.InliningClassTransformer
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at java.lang.Class.classForName(Native Method)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at java.lang.Class.forName(Class.java:454)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at androidx.test.internal.runner.ScanningTestLoader.doCreateRunner(ScanningTestLoader.java:45)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:835)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:650)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:418)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: Caused by: java.lang.ClassNotFoundException: io.mockk.proxy.jvm.transformation.InliningClassTransformer
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at java.lang.VMClassLoader.findLoadedClass(Native Method)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at java.lang.ClassLoader.findLoadedClass(ClassLoader.java:738)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:363)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	... 8 more
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: Caused by: java.lang.NoClassDefFoundError: Failed resolution of: Ljava/lang/instrument/ClassFileTransformer;
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	... 8 more
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: Caused by: java.lang.ClassNotFoundException: Didn't find class "java.lang.instrument.ClassFileTransformer" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/system/framework/android.test.base.jar", zip file "/data/app/~~LTtcQvDyFSw-g7RAnNbeJA==/eu.bitfunk.blueprint.mobile.android.app.test-_CZ5lG_8v7NR4vj2H9xExw==/base.apk", zip file "/data/app/~~pXefRIWrK8KcXq3QSu0ipg==/eu.bitfunk.blueprint.mobile.android.app-iuNMBHwCXclul1lvRQBAAA==/base.apk"],nativeLibraryDirectories=[/data/app/~~LTtcQvDyFSw-g7RAnNbeJA==/eu.bitfunk.blueprint.mobile.android.app.test-_CZ5lG_8v7NR4vj2H9xExw==/lib/x86, /data/app/~~pXefRIWrK8KcXq3QSu0ipg==/eu.bitfunk.blueprint.mobile.android.app-iuNMBHwCXclul1lvRQBAAA==/lib/x86, /system/lib, /system_ext/lib]]
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:207)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+03-12 13:53:10.407  1923  2131 W ScanningTestLoader: 	... 8 more
+03-12 13:53:10.544  1079  1775 I anjv    : updateFromConfigurations using legacy put method [CONTEXT service_id=204 ]
+03-12 13:53:10.632  1167  1221 I Icing   : Not sending global search app notification. Search app not installed or not signed properly. [CONTEXT service_id=21 ]
+03-12 13:53:10.666  1167  1221 I Icing   : Internal init done: storage state 0 [CONTEXT service_id=21 ]
+03-12 13:53:10.870  1167  1221 I Icing   : Indexing com.google.android.gms-sms from com.google.android.gms [CONTEXT service_id=21 ]
+03-12 13:53:10.937  1079  1775 D SharedPreferencesImpl: Time required to fsync /data/user/0/com.google.android.gms/shared_prefs/platform_prefs.xml: [<1: 0, <2: 0, <4: 0, <8: 0, <16: 0, <32: 0, <64: 3, <128: 0, <256: 0, <512: 1, <1024: 0, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
+03-12 13:53:11.025  1923  2131 D AndroidJUnitRunner: Use the raw file system for managing file I/O.
+03-12 13:53:11.118  1167  1816 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36 [CONTEXT service_id=21 ]
+03-12 13:53:11.145  1923  2131 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+03-12 13:53:11.148  1923  2131 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+03-12 13:53:11.148  1923  2131 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+03-12 13:53:11.148  1923  2131 D TestExecutor: Adding listener androidx.test.internal.runner.listener.TraceRunListener
+03-12 13:53:11.157  1923  2131 I TestRunner: run started: 1 tests
+03-12 13:53:11.173  1923  2131 I TestRunner: started: useAppContext(eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest)
+03-12 13:53:11.209  1167  1297 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=IpaAppsCorpus serviceId=32 [CONTEXT service_id=21 ]
+03-12 13:53:11.299   512  1619 D WifiNl80211Manager: Scan result ready event
+03-12 13:53:11.299   512  1619 D WifiNative: Scan result ready event
+03-12 13:53:11.669  1923  2131 I TestRunner: finished: useAppContext(eu.bitfunk.blueprint.mobile.android.app.ExampleInstrumentedTest)
+03-12 13:53:11.690  1923  2131 I TestRunner: run finished: 1 tests, 0 failed, 0 ignored
+03-12 13:53:11.820  1167  1816 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30 [CONTEXT service_id=21 ]
+03-12 13:53:11.938  1879  1879 D AndroidRuntime: Shutting down VM
+03-12 13:53:12.061   279   279 I Zygote  : Process 1923 exited due to signal 9 (Killed)
+03-12 13:53:12.068   512   563 I libprocessgroup: Successfully killed process cgroup uid 10075 pid 1923 in 237ms
+03-12 13:53:12.078  1883  1883 W dex2oat32: Verification of void android.support.v4.os.ResultReceiver$MyRunnable.<init>(android.support.v4.os.ResultReceiver, int, android.os.Bundle) took 316.592ms (31.59 bytecodes/s) (888B approximate peak alloc)
+03-12 13:53:12.112  1167  1221 I gle.android.gm: IncrementDisableThreadFlip blocked for 22.660ms
+03-12 13:53:12.372  1167  1175 I gle.android.gm: Background young concurrent copying GC freed 54548(3396KB) AllocSpace objects, 45(2244KB) LOS objects, 45% free, 5646KB/10MB, paused 22.006ms total 554.554ms
+03-12 13:53:12.470  1883  2148 W dex2oat32: Verification of int androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState.getConstantMinimumHeight() took 107.809ms (92.76 bytecodes/s) (816B approximate peak alloc)
+03-12 13:53:12.596  1167  1786 E MagicTether: [MagicTetherInitializer] Invalid account list.
+03-12 13:53:12.613  1167  1221 I Icing   : Indexing done com.google.android.gms-sms [CONTEXT service_id=21 ]
+03-12 13:53:12.661  1167  1221 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms [CONTEXT service_id=21 ]
+03-12 13:53:12.664  1167  1297 I Icing   : Query from package: com.google.android.gms, component: IpaAppsCorpus, restrict package: com.google.android.gms, start: 0, num: 100 maxNumSlices: 2147483647 [CONTEXT service_id=21 ]
+03-12 13:53:12.681   512   560 W Searchables: No global search activity found
+03-12 13:53:12.699   723   723 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+03-12 13:53:12.700   723   723 D AvrcpMediaPlayerList: Name of package changed: com.google.android.gms
+03-12 13:53:12.700   512   615 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+03-12 13:53:12.710  1883  1883 W dex2oat32: Verification of void androidx.appcompat.widget.AbsActionBarView.dismissPopupMenus() took 149.696ms (53.44 bytecodes/s) (888B approximate peak alloc)
+03-12 13:53:12.723   743  1550 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
+03-12 13:53:12.910   743  1550 W Role    : Cannot get ApplicationInfo for default holder: com.android.dialer
+03-12 13:53:12.913  1167  1221 I Icing   : Indexing done com.google.android.gms-apps [CONTEXT service_id=21 ]
+03-12 13:53:12.914  1167  1221 I Icing   : Indexing com.google.android.gms-contacts_contact_id from com.google.android.gms [CONTEXT service_id=21 ]
+03-12 13:53:12.955   888   888 D CarrierSvcBindHelper: No carrier app for: 0
+03-12 13:53:12.956   743   759 I PermissionControllerServiceImpl: Updating user sensitive for uid 10057
+03-12 13:53:13.064  1079  1079 I GeofencerStateMachine: sendQueryLocationOptIn
+03-12 13:53:13.094  1883  2148 W dex2oat32: Verification of void androidx.appcompat.widget.LinearLayoutCompat.measureHorizontal(int, int) took 223.748ms (7182.19 bytecodes/s) (24632B approximate peak alloc)
+03-12 13:53:13.149  1079  1079 I GeofencerStateMachine: sendQueryLocationOptIn
+03-12 13:53:13.206  1167  1221 I Icing   : Indexing done com.google.android.gms-contacts_contact_id [CONTEXT service_id=21 ]
+03-12 13:53:13.207  1167  1221 I Icing   : Indexing com.google.android.gms-emails_data_id from com.google.android.gms [CONTEXT service_id=21 ]
+03-12 13:53:13.211  1079  2117 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.google.android.gms flg=0x45000010 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+03-12 13:53:13.342  1079  2169 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+03-12 13:53:13.355  1167  1221 I Icing   : Indexing done com.google.android.gms-emails_data_id [CONTEXT service_id=21 ]
+03-12 13:53:13.357  1167  1221 I Icing   : Indexing com.google.android.gms-phones_data_id from com.google.android.gms [CONTEXT service_id=21 ]
 ===================
-END_TIME: 2023-02-19 15:42:01.893
-END_TIME-NANOS: 2023-02-19 15:42:01.893900000
-DURATION: 14724ms
+END_TIME: 2023-03-12 13:53:14.869
+END_TIME-NANOS: 2023-03-12 13:53:14.869500000
+DURATION: 19387ms
 EXIT CODE: 143
