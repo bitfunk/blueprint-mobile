@@ -45,7 +45,7 @@ androidx-test-runner = "1.5.2"
 androidx-test-rules = "1.5.0"
 androidx-test-junit = "1.1.5"
 androidx-test-espresso = "3.5.1"
-android-test-kakaoCompose = "0.2.2"
+android-test-kakaoCompose = "0.2.3"
 
 ## Gradle plugins
 plugin-version-update = "0.46.0"
