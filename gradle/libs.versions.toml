@@ -38,7 +38,7 @@ sqldelight = "1.5.5"
 test-jUnit = "4.13.2"
 test-mockk = "1.13.4"
 test-robolectric = "4.9.2"
-test-turbine = "0.12.1"
+test-turbine = "0.12.3"
 
 # Android AndroidTest
 androidx-test-runner = "1.5.2"
