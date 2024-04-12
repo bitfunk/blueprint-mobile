@@ -30,7 +30,7 @@ androidx-lifecycle-viewmodel-compose = "2.6.0"
 
 # Libraries
 koin = "3.3.3"
-koin-android = "3.3.3"
+koin-android = "3.5.6"
 ktor = "2.2.4"
 sqldelight = "1.5.5"
 
